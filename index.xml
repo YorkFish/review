@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ZDoc on York&#39;s blog</title>
+    <link>https://yorkfish.github.io/review/</link>
+    <description>Recent content in ZDoc on York&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2020, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 28 Aug 2020 00:00:00 +0800</lastBuildDate>
+    
+        <atom:link href="https://yorkfish.github.io/review/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Quick start</title>
+        <link>https://yorkfish.github.io/review/hugo/hugo_01/</link>
+        <pubDate>Sun, 23 Aug 2020 00:30:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/hugo/hugo_01/</guid>
+        <description>1. 官方文档 Hugo_quick-start: &amp;gt; 传送门 zdoc_theme: &amp;gt; 传送门 zdoc_quickstart: &amp;gt; 传送门 2. 初始化 假设本地站点名为 hugoblog 方法一 D:\&amp;gt;hugo new site hugoblog 方法二 新建文件夹 hugoblog D:\hugoblog&amp;gt;hugo new site . 3. 添加主题 方法一 打开网页：http</description>
+      </item>
+      
+      <item>
+        <title>Configuration</title>
+        <link>https://yorkfish.github.io/review/hugo/hugo_02/</link>
+        <pubDate>Sun, 23 Aug 2020 00:30:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/hugo/hugo_02/</guid>
+        <description>1. 更换配置文件 删除博客根目录的 config.toml 复制 D:\hugoblog\themes\zdoc\exampleSite 的 4 个文件夹到博客根目录 ps 不复制，按照主题的说明文档依次新建也行 2. 部分结构 新的配置文件路径 D:hugoblog\config\_default 文件结构 root</description>
+      </item>
+      
+      <item>
+        <title>Make doc</title>
+        <link>https://yorkfish.github.io/review/hugo/hugo_03/</link>
+        <pubDate>Sun, 23 Aug 2020 00:30:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/hugo/hugo_03/</guid>
+        <description>Step1 删除 D:hugoblog\content&amp;gt; 下的文件夹 ko, en 新建 _index.md，并写入如下语句 --- title: ZDoc description: Hugo ZDoc theme landing page date: 2020-08-28T00:00:00+08:00 draft: false landing: height: 500 image: favicon/android-icon-192x192.png title: - YorkFish&#39;s Blog text: - Knowledge review titleColor: textColor: spaceBetweenTitleText: 25 buttons: - link: hugo/hugo_01 text: GET STARTED color: primary ---</description>
+      </item>
+      
+      <item>
+        <title>Deploy to the cloud</title>
+        <link>https://yorkfish.github.io/review/hugo/hugo_04/</link>
+        <pubDate>Sun, 23 Aug 2020 00:30:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/hugo/hugo_04/</guid>
+        <description>1. bulid D:\hugoblog&amp;gt;hugo --buildDrafts 上方命令会在博客根目录生成一个名为 public 的文件夹，里面是 hugo 生成的网页文件 ps Hugo 与 MkDocs 不同 生成静态网页后，需要开启服务才有效果 在本地双击 index.html 能打</description>
+      </item>
+      
+      <item>
+        <title>About</title>
+        <link>https://yorkfish.github.io/review/about/</link>
+        <pubDate>Mon, 24 Aug 2020 17:07:22 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/about/</guid>
+        <description>这个博客相当于备忘录 用于快速回忆一些知识点</description>
+      </item>
+      
+    
+  </channel>
+</rss>
