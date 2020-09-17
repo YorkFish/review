@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>preprocessor on York&#39;s blog</title>
+    <link>https://yorkfish.github.io/review/c/preprocessor/</link>
+    <description>Recent content in preprocessor on York&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2020, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 10 Sep 2020 00:00:00 +0800</lastBuildDate>
+    
+        <atom:link href="https://yorkfish.github.io/review/c/preprocessor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>01. 不带参宏定义</title>
+        <link>https://yorkfish.github.io/review/c/preprocessor/01_with_no_arguments/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/preprocessor/01_with_no_arguments/</guid>
+        <description>1. 一般形式 #define 标识符 字符串 如 #define PI 3.1415926 2. 一些约定 宏名一般习惯用大写字母表示 宏定义是用宏名代替一个字符串，也就是作简单的置换，不作正确性检查 宏定义不</description>
+      </item>
+      
+      <item>
+        <title>02. 带参宏定义</title>
+        <link>https://yorkfish.github.io/review/c/preprocessor/02_with_parameters/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/preprocessor/02_with_parameters/</guid>
+        <description>1. 一般形式 #define 宏名(参数表) 字符串 如 定义：#define S(a,b) a*b 使用：area = S(3, 2); // 矩形边长 2. 两个注意点 坑一 1 2 3 4 5 6 7 8 9 10 #include &amp;lt;stdio.h&amp;gt; #define S(a,b) a*b int main() {</description>
+      </item>
+      
+      <item>
+        <title>03. 导入</title>
+        <link>https://yorkfish.github.io/review/c/preprocessor/03_include/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/preprocessor/03_include/</guid>
+        <description>1. 前提 .h + .c 2. 编译 在编译时并不是对两个文件分别进行编译，然后再将它们的目标程序连接的 而是在经过编译预处理后将头文件 .h 包含到主文件中，得到一个</description>
+      </item>
+      
+      <item>
+        <title>04. 条件编译</title>
+        <link>https://yorkfish.github.io/review/c/preprocessor/04_conditional_compilation/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/preprocessor/04_conditional_compilation/</guid>
+        <description>1. 优点 采用条件编译，可以减少被编译的语句，从而减少目标程序的长度，减少运行时间 2. 三种形式 形式一 1 2 3 #ifdef 标识符 // 程序段1 #endif 形式二 1 2 3 4 5 #ifdef 标</description>
+      </item>
+      
+    
+  </channel>
+</rss>

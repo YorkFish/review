@@ -50,6 +50,15 @@
         <description>1. bulid D:\hugoblog&amp;gt;hugo --buildDrafts 上方命令会在博客根目录生成一个名为 public 的文件夹，里面是 hugo 生成的网页文件 ps Hugo 与 MkDocs 不同 生成静态网页后，需要开启服务才有效果 在本地双击 index.html 能打</description>
       </item>
       
+      <item>
+        <title>Shortcodes</title>
+        <link>https://yorkfish.github.io/review/hugo/shortcodes/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/hugo/shortcodes/</guid>
+        <description>1. alert {{&amp;lt; alert theme=&amp;quot;warning&amp;quot; &amp;gt;}} # warning, success, info, danger **this** is a text {{&amp;lt; /alert &amp;gt;}} this is &amp;ldquo;warning&amp;rdquo; this is &amp;ldquo;success&amp;rdquo; this is &amp;ldquo;info&amp;rdquo; this is &amp;ldquo;danger&amp;rdquo; 2. expand {{&amp;lt; expand &amp;quot;Expand me&amp;quot; &amp;gt;}} Some Markdown Contents {{&amp;lt; /expand &amp;gt;}} Expand me Some Markdown Contents 3. notice {{&amp;lt; notice success &amp;quot;This is title&amp;quot; &amp;gt;}} # success, info, warning, error success {{&amp;lt; /notice &amp;gt;}} success info warning error</description>
+      </item>
+      
     
   </channel>
 </rss>

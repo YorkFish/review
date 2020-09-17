@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>basics on York&#39;s blog</title>
+    <link>https://yorkfish.github.io/review/c/basics/</link>
+    <description>Recent content in basics on York&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2020, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 10 Sep 2020 00:00:00 +0800</lastBuildDate>
+    
+        <atom:link href="https://yorkfish.github.io/review/c/basics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>01. 数据类型</title>
+        <link>https://yorkfish.github.io/review/c/basics/01_data_type/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/basics/01_data_type/</guid>
+        <description>1. 分类 基本类型 构造类型 指针类型 空类型 2. 常用的基本类型 类型名 写法 缩写 短整型 short int short 整型 int / 长整型 long int long 长整型 long long int long long 一般 sizeof(short) &amp;lt; sizeof(long) sizeof(short) &amp;lt;= sizeof(int) 或 sizeof(int) &amp;lt;= sizeof(long)</description>
+      </item>
+      
+      <item>
+        <title>02. 标识符长度</title>
+        <link>https://yorkfish.github.io/review/c/basics/02_length_of_identifier/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/basics/02_length_of_identifier/</guid>
+        <description>ANSI C 标准没有规定标识符的长度（字符个数） C 标准建议至少应能识别 31 个字符 若两个标识符很长，但不同之处在头部的可识别范围内，则编译器可辨别</description>
+      </item>
+      
+      <item>
+        <title>03. 数值的表示</title>
+        <link>https://yorkfish.github.io/review/c/basics/03_representation_of_value/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/basics/03_representation_of_value/</guid>
+        <description>1. 补码 数值是以补码形式存储的 正数：原码 = 反码 = 补码 负数 反码：原码除符号位，按位取反 补码：原码除符号位，按位取反再加 1 2. unsigned int 一个整数常量后面加</description>
+      </item>
+      
+      <item>
+        <title>04. 字符型数据</title>
+        <link>https://yorkfish.github.io/review/c/basics/04_character_data/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/basics/04_character_data/</guid>
+        <description>1. 换行与回车 \n 换行 \r 回车 ps 以前的打字机，打满一行字后，先把纸往上卷（换行），再把纸往右拉（回车） 2. 八进制 八进制 十进制 ASCII \101 65 &#39;A&#39; 3. 字符与字符串 &#39;a&#39;</description>
+      </item>
+      
+      <item>
+        <title>05. 优先级</title>
+        <link>https://yorkfish.github.io/review/c/basics/05_priority/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/basics/05_priority/</guid>
+        <description>1. 常见的情况 ! &amp;gt; 算术 &amp;gt; 关系 &amp;gt; 逻辑 &amp;gt; 赋值 &amp;gt; 逗号 算术：*, /, %, +, - 关系：&amp;lt;, &amp;gt;, &amp;lt;=, &amp;gt;=, !=, == 逻辑：&amp;amp;&amp;amp;, || 赋值：= 及其扩展（如 +</description>
+      </item>
+      
+      <item>
+        <title>06. 四则运算</title>
+        <link>https://yorkfish.github.io/review/c/basics/06_arithmetic/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/basics/06_arithmetic/</guid>
+        <description>1. 除法 如果除数或被除数中有一个为负值，则舍入的方向是不固定的 如 -5/3 有的系统：-1 （取整后向零靠拢） 有的系统：-2 C 一般是“取整后向零靠拢” Python 一</description>
+      </item>
+      
+      <item>
+        <title>07. 结合方向</title>
+        <link>https://yorkfish.github.io/review/c/basics/07_combination_direction/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/basics/07_combination_direction/</guid>
+        <description>不推荐下文例子中的写法 1. 右结合性 即“自右向左”结合 例一 如 -i++ &amp;gt; -(i++) 1 2 3 4 5 6 7 8 9 #include &amp;lt;stdio.h&amp;gt; int main() { int i = 10; printf(&amp;#34;%d\n&amp;#34;, -i++); // -10 printf(&amp;#34;%d\n&amp;#34;, i); // 11 return 0; } “负号”与 ++ 同级，默</description>
+      </item>
+      
+      <item>
+        <title>08. 输出格式</title>
+        <link>https://yorkfish.github.io/review/c/basics/08_format/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/basics/08_format/</guid>
+        <description>常用格式 符号 释义 %o 八进制整型数 %d 十进制整型数，%i 也行 %Ld 十进制长整型数 %u 无符号整型数 %Lu 无符号长整型数 %x 十六进制整型数 %mc 字符占 m 个宽度，右对齐</description>
+      </item>
+      
+      <item>
+        <title>09. goto</title>
+        <link>https://yorkfish.github.io/review/c/basics/09_goto/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/basics/09_goto/</guid>
+        <description>无条件转向语句 1. 形式 goto 语句标号; 语句标号：用标识符表示，命名规则与标识符相同（字母、数字、下划线，不用数字开头） 如：goto label_1; 2. 使用 一般不用</description>
+      </item>
+      
+      <item>
+        <title>10. scanf</title>
+        <link>https://yorkfish.github.io/review/c/basics/10_scanf/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/basics/10_scanf/</guid>
+        <description>1. 说明 若格式中有两个空格，应对应给到两个或更多的空格 输入数据时，遇到以下情况，认为结束 遇空格、回车、跳格键 超过指定宽度 非法输入 2. 举例 例一 因空</description>
+      </item>
+      
+      <item>
+        <title>11. getchar() &amp; putchar()</title>
+        <link>https://yorkfish.github.io/review/c/basics/11_getchar_and_putchar/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/basics/11_getchar_and_putchar/</guid>
+        <description>1. getchar() 说明 字符输入函数 从终端或系统隐含指定的输入设备，输入一个字符 举例 1 2 3 4 5 6 7 8 9 #include &amp;lt;stdio.h&amp;gt; int main() { char c; c = getchar(); printf(&amp;#34;%c\n&amp;#34;, c); return 0; } Input: y Output: y 2. putchar() 说明 字符输出</description>
+      </item>
+      
+      <item>
+        <title>12. gets() &amp; puts()</title>
+        <link>https://yorkfish.github.io/review/c/basics/12_gets_and_puts/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/basics/12_gets_and_puts/</guid>
+        <description>1. gets(字符数组) 说明 只针对一个字符串 从终端输入一个字符串到字符数组，并得到一个函数值 该函数值是字符数组的起始地址 举例 1 2 3 4 5 6 7 8 9</description>
+      </item>
+      
+      <item>
+        <title>13. strcat()</title>
+        <link>https://yorkfish.github.io/review/c/basics/13_strcat/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/basics/13_strcat/</guid>
+        <description>strcat(字符数组1, 字符数组2) 简介 string catenate 把“字符串2”接到“字符串1”的后面 使用 1 2 3 4 5 6 7 8 9 10 11 #include &amp;lt;stdio.h&amp;gt;#include &amp;lt;string.h&amp;gt; int main() { char str1[] = &amp;#34;abcde&amp;#34;; char str2[] = &amp;#34;123&amp;#34;; strcpy(str1, str2);</description>
+      </item>
+      
+      <item>
+        <title>14. strcpy() &amp; strncpy()</title>
+        <link>https://yorkfish.github.io/review/c/basics/14_strcpy_and_strncpy/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/basics/14_strcpy_and_strncpy/</guid>
+        <description>1. strcpy(字符数组1, 字符串2) 简介 string copy 字符串赋值函数 将“字符串2”复制到“字符数组1”中去 注意事项 “字符数组1”必须定义得足够大，以</description>
+      </item>
+      
+      <item>
+        <title>15. strcmp()</title>
+        <link>https://yorkfish.github.io/review/c/basics/15_strcmp/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/basics/15_strcmp/</guid>
+        <description>strcmp(字符串1, 字符串2) 简介 string compare 比较“字符串1”与“字符串2” 比较规则 若出现不同字符，以第一个不相同的字符的比较结果为准 str1 == str2 返回</description>
+      </item>
+      
+      <item>
+        <title>16. strlen()</title>
+        <link>https://yorkfish.github.io/review/c/basics/16_strlen/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/basics/16_strlen/</guid>
+        <description>strlen(字符数组) 简介 string length 测试字符串长度 注意事项 函数的值位字符串的实际长度，不包括 &#39;\0&#39; 使用 1 2 3 4 5 6 7 8 9 10 11 12 13 #include &amp;lt;stdio.h&amp;gt;#include &amp;lt;string.h&amp;gt; int main() { char str1[] = &amp;#34;york&amp;#34;;</description>
+      </item>
+      
+      <item>
+        <title>17. strlwr() &amp; strupr()</title>
+        <link>https://yorkfish.github.io/review/c/basics/17_strlwr_and_strupr/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/basics/17_strlwr_and_strupr/</guid>
+        <description>1. strlwr(字符串) string lowercase 将字符串中的大写字母换成小写字母 2. strupr(字符车) string uppercase 将字符串中的小写字母换成大写字母 3. 使用 1 2 3 4 5 6 7</description>
+      </item>
+      
+    
+  </channel>
+</rss>

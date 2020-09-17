@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C Review on York&#39;s blog</title>
+    <link>https://yorkfish.github.io/review/c/</link>
+    <description>Recent content in C Review on York&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2020, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 10 Sep 2020 00:00:00 +0800</lastBuildDate>
+    
+        <atom:link href="https://yorkfish.github.io/review/c/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>basics</title>
+        <link>https://yorkfish.github.io/review/c/basics/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/basics/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>function</title>
+        <link>https://yorkfish.github.io/review/c/function/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/function/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>preprocessor</title>
+        <link>https://yorkfish.github.io/review/c/preprocessor/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/preprocessor/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>pointer</title>
+        <link>https://yorkfish.github.io/review/c/pointer/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/pointer/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>struct-union-enum</title>
+        <link>https://yorkfish.github.io/review/c/struct-union-enum/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/struct-union-enum/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>bit operation</title>
+        <link>https://yorkfish.github.io/review/c/bit/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/bit/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>file</title>
+        <link>https://yorkfish.github.io/review/c/file/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/file/</guid>
+        <description></description>
+      </item>
+      
+    
+  </channel>
+</rss>

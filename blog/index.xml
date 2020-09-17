@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on York&#39;s blog</title>
+    <link>https://yorkfish.github.io/review/blog/</link>
+    <description>Recent content in Blog on York&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2020, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 10 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://yorkfish.github.io/review/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Usage</title>
+        <link>https://yorkfish.github.io/review/blog/01_usage/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/01_usage/</guid>
+        <description>&lt;h2 id=&#34;1-拷贝文档&#34;&gt;1. 拷贝文档&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;在 &lt;code&gt;content&lt;/code&gt; 文件夹下新建 &lt;code&gt;blog&lt;/code&gt; 文件夹&lt;/li&gt;
+&lt;li&gt;将 &lt;code&gt;root/themes/zdoc/exampleSite/content/en/blog/_index.md&lt;/code&gt; 拷贝过来&lt;/li&gt;
+&lt;/ol&gt;</description>
+      </item>
+      
+      <item>
+        <title>进制转换</title>
+        <link>https://yorkfish.github.io/review/blog/02_binary-decimal_conversion/</link>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/02_binary-decimal_conversion/</guid>
+        <description>&lt;h2 id=&#34;1-二进制转十进制&#34;&gt;1. 二进制转十进制&lt;/h2&gt;
+&lt;h3 id=&#34;例一-0b10111&#34;&gt;例一 0b101.11&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;整数部分：1 * 2&lt;sup&gt;2&lt;/sup&gt; + 0 * 2&lt;sup&gt;1&lt;/sup&gt; + 1 * 2&lt;sup&gt;0&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;小数部分：1 * 2&lt;sup&gt;-1&lt;/sup&gt; + 1 * 2&lt;sup&gt;-2&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
+      
+    
+  </channel>
+</rss>
