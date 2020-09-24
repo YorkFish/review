@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python Review on York&#39;s blog</title>
+    <link>https://yorkfish.github.io/review/python/</link>
+    <description>Recent content in Python Review on York&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2020, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 10 Sep 2020 00:00:00 +0800</lastBuildDate>
+    
+        <atom:link href="https://yorkfish.github.io/review/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>01 Basics</title>
+        <link>https://yorkfish.github.io/review/python/basics/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/basics/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>02 BIF</title>
+        <link>https://yorkfish.github.io/review/python/bif/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/bif/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>03 class</title>
+        <link>https://yorkfish.github.io/review/python/class/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/class/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>04 decorator</title>
+        <link>https://yorkfish.github.io/review/python/decorator/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/decorator/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>05 Module</title>
+        <link>https://yorkfish.github.io/review/python/module/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/module/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>06 numpy</title>
+        <link>https://yorkfish.github.io/review/python/numpy/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/numpy/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>07 Operate</title>
+        <link>https://yorkfish.github.io/review/python/operation/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/operation/</guid>
+        <description></description>
+      </item>
+      
+    
+  </channel>
+</rss>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>07 Operate on York&#39;s blog</title>
+    <link>https://yorkfish.github.io/review/python/operation/</link>
+    <description>Recent content in 07 Operate on York&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2020, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 18 Sep 2020 00:00:00 +0800</lastBuildDate>
+    
+        <atom:link href="https://yorkfish.github.io/review/python/operation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>01. install</title>
+        <link>https://yorkfish.github.io/review/python/operation/01_install/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/operation/01_install/</guid>
+        <description>1. Python 环境变量 因为 python 支持多版本安装，所以现在安装时默认没有勾选“添加到环境变量” 若只装一个版本，直接勾就好 若装了多个版本，想在命令行启动哪个，</description>
+      </item>
+      
+      <item>
+        <title>02. pip</title>
+        <link>https://yorkfish.github.io/review/python/operation/02_pip/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/operation/02_pip/</guid>
+        <description>1. 查看配置文件地址 C:\Users\York&amp;gt;pip config list -v For variant &#39;global&#39;, will try loading &#39;C:\ProgramData\pip\pip.ini&#39; For variant &#39;user&#39;, will try loading &#39;C:\Users\York\pip\pip.ini&#39; For variant &#39;user&#39;, will try loading &#39;C:\Users\York\AppData\Roaming\pip\pip.ini&#39; For variant &#39;site&#39;, will try loading &#39;c:\users\york\appdata\local\programs\python\python38\pip.ini&#39; answer: C:\Users\York\AppData\Roaming\pip\pip.ini 2. 使用命令写入文件 C:\Users\York&amp;gt;pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/ Writing to C:\Users\York\AppData\Roaming\pip\pip.ini 3. 使用命令查看内容 C:\Users\York&amp;gt;pip</description>
+      </item>
+      
+      <item>
+        <title>03. virtual environment</title>
+        <link>https://yorkfish.github.io/review/python/operation/03_virtual_env/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/operation/03_virtual_env/</guid>
+        <description>1. 说明 除了用 PyCharm 创建虚拟环境，还可以用命令 venv 是自带的 virtualenv 需要自行安装 2. venv 使用命令：D:\test&amp;gt;python -m venv env 启用命令：D:\tes</description>
+      </item>
+      
+      <item>
+        <title>04. powershell virtual-env</title>
+        <link>https://yorkfish.github.io/review/python/operation/04_powershell/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/operation/04_powershell/</guid>
+        <description>1. 设置 “以管理员身份运行”打开 PowerShell 输入 set-executionpolicy remotesigned 执行策略可以防止您执行不信任的脚本。 更改执行策略可能会使您面临 about_Execution_Policies 帮助主题中所述的安全风险。 是否要更改</description>
+      </item>
+      
+      <item>
+        <title>05. hello world</title>
+        <link>https://yorkfish.github.io/review/python/operation/05_hello_world/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/operation/05_hello_world/</guid>
+        <description>通过 python -h 可以查看帮助信息 例一 python file 在 D:\test 下新建文件 hellp.py 写入 print(&amp;quot;hello world&amp;quot;) 在命令行运行 D:\test&amp;gt;python hellp.py hello world D:\test&amp;gt; 例二 python -m D:\test&amp;gt;python -m hellp hello world D:\test&amp;gt; 例三 python -c C:\Users\York&amp;gt;python -c &amp;quot;print(&#39;hello world&#39;)&amp;quot; hello world C:\Users\York&amp;gt; 例四 通过“标准输出”</description>
+      </item>
+      
+      <item>
+        <title>06. REPL</title>
+        <link>https://yorkfish.github.io/review/python/operation/06_repl/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/operation/06_repl/</guid>
+        <description>1. 说明 REPL: read-evaluates-print loop evaluates 对应的是 exec，不是 eval 2. Banner 横幅 命令行敲完 python 后出现的信息 Python 3.8.3 (default, Jul 2 2020, 17:30:36) [MSC v.1916 64 bit (AMD64)] :: Anaconda, Inc. on win32 Type &amp;quot;help&amp;quot;, &amp;quot;copyright&amp;quot;, &amp;quot;credits&amp;quot; or &amp;quot;license&amp;quot; for more information. 有意思的小例子 1 2</description>
+      </item>
+      
+      <item>
+        <title>07. encode</title>
+        <link>https://yorkfish.github.io/review/python/operation/07_gbk/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/operation/07_gbk/</guid>
+        <description>1. 问题 命令行敲 python，出现如下错误 ... UnicodeDecodeError: &#39;gbk&#39; codec can&#39;t decode byte 0x8f in position 500: illegal multibyte sequence ... 2. 解决 方法一 来到目录：C:\Users\{username} 比如我的：</description>
+      </item>
+      
+      <item>
+        <title>08. IDLE</title>
+        <link>https://yorkfish.github.io/review/python/operation/08_idle/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/operation/08_idle/</guid>
+        <description>1. 提出问题 只安装了 Anaconda，想使用 IDLE 2. 解决方法 我的 Anaconda 装在 D:\anaconda3 方式一 双击 D:\anaconda3\Lib\idlelib\idle.bat 方式二 双击 D:\anaconda3\Scripts\idle.exe 双击后会先出现一个命令窗，再出来 IDLE 方式三 在桌面，右</description>
+      </item>
+      
+    
+  </channel>
+</rss>

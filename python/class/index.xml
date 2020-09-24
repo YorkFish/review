@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>03 class on York&#39;s blog</title>
+    <link>https://yorkfish.github.io/review/python/class/</link>
+    <description>Recent content in 03 class on York&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2020, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 18 Sep 2020 00:00:00 +0800</lastBuildDate>
+    
+        <atom:link href="https://yorkfish.github.io/review/python/class/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>01. __call__</title>
+        <link>https://yorkfish.github.io/review/python/class/01-__call__/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/class/01-__call__/</guid>
+        <description>1. 说明 __call__ 可以让实例对象能够像函数一样加小括号进行调用 2. 举例 1 2 3 4 5 6 7 8 9 &amp;gt;&amp;gt;&amp;gt; class Test(object): ... def __init__(self): ... pass ... def __call__(self, *args, **kwargs): ... print(&amp;#34;Hello, I am YorkFish.&amp;#34;) ... &amp;gt;&amp;gt;&amp;gt; t() Hello, I am YorkFish. &amp;gt;&amp;gt;&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>02. __dict__</title>
+        <link>https://yorkfish.github.io/review/python/class/02-__dict__/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/class/02-__dict__/</guid>
+        <description>1. 简介 __dict__ 属性可以让用户查看类中包含的属性 __dict__ 可以用类名调用，也可以用类的实例对象调用 调用者 输出 类名 该类中所有类属性组成的字典 类的实例对象 该类中</description>
+      </item>
+      
+      <item>
+        <title>03. __new__</title>
+        <link>https://yorkfish.github.io/review/python/class/03-__new__/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/class/03-__new__/</guid>
+        <description>1. 说明 __new__() 先于 __init() 被调用 先执行 __new__()，生成一个实例对象 再执行 __init__()，对生成的对象进行初始化 2. 举例 一般很少用到 __new__() 当继承一</description>
+      </item>
+      
+      <item>
+        <title>04. callable</title>
+        <link>https://yorkfish.github.io/review/python/class/04_callable/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/class/04_callable/</guid>
+        <description>1. 简介 callable() 用于检查一个对象是否可调用 对于函数、方法、lambda 函数式、类，以及实现了 __call__ 方法的类实例, 它都返回 True 对于整数、字符串、列表、元组、</description>
+      </item>
+      
+      <item>
+        <title>05. 类变量</title>
+        <link>https://yorkfish.github.io/review/python/class/05_class_var/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/class/05_class_var/</guid>
+        <description>举例 1 2 3 4 5 6 7 8 9 10 11 12 13 &amp;gt;&amp;gt;&amp;gt; class Hero(object): ... game_name = &amp;#34;LOL&amp;#34; # 类变量 ... &amp;gt;&amp;gt;&amp;gt; lijing = Hero() &amp;gt;&amp;gt;&amp;gt; lijing.game_name &amp;#39;LOL&amp;#39; &amp;gt;&amp;gt;&amp;gt; lijing.game_name = &amp;#34;DNF&amp;#34; &amp;gt;&amp;gt;&amp;gt; lijing.game_name &amp;#39;DNF&amp;#39; &amp;gt;&amp;gt;&amp;gt; del lijing.game_name &amp;gt;&amp;gt;&amp;gt; lijing.game_name &amp;#39;LOL&amp;#39; &amp;gt;&amp;gt;&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>06. 实例变量</title>
+        <link>https://yorkfish.github.io/review/python/class/06_instance_var/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/class/06_instance_var/</guid>
+        <description>举例 1 2 3 4 5 6 7 8 9 10 11 12 13 &amp;gt;&amp;gt;&amp;gt; class Hero(object): ... game_name = &amp;#34;LOL&amp;#34; # 类变量 ... def __init__(self, name): ... self.name = name # 实例变量，由每个对象自行赋值，对象之间不影响 ... &amp;gt;&amp;gt;&amp;gt; lijing = Hero(&amp;#34;Lingjing&amp;#34;) &amp;gt;&amp;gt;&amp;gt; lijing.name &amp;#39;Lingjing&amp;#39; &amp;gt;&amp;gt;&amp;gt; &amp;gt;&amp;gt;&amp;gt; garen = Hero(&amp;#34;Garen&amp;#34;)</description>
+      </item>
+      
+      <item>
+        <title>07. 局部变量</title>
+        <link>https://yorkfish.github.io/review/python/class/07_local_var/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/class/07_local_var/</guid>
+        <description>举例 1 2 3 4 5 6 7 8 9 10 11 12 &amp;gt;&amp;gt;&amp;gt; class Hero(object): ... game_name = &amp;#34;LOL&amp;#34; # 类变量 ... def __init__(self, name): ... self.name = name # 实例变量 ... def flash(self): ... count = 0 # 局部变量 ... print(f&amp;#34;{self.name} used flash&amp;#34;) ... &amp;gt;&amp;gt;&amp;gt; lijing = Hero(&amp;#34;Lijing&amp;#34;) &amp;gt;&amp;gt;&amp;gt; lijing.flash() Lijing used flash &amp;gt;&amp;gt;&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>08. 类方法与实例方法</title>
+        <link>https://yorkfish.github.io/review/python/class/08_class_method_and_instance_method/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/class/08_class_method_and_instance_method/</guid>
+        <description>举例 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 class Hero(object): # 类变量 game_name = &amp;#34;LOL&amp;#34; def __init__(self, name): # 实例变量 self.name = name # 实例方法 def flash(self): # 局部变量 count = 0</description>
+      </item>
+      
+      <item>
+        <title>09. 静态方法</title>
+        <link>https://yorkfish.github.io/review/python/class/09_static_method/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/class/09_static_method/</guid>
+        <description>1. 简介 “实例方法”只能由“实例对象”调用 “类”和“实例对象”都能调用“类方法”和“静态方法” “实例方法”、“类方法”和“静态方法”均能调用“</description>
+      </item>
+      
+      <item>
+        <title>10. 继承</title>
+        <link>https://yorkfish.github.io/review/python/class/10_inheritance/</link>
+        <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/class/10_inheritance/</guid>
+        <description>公共部分 1 2 3 class Hero(object): def __init__(self, name): self.name = name 例一 1 2 3 4 5 6 7 8 class AD1(Hero): def __init__(self, name, gender): self.name = name self.gender = gender ashe = AD1(&amp;#34;艾希&amp;#34;, &amp;#34;female&amp;#34;) print(ashe.__dict__) &amp;gt;&amp;gt;&amp;gt; {&#39;name&#39;: &#39;艾希&#39;, &#39;gender&#39;: &#39;female&#39;} 例二 1</description>
+      </item>
+      
+    
+  </channel>
+</rss>

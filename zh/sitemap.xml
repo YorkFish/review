@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/basics/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/class/01-__call__/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/bif/01_abs/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/basics/01_and-or/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/decorator/01_function/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/operation/01_install/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/numpy/01_overview/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/c/bit/01_overview/</loc>
     <lastmod>2020-09-10T00:00:00+08:00</lastmod>
   </url>
@@ -48,8 +83,57 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/</loc>
+    <lastmod>2020-09-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/hugo/hugo_01/</loc>
     <lastmod>2020-08-23T00:30:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/module/01_array/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/bif/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/class/02-__dict__/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/bif/02_any_all/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/basics/02_arg_args_kwargs/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/decorator/02_decorator_for_func/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/numpy/02_ndarray_build/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/operation/02_pip/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/module/02_random/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -94,6 +178,41 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/c/struct-union-enum/02_define/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/class/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/class/03-__new__/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/basics/03_compare/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/decorator/03_decorator_for_class/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/bif/03_del/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/numpy/03_ndarray_attribute/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/module/03_reduce/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -142,6 +261,45 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/operation/03_virtual_env/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/decorator/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/class/04_callable/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/basics/04_equal/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/bif/04_eval/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/numpy/04_ndarray_calculate/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/operation/04_powershell/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/module/04_typing/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/c/file/04_fread_and_fwrite/</loc>
     <lastmod>2020-09-10T00:00:00+08:00</lastmod>
   </url>
@@ -182,6 +340,41 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/module/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/bif/05_filter/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/basics/05_for_else/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/operation/05_hello_world/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/numpy/05_ndarray_matrix/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/module/05_others/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/class/05_class_var/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/c/file/05_fscanf_and_fprintf/</loc>
     <lastmod>2020-09-10T00:00:00+08:00</lastmod>
   </url>
@@ -217,6 +410,31 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/numpy/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/basics/06_format/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/bif/06_join/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/operation/06_repl/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/class/06_instance_var/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/c/file/06_getw_and_putw/</loc>
     <lastmod>2020-09-10T00:00:00+08:00</lastmod>
   </url>
@@ -244,6 +462,40 @@
   <url>
     <loc>https://yorkfish.github.io/review/c/struct-union-enum/06_linked_list/</loc>
     <lastmod>2020-09-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/numpy/06_ndarray_slice/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/operation/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/operation/07_gbk/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/basics/07_function_arguments/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/bif/07_map/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/numpy/07_ndarray_operation/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/class/07_local_var/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -282,6 +534,31 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/basics/08_generator/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/operation/08_idle/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/numpy/08_matplotlib_pyplot/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/bif/08_sorted/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/class/08_class_method_and_instance_method/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/c/file/08_rewind-fseek-ftell/</loc>
     <lastmod>2020-09-10T00:00:00+08:00</lastmod>
   </url>
@@ -304,6 +581,26 @@
   <url>
     <loc>https://yorkfish.github.io/review/c/basics/08_format/</loc>
     <lastmod>2020-09-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/basics/09_help/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/numpy/09_hstack_and_vstack/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/bif/09_sum/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/class/09_static_method/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -332,6 +629,26 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/numpy/10_concatenate/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/basics/10_import/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/bif/10_zip/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/class/10_inheritance/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/c/function/10_extern/</loc>
     <lastmod>2020-09-10T00:00:00+08:00</lastmod>
   </url>
@@ -347,6 +664,16 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/basics/11_lambda/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/numpy/11_newaxis/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/c/basics/11_getchar_and_putchar/</loc>
     <lastmod>2020-09-10T00:00:00+08:00</lastmod>
   </url>
@@ -354,6 +681,16 @@
   <url>
     <loc>https://yorkfish.github.io/review/c/function/11_declaration_and_definition/</loc>
     <lastmod>2020-09-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/basics/12_list/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/numpy/12_stack/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -367,8 +704,23 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/numpy/13_colstack_and_rowstack/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/basics/13_plus/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/c/basics/13_strcat/</loc>
     <lastmod>2020-09-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/basics/14_set/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -377,8 +729,18 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/basics/15_swap/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/c/basics/15_strcmp/</loc>
     <lastmod>2020-09-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/basics/16_transmit/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -387,18 +749,63 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/basics/17_try-except-else-finally/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/c/basics/17_strlwr_and_strupr/</loc>
     <lastmod>2020-09-10T00:00:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yorkfish.github.io/review/tags/basics/</loc>
-    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+    <loc>https://yorkfish.github.io/review/python/basics/18_underscroe/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/basics/19_variable/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/basics/20_yield/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://yorkfish.github.io/review/blog/</loc>
-    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/tags/terminal/</loc>
+    <lastmod>2020-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/blog/04_windows_terminal/</loc>
+    <lastmod>2020-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/tags/dos/</loc>
+    <lastmod>2020-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/blog/03_dos_command/</loc>
+    <lastmod>2020-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/tags/basics/</loc>
+    <lastmod>2020-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/blog/02_binary-decimal_conversion/</loc>
+    <lastmod>2020-09-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -408,11 +815,6 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/tags/zdoc/</loc>
-    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/02_binary-decimal_conversion/</loc>
     <lastmod>2020-09-10T00:00:00+00:00</lastmod>
   </url>
   

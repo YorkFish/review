@@ -7,12 +7,57 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy;2020, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 10 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://yorkfish.github.io/review/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+      
+      <item>
+        <title>Windows Terminal</title>
+        <link>https://yorkfish.github.io/review/blog/04_windows_terminal/</link>
+        <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/04_windows_terminal/</guid>
+        <description>&lt;h2 id=&#34;摘要&#34;&gt;摘要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;分屏&lt;/li&gt;
+&lt;li&gt;调整分屏大小&lt;/li&gt;
+&lt;li&gt;光标移动&lt;/li&gt;
+&lt;li&gt;全屏&lt;/li&gt;
+&lt;li&gt;翻页&lt;/li&gt;
+&lt;li&gt;字体大小&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
+      
+      <item>
+        <title>几条 DOS 命令</title>
+        <link>https://yorkfish.github.io/review/blog/03_dos_command/</link>
+        <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/03_dos_command/</guid>
+        <description>&lt;h2 id=&#34;摘要&#34;&gt;摘要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;记事本&lt;/li&gt;
+&lt;li&gt;CMD 颜色&lt;/li&gt;
+&lt;li&gt;文件名含 &lt;code&gt;&amp;amp;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
+      
+      <item>
+        <title>进制转换</title>
+        <link>https://yorkfish.github.io/review/blog/02_binary-decimal_conversion/</link>
+        <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/02_binary-decimal_conversion/</guid>
+        <description>&lt;h2 id=&#34;1-二进制转十进制&#34;&gt;1. 二进制转十进制&lt;/h2&gt;
+&lt;h3 id=&#34;例一-0b10111&#34;&gt;例一 0b101.11&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;整数部分：1 * 2&lt;sup&gt;2&lt;/sup&gt; + 0 * 2&lt;sup&gt;1&lt;/sup&gt; + 1 * 2&lt;sup&gt;0&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;小数部分：1 * 2&lt;sup&gt;-1&lt;/sup&gt; + 1 * 2&lt;sup&gt;-2&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
       
       <item>
         <title>Usage</title>
@@ -25,20 +70,6 @@
 &lt;li&gt;在 &lt;code&gt;content&lt;/code&gt; 文件夹下新建 &lt;code&gt;blog&lt;/code&gt; 文件夹&lt;/li&gt;
 &lt;li&gt;将 &lt;code&gt;root/themes/zdoc/exampleSite/content/en/blog/_index.md&lt;/code&gt; 拷贝过来&lt;/li&gt;
 &lt;/ol&gt;</description>
-      </item>
-      
-      <item>
-        <title>进制转换</title>
-        <link>https://yorkfish.github.io/review/blog/02_binary-decimal_conversion/</link>
-        <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://yorkfish.github.io/review/blog/02_binary-decimal_conversion/</guid>
-        <description>&lt;h2 id=&#34;1-二进制转十进制&#34;&gt;1. 二进制转十进制&lt;/h2&gt;
-&lt;h3 id=&#34;例一-0b10111&#34;&gt;例一 0b101.11&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;整数部分：1 * 2&lt;sup&gt;2&lt;/sup&gt; + 0 * 2&lt;sup&gt;1&lt;/sup&gt; + 1 * 2&lt;sup&gt;0&lt;/sup&gt;&lt;/li&gt;
-&lt;li&gt;小数部分：1 * 2&lt;sup&gt;-1&lt;/sup&gt; + 1 * 2&lt;sup&gt;-2&lt;/sup&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
       </item>
       
     
