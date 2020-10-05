@@ -173,7 +173,7 @@
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/python/basics/18_underscroe/</guid>
-        <description>情形一 说明 后置单下划线 撞了关键字，但又懒得想变量名 举例 1 class_ = &amp;#34;101&amp;#34; 情形二 说明 下划线作占位符 少起一个名字 举例 1 a = [[1, 2, 3] for _ in range(10)] 情形三 说明 下划线作</description>
+        <description>情形一 说明 后置单下划线 撞了关键字，但又懒得想变量名 举例 1 class_ = &amp;#34;101&amp;#34; tkinter.Scale() 的 from_ 参数 情形二 说明 下划线作占位符 少起一个名字 举例 1 a = [[1, 2, 3] for _ in range(10)] 情形三 说</description>
       </item>
       
       <item>

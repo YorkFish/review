@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/tkinter/01_window/</loc>
+    <lastmod>2020-10-04T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/basics/</loc>
     <lastmod>2020-09-18T00:00:00+08:00</lastmod>
   </url>
@@ -97,6 +102,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/tkinter/02_label/</loc>
+    <lastmod>2020-10-04T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/bif/</loc>
     <lastmod>2020-09-18T00:00:00+08:00</lastmod>
   </url>
@@ -178,6 +188,11 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/c/struct-union-enum/02_define/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/tkinter/03_button/</loc>
+    <lastmod>2020-10-04T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -265,6 +280,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/tkinter/04_text/</loc>
+    <lastmod>2020-10-04T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/decorator/</loc>
     <lastmod>2020-09-18T00:00:00+08:00</lastmod>
   </url>
@@ -340,6 +360,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/tkinter/05_entry/</loc>
+    <lastmod>2020-10-04T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/module/</loc>
     <lastmod>2020-09-18T00:00:00+08:00</lastmod>
   </url>
@@ -410,6 +435,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/tkinter/06_listbox/</loc>
+    <lastmod>2020-10-04T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/numpy/</loc>
     <lastmod>2020-09-18T00:00:00+08:00</lastmod>
   </url>
@@ -466,6 +496,11 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/python/numpy/06_ndarray_slice/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/tkinter/07_radiobutton/</loc>
+    <lastmod>2020-10-04T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -534,6 +569,16 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/tkinter/08_scale/</loc>
+    <lastmod>2020-10-04T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/tkinter/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/basics/08_generator/</loc>
     <lastmod>2020-09-18T00:00:00+08:00</lastmod>
   </url>
@@ -584,6 +629,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/tkinter/09_checkbutton/</loc>
+    <lastmod>2020-10-04T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/basics/09_help/</loc>
     <lastmod>2020-09-18T00:00:00+08:00</lastmod>
   </url>
@@ -629,6 +679,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/tkinter/10_canvas/</loc>
+    <lastmod>2020-10-04T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/numpy/10_concatenate/</loc>
     <lastmod>2020-09-18T00:00:00+08:00</lastmod>
   </url>
@@ -664,6 +719,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/tkinter/11_menu/</loc>
+    <lastmod>2020-10-04T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/basics/11_lambda/</loc>
     <lastmod>2020-09-18T00:00:00+08:00</lastmod>
   </url>
@@ -681,6 +741,11 @@
   <url>
     <loc>https://yorkfish.github.io/review/c/function/11_declaration_and_definition/</loc>
     <lastmod>2020-09-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/tkinter/12_frame/</loc>
+    <lastmod>2020-10-04T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -704,6 +769,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/tkinter/13_massagebox/</loc>
+    <lastmod>2020-10-04T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/numpy/13_colstack_and_rowstack/</loc>
     <lastmod>2020-09-18T00:00:00+08:00</lastmod>
   </url>
@@ -716,6 +786,11 @@
   <url>
     <loc>https://yorkfish.github.io/review/c/basics/13_strcat/</loc>
     <lastmod>2020-09-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/tkinter/14_pack_grid_place/</loc>
+    <lastmod>2020-10-04T00:00:00+08:00</lastmod>
   </url>
   
   <url>

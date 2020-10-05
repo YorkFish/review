@@ -15,6 +15,15 @@
     
       
       <item>
+        <title>01. window</title>
+        <link>https://yorkfish.github.io/review/python/tkinter/01_window/</link>
+        <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/tkinter/01_window/</guid>
+        <description>1. 最简易的窗口 1 2 3 4 import tkinter as tk window = tk.Tk() window.mainloop() ps 默认标题：tk 默认大小：200x200 2. 更多设置 自定义标题内容：window.title(&amp;quot</description>
+      </item>
+      
+      <item>
         <title>01. __call__</title>
         <link>https://yorkfish.github.io/review/python/class/01-__call__/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
@@ -147,6 +156,15 @@
         
         <guid>https://yorkfish.github.io/review/python/module/01_array/</guid>
         <description>官方文档：&amp;gt;&amp;gt;&amp;gt; 传送门 1. 类型表 Type Code C Type Python Type Minimum size (bytes) b signed char int 1 B unsigned char int 1 u Py_UNICODE Unicode character; deprecated since Python 3.3 2 h signed short int 2 H unsigned short int 2 i signed int int 2 I unsigned int</description>
+      </item>
+      
+      <item>
+        <title>02. Label</title>
+        <link>https://yorkfish.github.io/review/python/tkinter/02_label/</link>
+        <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/tkinter/02_label/</guid>
+        <description>1. 准备一个简易窗口 1 2 3 4 5 6 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x200&amp;#34;) window.mainloop() 2. 添加一个 label 1 2 3 l = tk.Label(window, text=&amp;#34;This is Label!&amp;#34;, bg=&amp;#34;green&amp;#34;, font=(&amp;#34;Consolas&amp;#34;, 16), width=20, height=2) l.pack() ps 一般地，tkinter 的 width, height 的单位是“字符” 3.</description>
       </item>
       
       <item>
@@ -285,6 +303,15 @@
       </item>
       
       <item>
+        <title>03. Button</title>
+        <link>https://yorkfish.github.io/review/python/tkinter/03_button/</link>
+        <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/tkinter/03_button/</guid>
+        <description>1. 准备一个简易窗口 1 2 3 4 5 6 7 8 9 10 11 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x200&amp;#34;) string = tk.StringVar() string.set(&amp;#34;This is Label!&amp;#34;) l = tk.Label(window, textvariable=string, bg=&amp;#34;green&amp;#34;, font=(&amp;#34;Consolas&amp;#34;, 16), width=20, height=2) l.pack() window.mainloop() 2. 添加一个 button 1 2 3 b = tk.Button(window, text=&amp;#34;hit me&amp;#34;, bg=&amp;#34;white&amp;#34;, font=(&amp;#34;Arial&amp;#34;, 12), width=10, height=2, command=hit_me) b.pack() 3. hit_me 方</description>
+      </item>
+      
+      <item>
         <title>03. __new__</title>
         <link>https://yorkfish.github.io/review/python/class/03-__new__/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
@@ -420,6 +447,15 @@
       </item>
       
       <item>
+        <title>04. Text</title>
+        <link>https://yorkfish.github.io/review/python/tkinter/04_text/</link>
+        <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/tkinter/04_text/</guid>
+        <description>1. 准备一个简易窗口 1 2 3 4 5 6 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x200&amp;#34;) window.mainloop() 2. 添加一个 Text 1 2 t = tk.Text(window, height=2) t.pack() 3. insert 文字 insert 到光标后：t.insert(&amp;quot;insert&amp;</description>
+      </item>
+      
+      <item>
         <title>04. callable</title>
         <link>https://yorkfish.github.io/review/python/class/04_callable/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
@@ -537,6 +573,15 @@
       </item>
       
       <item>
+        <title>05. Entry</title>
+        <link>https://yorkfish.github.io/review/python/tkinter/05_entry/</link>
+        <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/tkinter/05_entry/</guid>
+        <description>1. 准备一个简易窗口 1 2 3 4 5 6 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x200&amp;#34;) window.mainloop() 2. 添加三个 entry 1 2 3 4 5 6 e1 = tk.Entry(window, font=(&amp;#34;Consolas&amp;#34;, 20), show=None) # 显示 e2 = tk.Entry(window, font=(&amp;#34;Consolas&amp;#34;, 20), show=&amp;#39;*&amp;#39;) # 隐藏 e3 = tk.Entry(window, font=(&amp;#34;Consolas&amp;#34;, 20), show=&amp;#39;1&amp;#39;) # 恶搞 e1.pack() e2.pack() e3.pack() 3. 获取</description>
+      </item>
+      
+      <item>
         <title>05. filter()</title>
         <link>https://yorkfish.github.io/review/python/bif/05_filter/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
@@ -645,6 +690,15 @@
       </item>
       
       <item>
+        <title>06. Listbox</title>
+        <link>https://yorkfish.github.io/review/python/tkinter/06_listbox/</link>
+        <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/tkinter/06_listbox/</guid>
+        <description>1. 准备一个简易窗口 1 2 3 4 5 6 7 8 9 10 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x400&amp;#34;) str1 = tk.StringVar() l = tk.Label(window, textvariable=str1, bg=&amp;#34;yellow&amp;#34;, font=(&amp;#34;Consolas&amp;#34;, 20), width=10, height=2) l.pack() window.mainloop() 2. 添加一个 listbox 1 2 3 4 string = tk.StringVar() string.set((11, 22, 33, 44)) lb = tk.Listbox(window, listvariable=string) lb.pack() 3. insert 内容 1 2</description>
+      </item>
+      
+      <item>
         <title>06. format</title>
         <link>https://yorkfish.github.io/review/python/basics/06_format/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
@@ -744,6 +798,15 @@
       </item>
       
       <item>
+        <title>07. Radiobutton</title>
+        <link>https://yorkfish.github.io/review/python/tkinter/07_radiobutton/</link>
+        <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/tkinter/07_radiobutton/</guid>
+        <description>1. 准备一个简易窗口 1 2 3 4 5 6 7 8 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x200&amp;#34;) l = tk.Label(window, text=&amp;#34;empty&amp;#34;, bg=&amp;#34;yellow&amp;#34;, width=20, height=2) l.pack() window.mainloop() 2. 添加一个 radiobutton 1 2 3 4 5 6 7 8 9 10 string = tk.StringVar() def print_selection(): l.config(text=&amp;#34;you have selected &amp;#34; + string.get()) r = tk.Radiobutton(window, text=&amp;#34;Option A&amp;#34;, variable=string, value=&amp;#39;A&amp;#39;, font=(&amp;#34;Consolas&amp;#34;,</description>
+      </item>
+      
+      <item>
         <title>07. encode</title>
         <link>https://yorkfish.github.io/review/python/operation/07_gbk/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
@@ -831,6 +894,15 @@
         
         <guid>https://yorkfish.github.io/review/c/basics/07_combination_direction/</guid>
         <description>不推荐下文例子中的写法 1. 右结合性 即“自右向左”结合 例一 如 -i++ &amp;gt; -(i++) 1 2 3 4 5 6 7 8 9 #include &amp;lt;stdio.h&amp;gt; int main() { int i = 10; printf(&amp;#34;%d\n&amp;#34;, -i++); // -10 printf(&amp;#34;%d\n&amp;#34;, i); // 11 return 0; } “负号”与 ++ 同级，默</description>
+      </item>
+      
+      <item>
+        <title>08. Scale</title>
+        <link>https://yorkfish.github.io/review/python/tkinter/08_scale/</link>
+        <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/tkinter/08_scale/</guid>
+        <description>1. 准备一个简易窗口 1 2 3 4 5 6 7 8 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x200&amp;#34;) l = tk.Label(window, text=&amp;#34;empty&amp;#34;, bg=&amp;#34;yellow&amp;#34;, width=30, height=2) l.pack() window.mainloop() 2. 添加一个 scale 1 2 3 4 5 6 7 8 9 def print_selection(v): l.config(text=&amp;#34;you have selected &amp;#34; + v) s = tk.Scale(window, label=&amp;#34;try me&amp;#34;, orient=&amp;#39;horizontal&amp;#39;, from_=0, to=10, length=400, showvalue=0, tickinterval=2, resolution=0.01,</description>
       </item>
       
       <item>
@@ -924,6 +996,15 @@
       </item>
       
       <item>
+        <title>09. Checkbutton</title>
+        <link>https://yorkfish.github.io/review/python/tkinter/09_checkbutton/</link>
+        <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/tkinter/09_checkbutton/</guid>
+        <description>1. 准备一个简易窗口 1 2 3 4 5 6 7 8 9 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x200&amp;#34;) l = tk.Label(window, text=&amp;#34;empty&amp;#34;, bg=&amp;#34;yellow&amp;#34;, font=(&amp;#34;Consolas&amp;#34;, 18), width=20) l.pack() window.mainloop() 2. 添加两个 checkbutton 1 2 3 4 5 6 7 8 9 10 var1 = tk.BooleanVar() var2 = tk.BooleanVar() c1 = tk.Checkbutton(window, text=&amp;#34;C &amp;#34;, font=(&amp;#34;Consolas&amp;#34;, 16), # 对齐~</description>
+      </item>
+      
+      <item>
         <title>09. help</title>
         <link>https://yorkfish.github.io/review/python/basics/09_help/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
@@ -1005,6 +1086,15 @@
       </item>
       
       <item>
+        <title>10. Canvas</title>
+        <link>https://yorkfish.github.io/review/python/tkinter/10_canvas/</link>
+        <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/tkinter/10_canvas/</guid>
+        <description>1. 准备一个简易窗口 1 2 3 4 5 6 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;500x300&amp;#34;) window.mainloop() 2. 添加一个 canvas 1 2 3 canvas = tk.Canvas(window, bg=&amp;#34;gray&amp;#34;, width=500, height=250) # ... canvas.pack() 3. 添加图片 1 2 image_file = tk.PhotoImage(file=&amp;#34;test.png&amp;#34;) image = canvas.create_image(0, 0, anchor=&amp;#34;nw&amp;#34;, image=image_file) ps Python 3.8 的 tkinter 支持 PGM, PPM, GIF, PNG</description>
+      </item>
+      
+      <item>
         <title>10. concatenate</title>
         <link>https://yorkfish.github.io/review/python/numpy/10_concatenate/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
@@ -1068,6 +1158,15 @@
       </item>
       
       <item>
+        <title>11. Menu</title>
+        <link>https://yorkfish.github.io/review/python/tkinter/11_menu/</link>
+        <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/tkinter/11_menu/</guid>
+        <description>1. 准备一个简易窗口 1 2 3 4 5 6 7 8 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x200&amp;#34;) l = tk.Label(window, text=&amp;#34;do 0&amp;#34;, bg=&amp;#34;yellow&amp;#34;) l.pack() window.mainloop() 2. 添加 menubar 1 2 3 4 5 menubar = tk.Menu(window) filemenu = tk.Menu(menubar, tearoff=0) menubar.add_cascade(label=&amp;#34;File&amp;#34;, menu=filemenu, underline=1) filemenu.add_command(label=&amp;#34;New&amp;#34;, command=do_job) window.config(menu=menubar) # 将 window 的 menu 设置为自定义的 menubar ps</description>
+      </item>
+      
+      <item>
         <title>11. lambda</title>
         <link>https://yorkfish.github.io/review/python/basics/11_lambda/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
@@ -1101,6 +1200,15 @@
         
         <guid>https://yorkfish.github.io/review/c/function/11_declaration_and_definition/</guid>
         <description>1. 简介 组成 一个函数一般由两部分组成 声明部分 执行语句 声明与定义 函数的声明是函数的原型 函数的定义是函数的本身 int a; 既是声明，也是定义 extern a; 是声明，但</description>
+      </item>
+      
+      <item>
+        <title>12. Frame</title>
+        <link>https://yorkfish.github.io/review/python/tkinter/12_frame/</link>
+        <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/tkinter/12_frame/</guid>
+        <description>1. 准备一个简易窗口 1 2 3 4 5 6 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x200&amp;#34;) window.mainloop() 2. 定义主 frame 1 2 frm = tk.Frame(window) frm.pack() 3. 定义左 frame 1 2 frm_l = tk.Frame(frm) frm_l.pack(side=&amp;#34;left&amp;#34;) frm_r 同理 4. 在左 frame 上添加 label 1 tk.Label(frm_l, text=&amp;#34;on the frm_l1&amp;#34;).pack() frm_r 同理 1 2 3 4</description>
       </item>
       
       <item>
@@ -1140,6 +1248,15 @@
       </item>
       
       <item>
+        <title>13. Massagebox</title>
+        <link>https://yorkfish.github.io/review/python/tkinter/13_massagebox/</link>
+        <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/tkinter/13_massagebox/</guid>
+        <description>1. 准备一个简易窗口 1 2 3 4 5 6 7 import tkinter as tk import tkinter.messagebox # messagebox 需要另外导入 window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x200&amp;#34;) window.mainloop() 2. 添加一个 button 并关联弹窗 1 2 3 4 5 def hit_me(): tk.messagebox.showinfo(title=&amp;#34;showinfo&amp;#34;, message=&amp;#34;This is showinfo.&amp;#34;) tk.Button(window, text=&amp;#34;hit me&amp;#34;, command=hit_me).pack() &amp;gt;&amp;gt;&amp;gt; ps: 有声音，与更</description>
+      </item>
+      
+      <item>
         <title>13. colstack &amp; rowstack</title>
         <link>https://yorkfish.github.io/review/python/numpy/13_colstack_and_rowstack/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
@@ -1164,6 +1281,15 @@
         
         <guid>https://yorkfish.github.io/review/c/basics/13_strcat/</guid>
         <description>strcat(字符数组1, 字符数组2) 简介 string catenate 把“字符串2”接到“字符串1”的后面 使用 1 2 3 4 5 6 7 8 9 10 11 #include &amp;lt;stdio.h&amp;gt;#include &amp;lt;string.h&amp;gt; int main() { char str1[] = &amp;#34;abcde&amp;#34;; char str2[] = &amp;#34;123&amp;#34;; strcpy(str1, str2);</description>
+      </item>
+      
+      <item>
+        <title>14. pack &amp; grid &amp; place</title>
+        <link>https://yorkfish.github.io/review/python/tkinter/14_pack_grid_place/</link>
+        <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/tkinter/14_pack_grid_place/</guid>
+        <description>1. 准备一个简易窗口 1 2 3 4 5 6 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x200&amp;#34;) window.mainloop() 2. pack 1 tk.Label(window, text=1).pack(side=&amp;#34;top&amp;#34;) ps: 除了 top，还有 bottom, left, right 3. grid 简单地说，就是按照格子摆放 1 2 3 for i in range(3): for j in range(4): tk.Label(window, text=1).grid(row=i,</description>
       </item>
       
       <item>
@@ -1244,7 +1370,7 @@
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/python/basics/18_underscroe/</guid>
-        <description>情形一 说明 后置单下划线 撞了关键字，但又懒得想变量名 举例 1 class_ = &amp;#34;101&amp;#34; 情形二 说明 下划线作占位符 少起一个名字 举例 1 a = [[1, 2, 3] for _ in range(10)] 情形三 说明 下划线作</description>
+        <description>情形一 说明 后置单下划线 撞了关键字，但又懒得想变量名 举例 1 class_ = &amp;#34;101&amp;#34; tkinter.Scale() 的 from_ 参数 情形二 说明 下划线作占位符 少起一个名字 举例 1 a = [[1, 2, 3] for _ in range(10)] 情形三 说</description>
       </item>
       
       <item>
@@ -1338,7 +1464,7 @@
         <pubDate>Mon, 24 Aug 2020 17:07:22 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/about/</guid>
-        <description>1. 简介 博客：不求全，方便回忆 本人：野生的，菜鸟一只 2. 参考与感谢 C “谭爷爷”的绿皮书 Python 棋子、棋子(Bilibili&amp;rsquo;s up) &amp;gt;&amp;gt;&amp;gt; 传送门 DavyCloud(Bilibili&amp;rsquo;s</description>
+        <description>1. 简介 博客：不求全，方便回忆 本人：野生的，菜鸟一只 2. 参考与感谢 C “谭爷爷”的绿皮书 Python 莫烦Python(Bilibili&amp;rsquo;s up) &amp;gt;&amp;gt;&amp;gt; 传</description>
       </item>
       
     
