@@ -191,7 +191,7 @@
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/python/basics/20_yield/</guid>
-        <description>1. 说明 属于 generator 二叉树中就会用到 有速度优势 2. 举例 公共部分 1 2 3 4 5 6 def fib(num): n, a, b = 0, 0, 1 while n &amp;lt; num: yield b # 相当于挂起；可以看成一种不退出的 return a, b = b, a+b</description>
+        <description>1. 说明 属于 generator 有速度优势 协程会用到 2. 举例 公共部分 1 2 3 4 5 6 def fib(num): n, a, b = 0, 0, 1 while n &amp;lt; num: yield b # 相当于挂起；可以看成一种不退出的 return a, b = b, a+b n += 1</description>
       </item>
       
     

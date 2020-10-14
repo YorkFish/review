@@ -77,6 +77,15 @@
         <description></description>
       </item>
       
+      <item>
+        <title>thread</title>
+        <link>https://yorkfish.github.io/review/c/thread/</link>
+        <pubDate>Sat, 10 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/c/thread/</guid>
+        <description>偷懒了，以例子为主</description>
+      </item>
+      
     
   </channel>
 </rss>

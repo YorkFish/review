@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/multiprocessing/01_preview/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/threading/01_preview/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/tkinter/01_window/</loc>
     <lastmod>2020-10-04T00:00:00+08:00</lastmod>
   </url>
@@ -102,6 +112,25 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/c/thread/01_create/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/multiprocessing/02_create/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/threading/02_name_and_ident/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/c/thread/02_two_threads/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/tkinter/02_label/</loc>
     <lastmod>2020-10-04T00:00:00+08:00</lastmod>
   </url>
@@ -188,6 +217,21 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/c/struct-union-enum/02_define/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/c/thread/03_lock/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/multiprocessing/03_without_setting/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/threading/03_without_setting/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -280,6 +324,21 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/multiprocessing/04_daemon/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/threading/04_daemon/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/c/thread/04_lock_upgrade/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/tkinter/04_text/</loc>
     <lastmod>2020-10-04T00:00:00+08:00</lastmod>
   </url>
@@ -360,6 +419,16 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/threading/05_join/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/multiprocessing/05_transfer_parameters/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/tkinter/05_entry/</loc>
     <lastmod>2020-10-04T00:00:00+08:00</lastmod>
   </url>
@@ -435,6 +504,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/threading/06_transfer_parameters/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/tkinter/06_listbox/</loc>
     <lastmod>2020-10-04T00:00:00+08:00</lastmod>
   </url>
@@ -495,7 +569,21 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/multiprocessing/06_efficiency_comparison/</loc>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/numpy/06_ndarray_slice/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/threading/07_lock/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/multiprocessing/07_queue/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -569,6 +657,21 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/multiprocessing/08_pid/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/threading/08_semaphore/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/c/thread/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/tkinter/08_scale/</loc>
     <lastmod>2020-10-04T00:00:00+08:00</lastmod>
   </url>
@@ -629,6 +732,21 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/threading/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/multiprocessing/09_pool/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/threading/09_timer/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/tkinter/09_checkbutton/</loc>
     <lastmod>2020-10-04T00:00:00+08:00</lastmod>
   </url>
@@ -676,6 +794,21 @@
   <url>
     <loc>https://yorkfish.github.io/review/c/struct-union-enum/09_enum/</loc>
     <lastmod>2020-09-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/multiprocessing/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/multiprocessing/10_lock/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/threading/10_supplement/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -850,11 +983,26 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/blog/</loc>
-    <lastmod>2020-09-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yorkfish.github.io/review/blog/05_zdoc_add_image/</loc>
+    <loc>https://yorkfish.github.io/review/tags/command/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/tags/linux/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/blog/05_linux_command_time/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/blog/04_zdoc_add_image/</loc>
     <lastmod>2020-09-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -864,22 +1012,12 @@
   </url>
   
   <url>
-    <loc>https://yorkfish.github.io/review/tags/terminal/</loc>
-    <lastmod>2020-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/04_windows_terminal/</loc>
-    <lastmod>2020-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/dos/</loc>
+    <loc>https://yorkfish.github.io/review/blog/03_dos_command/</loc>
     <lastmod>2020-09-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yorkfish.github.io/review/blog/03_dos_command/</loc>
+    <loc>https://yorkfish.github.io/review/tags/dos/</loc>
     <lastmod>2020-09-20T00:00:00+00:00</lastmod>
   </url>
   

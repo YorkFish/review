@@ -86,6 +86,24 @@
         <description></description>
       </item>
       
+      <item>
+        <title>09 Threading</title>
+        <link>https://yorkfish.github.io/review/python/threading/</link>
+        <pubDate>Sat, 10 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/threading/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>10 multiprocessing</title>
+        <link>https://yorkfish.github.io/review/python/multiprocessing/</link>
+        <pubDate>Sat, 10 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/multiprocessing/</guid>
+        <description></description>
+      </item>
+      
     
   </channel>
 </rss>

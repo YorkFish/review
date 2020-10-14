@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy;2020, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 24 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://yorkfish.github.io/review/blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,33 +15,25 @@
     
       
       <item>
+        <title>Linux command - time</title>
+        <link>https://yorkfish.github.io/review/blog/05_linux_command_time/</link>
+        <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/05_linux_command_time/</guid>
+        <description>以 C 为例 格式：time + 可执行文件名 结果：除了可执行文件的运行结果，还有 real, user, sys 三个时间可供查看</description>
+      </item>
+      
+      <item>
         <title>Hugo-zdoc 添加图片</title>
-        <link>https://yorkfish.github.io/review/blog/05_zdoc_add_image/</link>
+        <link>https://yorkfish.github.io/review/blog/04_zdoc_add_image/</link>
         <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://yorkfish.github.io/review/blog/05_zdoc_add_image/</guid>
+        <guid>https://yorkfish.github.io/review/blog/04_zdoc_add_image/</guid>
         <description>&lt;p&gt;有两种方式&lt;/p&gt;</description>
       </item>
       
       <item>
-        <title>Windows Terminal</title>
-        <link>https://yorkfish.github.io/review/blog/04_windows_terminal/</link>
-        <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://yorkfish.github.io/review/blog/04_windows_terminal/</guid>
-        <description>&lt;h2 id=&#34;摘要&#34;&gt;摘要&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;分屏&lt;/li&gt;
-&lt;li&gt;调整分屏大小&lt;/li&gt;
-&lt;li&gt;光标移动&lt;/li&gt;
-&lt;li&gt;全屏&lt;/li&gt;
-&lt;li&gt;翻页&lt;/li&gt;
-&lt;li&gt;字体大小&lt;/li&gt;
-&lt;/ul&gt;</description>
-      </item>
-      
-      <item>
-        <title>几条 DOS 命令</title>
+        <title>doc command</title>
         <link>https://yorkfish.github.io/review/blog/03_dos_command/</link>
         <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
         
