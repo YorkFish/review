@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>command on York&#39;s blog</title>
+    <link>https://yorkfish.github.io/review/tags/command/</link>
+    <description>Recent content in command on York&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2020, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 10 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://yorkfish.github.io/review/tags/command/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Linux command - time</title>
+        <link>https://yorkfish.github.io/review/blog/05_linux_command_time/</link>
+        <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/05_linux_command_time/</guid>
+        <description>以 C 为例 格式：time + 可执行文件名 结果：除了可执行文件的运行结果，还有 real, user, sys 三个时间可供查看</description>
+      </item>
+      
+      <item>
+        <title>doc command</title>
+        <link>https://yorkfish.github.io/review/blog/03_dos_command/</link>
+        <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/03_dos_command/</guid>
+        <description>&lt;h2 id=&#34;摘要&#34;&gt;摘要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;记事本&lt;/li&gt;
+&lt;li&gt;CMD 颜色&lt;/li&gt;
+&lt;li&gt;文件名含 &lt;code&gt;&amp;amp;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
+      
+    
+  </channel>
+</rss>

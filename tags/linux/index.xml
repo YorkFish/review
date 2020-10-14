@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on York&#39;s blog</title>
+    <link>https://yorkfish.github.io/review/tags/linux/</link>
+    <description>Recent content in Linux on York&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2020, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 10 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://yorkfish.github.io/review/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Linux command - time</title>
+        <link>https://yorkfish.github.io/review/blog/05_linux_command_time/</link>
+        <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/05_linux_command_time/</guid>
+        <description>以 C 为例 格式：time + 可执行文件名 结果：除了可执行文件的运行结果，还有 real, user, sys 三个时间可供查看</description>
+      </item>
+      
+    
+  </channel>
+</rss>
