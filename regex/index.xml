@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RegEx on York&#39;s blog</title>
+    <link>https://yorkfish.github.io/review/regex/</link>
+    <description>Recent content in RegEx on York&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2020, All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0800</lastBuildDate>
+    
+        <atom:link href="https://yorkfish.github.io/review/regex/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>01. preview</title>
+        <link>https://yorkfish.github.io/review/regex/01_preview/</link>
+        <pubDate>Tue, 20 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/regex/01_preview/</guid>
+        <description>皇览揆余初度兮，肇锡余以嘉名。名余曰正则兮，字余曰灵均。 ——屈原《离骚》 1. 说明 上面是无意间发现的巧合 “正则表达式”(Regular Expre</description>
+      </item>
+      
+      <item>
+        <title>02. atom</title>
+        <link>https://yorkfish.github.io/review/regex/02_atom/</link>
+        <pubDate>Tue, 20 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/regex/02_atom/</guid>
+        <description>1. 常用 符号 匹配对象 . 除 \n, \r 外的任意字符 \d 数字 \s 空白符，如 \t, \n, \r, \f, \v \w 字母、数字、下划线（C# 还可以匹配汉字） \s, \w 为小写 数字仅指“阿拉伯数字”</description>
+      </item>
+      
+      <item>
+        <title>03. metacharacter</title>
+        <link>https://yorkfish.github.io/review/regex/03_metacharacter/</link>
+        <pubDate>Tue, 20 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/regex/03_metacharacter/</guid>
+        <description>元字符：修饰原子的符号 1. 常用 符号 匹配对象 [] 原子列表，自定义原子范围 [^] 排除列表，自定义排除范围 ^ 匹配开头 $ 匹配结尾 | 逻辑运算（万能钥匙） \b 词边</description>
+      </item>
+      
+      <item>
+        <title>04. paraphrase</title>
+        <link>https://yorkfish.github.io/review/regex/04_paraphrase/</link>
+        <pubDate>Tue, 20 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/regex/04_paraphrase/</guid>
+        <description>1. 使用 与大多数转义方式一样，使用 \ 写法 表示 \\ \ \. . \^ ^ &amp;hellip; 2. 说明 在 [] 内，有些符号不必转义，如 ., $, |，且强行转义也行</description>
+      </item>
+      
+      <item>
+        <title>05. group</title>
+        <link>https://yorkfish.github.io/review/regex/05_group/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/regex/05_group/</guid>
+        <description>(): 修饰原子 1. 作用 将多个原子视为一个原子处理 将括号中的内容暂存于内存，方便后期调用 改变优先级，配合 | 使用 2. 暂存 默认情况下，每个括号都会暂存规则</description>
+      </item>
+      
+      <item>
+        <title>06. brackets</title>
+        <link>https://yorkfish.github.io/review/regex/06_brackets/</link>
+        <pubDate>Tue, 20 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/regex/06_brackets/</guid>
+        <description>1. 说明 因为不作为分组，所以无法复用或引用 2. 注释 (?#注释) 3. 断言 先行断言从左往右看 后行断言从右往左看 正向先行断言 (?=表达式) 如 york(?</description>
+      </item>
+      
+      <item>
+        <title>07. pattern modifier</title>
+        <link>https://yorkfish.github.io/review/regex/07_pattern_modifier/</link>
+        <pubDate>Tue, 20 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/regex/07_pattern_modifier/</guid>
+        <description>C# 称“处理选项”(RegexOptions) Js 称“模式修正符”(RegexOptions) Python3 中表现为 flag 一般允许混搭 C# IgnoreCase: 忽略大小写 RightToLeft: 从右向左查</description>
+      </item>
+      
+      <item>
+        <title>08. greedy and non-greedy</title>
+        <link>https://yorkfish.github.io/review/regex/08_greedy_and_non-greedy/</link>
+        <pubDate>Tue, 20 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/regex/08_greedy_and_non-greedy/</guid>
+        <description>1. 贪婪 一般情况下，正则默认贪婪匹配 尽可能多得匹配 如 用 y.*h 去匹配 yorkfish-yorkfish 得到 yorkfish-yorkfish 2. 非贪婪 在相应规则之后加上 ?，表示使用非贪婪模式 尽可能少得匹配 如 用 y.*?h 去匹</description>
+      </item>
+      
+      <item>
+        <title>09. re-javascript</title>
+        <link>https://yorkfish.github.io/review/regex/09_re-javascript/</link>
+        <pubDate>Tue, 20 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/regex/09_re-javascript/</guid>
+        <description>1. 测试方法 方便起见，新建文档 test.html 写入 script 标签 在标签内写测试语句 用浏览器打开，按 F12 查看结果 2. 两种定义方式 方式一 直接量语法 1 2 3 var zz = /\d/; console.log(zz); // /\d/ console.log(typeof zz); //</description>
+      </item>
+      
+      <item>
+        <title>10. re-python3</title>
+        <link>https://yorkfish.github.io/review/regex/10_re-python3/</link>
+        <pubDate>Tue, 20 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/regex/10_re-python3/</guid>
+        <description>Python3-re: &amp;gt;&amp;gt;&amp;gt; 传送门 1. 必要的导入 1 &amp;gt;&amp;gt;&amp;gt; import re 2. 临时测试 1 2 3 &amp;gt;&amp;gt;&amp;gt; re.findall(&amp;#34;york&amp;#34;, &amp;#34;york yorkfish&amp;#34;) # 方法有许多，这种比较方便 [&amp;#39;york&amp;#39;, &amp;#39;york&amp;#39;] &amp;gt;&amp;gt;&amp;gt; 3. match 1 2 3 4 &amp;gt;&amp;gt;&amp;gt; re.match(&amp;#34;\d+&amp;#34;, &amp;#34;123 yorkfish&amp;#34;) &amp;lt;re.Match object; span=(0, 3), match=&amp;#39;123&amp;#39;&amp;gt; &amp;gt;&amp;gt;&amp;gt; re.match(&amp;#34;\d+&amp;#34;, &amp;#34;yorkfish 123&amp;#34;) &amp;gt;&amp;gt;&amp;gt; match 仅在字符串开</description>
+      </item>
+      
+      <item>
+        <title>11. re-terminal</title>
+        <link>https://yorkfish.github.io/review/regex/11_re-terminal/</link>
+        <pubDate>Tue, 20 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/regex/11_re-terminal/</guid>
+        <description>嫌虚拟机打开慢，可以使用 cmder, cygwin, gitbash 之类的工具 1. awk 形式：york$ awk &#39;/正则表达式/{print($0)}&#39; test.txt 功能：用相应的正则表达式去匹配文档 test.txt</description>
+      </item>
+      
+    
+  </channel>
+</rss>

@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yorkfish.github.io/review/regex/01_preview/</loc>
+    <lastmod>2020-10-20T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/regex/</loc>
+    <lastmod>2020-10-20T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/multiprocessing/01_preview/</loc>
     <lastmod>2020-10-10T00:00:00+08:00</lastmod>
   </url>
@@ -116,6 +126,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/regex/02_atom/</loc>
+    <lastmod>2020-10-20T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/multiprocessing/02_create/</loc>
     <lastmod>2020-10-10T00:00:00+08:00</lastmod>
   </url>
@@ -220,6 +235,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/regex/03_metacharacter/</loc>
+    <lastmod>2020-10-20T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/c/thread/03_lock/</loc>
     <lastmod>2020-10-10T00:00:00+08:00</lastmod>
   </url>
@@ -321,6 +341,11 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/python/operation/03_virtual_env/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/regex/04_paraphrase/</loc>
+    <lastmod>2020-10-20T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -504,6 +529,15 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/regex/05_group/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/regex/06_brackets/</loc>
+    <lastmod>2020-10-20T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/threading/06_transfer_parameters/</loc>
     <lastmod>2020-10-10T00:00:00+08:00</lastmod>
   </url>
@@ -574,6 +608,11 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/python/numpy/06_ndarray_slice/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/regex/07_pattern_modifier/</loc>
+    <lastmod>2020-10-20T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -657,6 +696,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/regex/08_greedy_and_non-greedy/</loc>
+    <lastmod>2020-10-20T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/multiprocessing/08_pid/</loc>
     <lastmod>2020-10-10T00:00:00+08:00</lastmod>
   </url>
@@ -732,6 +776,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/regex/09_re-javascript/</loc>
+    <lastmod>2020-10-20T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/threading/</loc>
     <lastmod>2020-10-10T00:00:00+08:00</lastmod>
   </url>
@@ -797,6 +846,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/regex/10_re-python3/</loc>
+    <lastmod>2020-10-20T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/multiprocessing/</loc>
     <lastmod>2020-10-10T00:00:00+08:00</lastmod>
   </url>
@@ -849,6 +903,11 @@
   <url>
     <loc>https://yorkfish.github.io/review/c/file/10_summary/</loc>
     <lastmod>2020-09-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/regex/11_re-terminal/</loc>
+    <lastmod>2020-10-20T00:00:00+08:00</lastmod>
   </url>
   
   <url>
