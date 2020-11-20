@@ -47,7 +47,7 @@
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/c/basics/04_character_data/</guid>
-        <description>1. 换行与回车 \n 换行 \r 回车 ps 以前的打字机，打满一行字后，先把纸往上卷（换行），再把纸往右拉（回车） 2. 八进制 八进制 十进制 ASCII \101 65 &#39;A&#39; 3. 字符与字符串 &#39;a&#39;</description>
+        <description>1. 换行与回车 符号 释义 英文 ASCII \n 换行 newline begin 10 \r 回车 return oldline begin 13 ps 以前的打字机，打满一行字后，先把纸往上卷（换行），再把纸往右拉（回车） 2. 八进制 八进制 十</description>
       </item>
       
       <item>
@@ -65,7 +65,7 @@
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/c/basics/06_arithmetic/</guid>
-        <description>1. 除法 如果除数或被除数中有一个为负值，则舍入的方向是不固定的 如 -5/3 有的系统：-1 （取整后向零靠拢） 有的系统：-2 C 一般是“取整后向零靠拢” Python 一</description>
+        <description>1. 除法 如果除数或被除数中有一个为负值，则舍入的方向是不固定的 如 -5/3 有的系统：-1 （取整后向零靠拢） 有的系统：-2 C 一般是“取整后向零靠拢”；或</description>
       </item>
       
       <item>
@@ -74,7 +74,7 @@
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/c/basics/07_combination_direction/</guid>
-        <description>不推荐下文例子中的写法 1. 右结合性 即“自右向左”结合 例一 如 -i++ &amp;gt; -(i++) 1 2 3 4 5 6 7 8 9 #include &amp;lt;stdio.h&amp;gt; int main() { int i = 10; printf(&amp;#34;%d\n&amp;#34;, -i++); // -10 printf(&amp;#34;%d\n&amp;#34;, i); // 11 return 0; } “负号”与 ++ 同级，默</description>
+        <description>不推荐下文例子中的写法 1. 右结合性 即“自右向左”结合 例一 如 -i++ -&amp;gt; -(i++) 1 2 3 4 5 6 7 8 9 #include &amp;lt;stdio.h&amp;gt; int main() { int i = 10; printf(&amp;#34;%d\n&amp;#34;, -i++); // -10 printf(&amp;#34;%d\n&amp;#34;, i); // 11 return 0; } “负号”与 ++ 同级，默</description>
       </item>
       
       <item>

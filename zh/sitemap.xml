@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yorkfish.github.io/review/cpp/01_preview/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/cpp/stl/01_vector/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/cpp/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/regex/01_preview/</loc>
     <lastmod>2020-10-20T00:00:00+08:00</lastmod>
   </url>
@@ -126,6 +141,16 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/cpp/02_head_file/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/cpp/stl/02_queue/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/regex/02_atom/</loc>
     <lastmod>2020-10-20T00:00:00+08:00</lastmod>
   </url>
@@ -232,6 +257,16 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/c/struct-union-enum/02_define/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/cpp/03_accuracy_and_format_output/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/cpp/stl/03_stack/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -344,6 +379,16 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/cpp/stl/04_deque/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/cpp/04_input_and_output/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/regex/04_paraphrase/</loc>
     <lastmod>2020-10-20T00:00:00+08:00</lastmod>
   </url>
@@ -444,6 +489,16 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/cpp/05_logical_operation/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/cpp/stl/05_set/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/threading/05_join/</loc>
     <lastmod>2020-10-10T00:00:00+08:00</lastmod>
   </url>
@@ -533,6 +588,16 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/cpp/06_array/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/cpp/stl/06_map/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/regex/06_brackets/</loc>
     <lastmod>2020-10-20T00:00:00+08:00</lastmod>
   </url>
@@ -608,6 +673,16 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/python/numpy/06_ndarray_slice/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/cpp/07_string/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/cpp/stl/07_unordered_set/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -696,6 +771,16 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/cpp/08_pair/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/cpp/stl/08_unordered_map/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/regex/08_greedy_and_non-greedy/</loc>
     <lastmod>2020-10-20T00:00:00+08:00</lastmod>
   </url>
@@ -776,6 +861,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/cpp/09_function/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/regex/09_re-javascript/</loc>
     <lastmod>2020-10-20T00:00:00+08:00</lastmod>
   </url>
@@ -846,6 +936,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/cpp/10_struct/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/regex/10_re-python3/</loc>
     <lastmod>2020-10-20T00:00:00+08:00</lastmod>
   </url>
@@ -906,6 +1001,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/cpp/11_class/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/regex/11_re-terminal/</loc>
     <lastmod>2020-10-20T00:00:00+08:00</lastmod>
   </url>
@@ -936,6 +1036,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/cpp/12_bit_operation/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/tkinter/12_frame/</loc>
     <lastmod>2020-10-04T00:00:00+08:00</lastmod>
   </url>
@@ -961,6 +1066,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/cpp/13_library_function/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/tkinter/13_massagebox/</loc>
     <lastmod>2020-10-04T00:00:00+08:00</lastmod>
   </url>
@@ -978,6 +1088,11 @@
   <url>
     <loc>https://yorkfish.github.io/review/c/basics/13_strcat/</loc>
     <lastmod>2020-09-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/cpp/stl/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
   </url>
   
   <url>
