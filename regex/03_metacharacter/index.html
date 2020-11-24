@@ -2064,13 +2064,17 @@
 <td align="left"><code>{m,n}</code></td>
 <td align="left">最少 m 个，最多 n 个</td>
 </tr>
+<tr>
+<td align="left"><code>{,n}</code></td>
+<td align="left">最少 0 个，最多 n 个</td>
+</tr>
 </tbody>
 </table>
 <hr />
 <div class="notices info" data-title="Python 增加项">
   <ol>
-<li><code>\A</code>: 匹配开头</li>
-<li><code>\Z</code>: 匹配结尾</li>
+<li><code>\A</code>: 匹配开头，忽略“多行”标记，即无视 <code>re.M</code></li>
+<li><code>\Z</code>: 匹配结尾，忽略“多行”标记，即无视 <code>re.M</code></li>
 </ol>
 
 </div>

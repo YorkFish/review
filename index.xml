@@ -1550,7 +1550,7 @@
         <pubDate>Tue, 20 Oct 2020 00:00:00 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/regex/10_re-python3/</guid>
-        <description>Python3-re: &amp;gt;&amp;gt;&amp;gt; 传送门 1. 必要的导入 1 &amp;gt;&amp;gt;&amp;gt; import re 2. 临时测试 1 2 3 &amp;gt;&amp;gt;&amp;gt; re.findall(&amp;#34;york&amp;#34;, &amp;#34;york yorkfish&amp;#34;) # 方法有许多，这种比较方便 [&amp;#39;york&amp;#39;, &amp;#39;york&amp;#39;] &amp;gt;&amp;gt;&amp;gt; 3. match 1 2 3 4 &amp;gt;&amp;gt;&amp;gt; re.match(&amp;#34;\d+&amp;#34;, &amp;#34;123 yorkfish&amp;#34;) &amp;lt;re.Match object; span=(0, 3), match=&amp;#39;123&amp;#39;&amp;gt; &amp;gt;&amp;gt;&amp;gt; re.match(&amp;#34;\d+&amp;#34;, &amp;#34;yorkfish 123&amp;#34;) &amp;gt;&amp;gt;&amp;gt; match 仅在字符串开</description>
+        <description>Python3-re: &amp;gt;&amp;gt;&amp;gt; 传送门 1. 必要的导入 1 &amp;gt;&amp;gt;&amp;gt; import re 2. 临时测试 findall 1 2 3 &amp;gt;&amp;gt;&amp;gt; re.findall(&amp;#34;york&amp;#34;, &amp;#34;york yorkfish&amp;#34;) # 方法有许多，这种比较方便 [&amp;#39;york&amp;#39;, &amp;#39;york&amp;#39;] &amp;gt;&amp;gt;&amp;gt; 3. match &amp;amp; finditer match 1 2 3 4 5 6 &amp;gt;&amp;gt;&amp;gt; re.match(&amp;#34;\d+&amp;#34;, &amp;#34;123 yorkfish&amp;#34;) &amp;lt;re.Match object; span=(0, 3), match=&amp;#39;123&amp;#39;&amp;gt; &amp;gt;&amp;gt;&amp;gt; re.match(&amp;#34;\d+&amp;#34;, &amp;#34;yorkfish 123&amp;#34;) &amp;gt;&amp;gt;&amp;gt; re.match(&amp;#34;\d+&amp;#34;,</description>
       </item>
       
       <item>
