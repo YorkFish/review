@@ -16,10 +16,10 @@
       
       <item>
         <title>Linux command - time</title>
-        <link>https://yorkfish.github.io/review/blog/05_linux_command_time/</link>
+        <link>https://yorkfish.github.io/review/blog/05-linux-command-time/</link>
         <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://yorkfish.github.io/review/blog/05_linux_command_time/</guid>
+        <guid>https://yorkfish.github.io/review/blog/05-linux-command-time/</guid>
         <description>以 C 为例 格式：time + 可执行文件名 结果：除了可执行文件的运行结果，还有 real, user, sys 三个时间可供查看</description>
       </item>
       

@@ -16,19 +16,19 @@
       
       <item>
         <title>Hugo-zdoc 添加图片</title>
-        <link>https://yorkfish.github.io/review/blog/04_zdoc_add_image/</link>
+        <link>https://yorkfish.github.io/review/blog/04-zdoc-add-image/</link>
         <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://yorkfish.github.io/review/blog/04_zdoc_add_image/</guid>
+        <guid>https://yorkfish.github.io/review/blog/04-zdoc-add-image/</guid>
         <description>&lt;p&gt;有两种方式&lt;/p&gt;</description>
       </item>
       
       <item>
         <title>Usage</title>
-        <link>https://yorkfish.github.io/review/blog/01_usage/</link>
+        <link>https://yorkfish.github.io/review/blog/01-usage/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://yorkfish.github.io/review/blog/01_usage/</guid>
+        <guid>https://yorkfish.github.io/review/blog/01-usage/</guid>
         <description>&lt;h2 id=&#34;1-拷贝文档&#34;&gt;1. 拷贝文档&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;在 &lt;code&gt;content&lt;/code&gt; 文件夹下新建 &lt;code&gt;blog&lt;/code&gt; 文件夹&lt;/li&gt;

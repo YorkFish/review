@@ -16,91 +16,91 @@
       
       <item>
         <title>01. abs()</title>
-        <link>https://yorkfish.github.io/review/python/bif/01_abs/</link>
+        <link>https://yorkfish.github.io/review/python/bif/01-abs/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/bif/01_abs/</guid>
+        <guid>https://yorkfish.github.io/review/python/bif/01-abs/</guid>
         <description>1. 说明 复数在数学上没有绝对值这个概念 abs() 对复数使用时，是求模 一个复数的模 = sqrt(实部2 + 虚部2) 2. 举例 1 2 3 &amp;gt;&amp;gt;&amp;gt; abs(3 + 4j) 5.0 &amp;gt;&amp;gt;&amp;gt;</description>
       </item>
       
       <item>
         <title>02. any() &amp; all()</title>
-        <link>https://yorkfish.github.io/review/python/bif/02_any_all/</link>
+        <link>https://yorkfish.github.io/review/python/bif/02-any-all/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/bif/02_any_all/</guid>
+        <guid>https://yorkfish.github.io/review/python/bif/02-any-all/</guid>
         <description>1. 说明 any(), all() 都可以批量判断可迭代对象里的参数是否等价于 True 简单地说 any() : 有人 True，那就 True all() : 大家 True，才是 True 2. 举例 any 可以这样理解 any() 1 2 3 4</description>
       </item>
       
       <item>
         <title>03. del()</title>
-        <link>https://yorkfish.github.io/review/python/bif/03_del/</link>
+        <link>https://yorkfish.github.io/review/python/bif/03-del/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/bif/03_del/</guid>
+        <guid>https://yorkfish.github.io/review/python/bif/03-del/</guid>
         <description>1. 说明 del 不会去操作内存，它只是删除了变量的引用 当某片内存空间没有引用的时候，该片空间会自动释放 2. 举例 1 2 3 4 5 6 7 8 9 10 &amp;gt;&amp;gt;&amp;gt; a = [1, 2, 3] &amp;gt;&amp;gt;&amp;gt; b = a</description>
       </item>
       
       <item>
         <title>04. eval()</title>
-        <link>https://yorkfish.github.io/review/python/bif/04_eval/</link>
+        <link>https://yorkfish.github.io/review/python/bif/04-eval/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/bif/04_eval/</guid>
+        <guid>https://yorkfish.github.io/review/python/bif/04-eval/</guid>
         <description>1. 简介 eval for evaluate 原型：eval(expression, globals=None, locals=None) 2. 举例 例一 1 2 3 4 5 6 &amp;gt;&amp;gt;&amp;gt; s = &amp;#34;[[1, 2], [3, 4], [5, 6]]&amp;#34; &amp;gt;&amp;gt;&amp;gt; s &amp;#39;[[1, 2], [3, 4], [5, 6]]&amp;#39; &amp;gt;&amp;gt;&amp;gt; eval(s) [[1, 2], [3, 4], [5, 6]] &amp;gt;&amp;gt;&amp;gt; 例二 先局部 再</description>
       </item>
       
       <item>
         <title>05. filter()</title>
-        <link>https://yorkfish.github.io/review/python/bif/05_filter/</link>
+        <link>https://yorkfish.github.io/review/python/bif/05-filter/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/bif/05_filter/</guid>
+        <guid>https://yorkfish.github.io/review/python/bif/05-filter/</guid>
         <description>1. 说明 函数名：filter 顾名思意：筛选程序、过滤器 2. 举例 例一 1 2 3 4 &amp;gt;&amp;gt;&amp;gt; a = list(range(10)) &amp;gt;&amp;gt;&amp;gt; [e for e in a if e % 2 == 0] [0, 2, 4, 6, 8] &amp;gt;&amp;gt;&amp;gt; 例二 1 2 3 4 5 &amp;gt;&amp;gt;&amp;gt; a = list(range(10)) &amp;gt;&amp;gt;&amp;gt; b</description>
       </item>
       
       <item>
         <title>06. join()</title>
-        <link>https://yorkfish.github.io/review/python/bif/06_join/</link>
+        <link>https://yorkfish.github.io/review/python/bif/06-join/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/bif/06_join/</guid>
+        <guid>https://yorkfish.github.io/review/python/bif/06-join/</guid>
         <description>1. 先说结论 字符串是不可变对象，每次使用 + 拼接，都会生成新对象 join() 没有中间字符串生成，效率较高 计算结果所需的内存 一次性申请内存空间 把每个字符串复</description>
       </item>
       
       <item>
         <title>07. map()</title>
-        <link>https://yorkfish.github.io/review/python/bif/07_map/</link>
+        <link>https://yorkfish.github.io/review/python/bif/07-map/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/bif/07_map/</guid>
+        <guid>https://yorkfish.github.io/review/python/bif/07-map/</guid>
         <description>1. 说明 函数名：map 顾名思意：映射 2. 举例 例一 1 2 3 4 5 &amp;gt;&amp;gt;&amp;gt; a = [1, 2, 3, 4, 5] &amp;gt;&amp;gt;&amp;gt; b = [_ for _ in a] &amp;gt;&amp;gt;&amp;gt; b [1, 2, 3, 4, 5] &amp;gt;&amp;gt;&amp;gt; 例二 1 2 3 4 5 6 7 8 9 &amp;gt;&amp;gt;&amp;gt; a = [1, 2, 3, 4, 5]</description>
       </item>
       
       <item>
         <title>08. sorted()</title>
-        <link>https://yorkfish.github.io/review/python/bif/08_sorted/</link>
+        <link>https://yorkfish.github.io/review/python/bif/08-sorted/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/bif/08_sorted/</guid>
+        <guid>https://yorkfish.github.io/review/python/bif/08-sorted/</guid>
         <description>1. 说明 sort() 是 list 的方法 sorted() 是 Python 的内置函数，不隶属于某种数据类型 sorted() 可以对所有的可迭代对象进行排序 2. 举例 例一 1 2 3 4 5 6 7 8 9 10 11 &amp;gt;&amp;gt;&amp;gt; lst = [&amp;#34;Tony Black&amp;#34;, &amp;#34;Amy Green&amp;#34;, &amp;#34;Johnny Lee&amp;#34;] &amp;gt;&amp;gt;&amp;gt;</description>
       </item>
       
       <item>
         <title>09. sum()</title>
-        <link>https://yorkfish.github.io/review/python/bif/09_sum/</link>
+        <link>https://yorkfish.github.io/review/python/bif/09-sum/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/bif/09_sum/</guid>
+        <guid>https://yorkfish.github.io/review/python/bif/09-sum/</guid>
         <description>1. 说明 一般地，除字符串外，能使用 + 操作的，都可以使用 sum() 2. 举例 例一 1 2 3 4 5 6 &amp;gt;&amp;gt;&amp;gt; a = [1, 2, 3, 4] &amp;gt;&amp;gt;&amp;gt; sum(a) 10 &amp;gt;&amp;gt;&amp;gt; sum(a, 5) 15 &amp;gt;&amp;gt;&amp;gt; 例二 1 2 3 4 &amp;gt;&amp;gt;&amp;gt; a = [[1, 2, 3]] * 3 &amp;gt;&amp;gt;&amp;gt; sum(a, [])</description>
       </item>
       
       <item>
         <title>10. zip()</title>
-        <link>https://yorkfish.github.io/review/python/bif/10_zip/</link>
+        <link>https://yorkfish.github.io/review/python/bif/10-zip/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/bif/10_zip/</guid>
+        <guid>https://yorkfish.github.io/review/python/bif/10-zip/</guid>
         <description>例一 1 2 3 4 lst_a = [&amp;#39;a1&amp;#39;, &amp;#39;b1&amp;#39;, &amp;#39;c1&amp;#39;] lst_b = [&amp;#39;a2&amp;#39;, &amp;#39;b2&amp;#39;, &amp;#39;c2&amp;#39;] for a, b in zip(lst_a, lst_b): print(a, b) &amp;gt;&amp;gt;&amp;gt; a1 a2 b1 b2 c1 c2 例二 有点像木桶原理，多出的数据不作处理 1 2 3 4 lst_c = [&amp;#39;a3&amp;#39;, &amp;#39;b3&amp;#39;, &amp;#39;c3&amp;#39;, &amp;#39;d3&amp;#39;, &amp;#39;e3&amp;#39;] lst_d = [&amp;#39;a4&amp;#39;, &amp;#39;b4&amp;#39;, &amp;#39;c4&amp;#39;] for c, d in</description>
       </item>
       

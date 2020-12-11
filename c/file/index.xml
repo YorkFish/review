@@ -16,91 +16,91 @@
       
       <item>
         <title>01. 文件概述</title>
-        <link>https://yorkfish.github.io/review/c/file/01_overview/</link>
+        <link>https://yorkfish.github.io/review/c/file/01-overview/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/file/01_overview/</guid>
+        <guid>https://yorkfish.github.io/review/c/file/01-overview/</guid>
         <description>1. 简介 每个被使用的文件都在内存中开辟一个区，用来存放文件的有关信息 这些信息是保存在一个结构体变量中的 该结构体类型是由系统定义的，取名为 FILE 2. stdio.h</description>
       </item>
       
       <item>
         <title>02. fopen() &amp; fclose()</title>
-        <link>https://yorkfish.github.io/review/c/file/02_fopen_and_fclose/</link>
+        <link>https://yorkfish.github.io/review/c/file/02-fopen-and-fclose/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/file/02_fopen_and_fclose/</guid>
+        <guid>https://yorkfish.github.io/review/c/file/02-fopen-and-fclose/</guid>
         <description>1. 打开文件 fopen 一般形式 FILE * fp; fp = fopen(&amp;quot;filename&amp;quot;, &amp;quot;usemode&amp;quot;); 打开模式 文件使用方式 含义 &amp;quot;r&amp;quot; 读，打开 &amp;quot;w&amp;quot; 写，打开 &amp;quot;a&amp;quot; 追加，打开 &amp;quot;rb&amp;quot; 读，二进制打开 &amp;quot;wb&amp;quot; 写，二进制打开 &amp;quot;ab&amp;quot; 追加，二进制打开</description>
       </item>
       
       <item>
         <title>03. fgetc() &amp; fputc()</title>
-        <link>https://yorkfish.github.io/review/c/file/03_fgetc_and_fputc/</link>
+        <link>https://yorkfish.github.io/review/c/file/03-fgetc-and-fputc/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/file/03_fgetc_and_fputc/</guid>
+        <guid>https://yorkfish.github.io/review/c/file/03-fgetc-and-fputc/</guid>
         <description>1. fgetc 简介 从指定的文件读入一个字符，该文件必须是以读或写方式打开的 一般形式 char ch = fgetc(fp); // fp 为文件型指针变量 说明 如果在执行 fgetc 函数读字符时遇到文件结束</description>
       </item>
       
       <item>
         <title>04. fread() &amp; fwrite()</title>
-        <link>https://yorkfish.github.io/review/c/file/04_fread_and_fwrite/</link>
+        <link>https://yorkfish.github.io/review/c/file/04-fread-and-fwrite/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/file/04_fread_and_fwrite/</guid>
+        <guid>https://yorkfish.github.io/review/c/file/04-fread-and-fwrite/</guid>
         <description>1. 简介 fread 和 fwrite 函数可以用来读写一个字符 因为常常需要一次读取一组数据，ANSI C 标准提出设置这两个函数，用来读写一个数据块 2. 一般形式 1 2 fread(buffer, size, count, fp);</description>
       </item>
       
       <item>
         <title>05. fscanf() &amp; fprintf()</title>
-        <link>https://yorkfish.github.io/review/c/file/05_fscanf_and_fprintf/</link>
+        <link>https://yorkfish.github.io/review/c/file/05-fscanf-and-fprintf/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/file/05_fscanf_and_fprintf/</guid>
+        <guid>https://yorkfish.github.io/review/c/file/05-fscanf-and-fprintf/</guid>
         <description>1. 简介 与 scanf() 和 printf() 作用相仿 都是格式化读写函数 2. 一般调用方式 fscanf(文件指针, 格式字符串, 输出表列); fprintf(文件指针, 格式字符串,</description>
       </item>
       
       <item>
         <title>06. getw() &amp; putw()</title>
-        <link>https://yorkfish.github.io/review/c/file/06_getw_and_putw/</link>
+        <link>https://yorkfish.github.io/review/c/file/06-getw-and-putw/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/file/06_getw_and_putw/</guid>
+        <guid>https://yorkfish.github.io/review/c/file/06-getw-and-putw/</guid>
         <description>1. 简介 大多数 C 编译系统都提供 getw 和 putw 用来对磁盘文件读写一个字（整数） 2. 举例 例一 使用自带的函数 1 2 3 4 5 6 7 8 9 10 11 12 13 14 #include &amp;lt;stdio.h&amp;gt; int main() { FILE* fp = fopen(&amp;#34;test.txt&amp;#34;, &amp;#34;w&amp;#34;); putw(10,</description>
       </item>
       
       <item>
         <title>07. fgets() &amp; fputs()</title>
-        <link>https://yorkfish.github.io/review/c/file/07_fgets_and_fputs/</link>
+        <link>https://yorkfish.github.io/review/c/file/07-fgets-and-fputs/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/file/07_fgets_and_fputs/</guid>
+        <guid>https://yorkfish.github.io/review/c/file/07-fgets-and-fputs/</guid>
         <description>1. 简介 fgets: 从指定文件读取一个字符串 fputs: 向指定文件写进一个字符串 2. 举例 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 #include &amp;lt;stdio.h&amp;gt; int main() { FILE* fp = fopen(&amp;#34;test.txt&amp;#34;, &amp;#34;w&amp;#34;); fputs(&amp;#34;China&amp;#34;, fp); // 把字符串 &amp;#34;China&amp;#34; 输出到 fp 指</description>
       </item>
       
       <item>
         <title>08. rewind, fseek, ftell</title>
-        <link>https://yorkfish.github.io/review/c/file/08_rewind-fseek-ftell/</link>
+        <link>https://yorkfish.github.io/review/c/file/08-rewind-fseek-ftell/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/file/08_rewind-fseek-ftell/</guid>
+        <guid>https://yorkfish.github.io/review/c/file/08-rewind-fseek-ftell/</guid>
         <description>1. rewind 简介 使位置指针重新返回文件的开头 此函数没有返回值 作用 文件的位置指针重新定位于开头 feof 的值恢复为 0（假） 2. fseek 简介 对流式文件可以进行顺序读写，</description>
       </item>
       
       <item>
         <title>09. ferror() &amp; clearerr()</title>
-        <link>https://yorkfish.github.io/review/c/file/09_ferror_and_clearerr/</link>
+        <link>https://yorkfish.github.io/review/c/file/09-ferror-and-clearerr/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/file/09_ferror_and_clearerr/</guid>
+        <guid>https://yorkfish.github.io/review/c/file/09-ferror-and-clearerr/</guid>
         <description>1. ferror 简介 除了在 getc, putc, fread, fwrite 等函数出错时有用 还可以主动使用以检查 一般形式 ferror(fp); 说明 若返回值为 0，表示未出错 若返回一个非零值，表示出错 同一个文件每次调用</description>
       </item>
       
       <item>
         <title>10. 小结</title>
-        <link>https://yorkfish.github.io/review/c/file/10_summary/</link>
+        <link>https://yorkfish.github.io/review/c/file/10-summary/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/file/10_summary/</guid>
+        <guid>https://yorkfish.github.io/review/c/file/10-summary/</guid>
         <description>分类 函数名 功能 打开文件 fopen() 打开文件 关闭文件 fclose() 关闭文件 文件定位 fseek() 改变文件位置指针的位置 rewind() 使文件位置指针重新至于文件开头 ftell() 返回文件位置指针的当前值</description>
       </item>
       

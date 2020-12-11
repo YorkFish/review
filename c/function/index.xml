@@ -16,109 +16,109 @@
       
       <item>
         <title>01. 函数概述</title>
-        <link>https://yorkfish.github.io/review/c/function/01_overview/</link>
+        <link>https://yorkfish.github.io/review/c/function/01-overview/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/function/01_overview/</guid>
+        <guid>https://yorkfish.github.io/review/c/function/01-overview/</guid>
         <description>1. 简介 一个 C 程序由一个或多个程序模块组成 每个程序模块作为一个源程序文件 一个源程序文件由一个或多个函数以及其他有关内容（如命令行、数据定义等）</description>
       </item>
       
       <item>
         <title>02. 函数定义</title>
-        <link>https://yorkfish.github.io/review/c/function/02_general_form/</link>
+        <link>https://yorkfish.github.io/review/c/function/02-general-form/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/function/02_general_form/</guid>
+        <guid>https://yorkfish.github.io/review/c/function/02-general-form/</guid>
         <description>1. 默认类型 如果在定义函数时不指定函数类型，系统会隐含指定函数类型为 int 不推荐这样做 2. 空函数 形式 1 2 void dummy() { } 调用此函数时，什么工作也不做，没有任</description>
       </item>
       
       <item>
         <title>03. 函数的参数与返回值</title>
-        <link>https://yorkfish.github.io/review/c/function/03_params_and_ret_values/</link>
+        <link>https://yorkfish.github.io/review/c/function/03-params-and-return-vals/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/function/03_params_and_ret_values/</guid>
+        <guid>https://yorkfish.github.io/review/c/function/03-params-and-return-vals/</guid>
         <description>1. 形参 形参，在未出现函数调用时，它们并不占内存中的存储单元 只有在发生函数调用时，形参才被分配内存单元 在调用结束后，形参所占的内存空间也被释放</description>
       </item>
       
       <item>
         <title>04. 函数的调用</title>
-        <link>https://yorkfish.github.io/review/c/function/04_function_call/</link>
+        <link>https://yorkfish.github.io/review/c/function/04-function-call/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/function/04_function_call/</guid>
+        <guid>https://yorkfish.github.io/review/c/function/04-function-call/</guid>
         <description>1. 多个实参的求值顺序 有的编译器自右向左 有的编译器自左向右 应当避免这种容易混淆的用法 2. 编译器的检查 只检查参数个数和参数类型，而不检查参数名 对形</description>
       </item>
       
       <item>
         <title>05. 全局变量与局部变量</title>
-        <link>https://yorkfish.github.io/review/c/function/05_global_var_and_local_var/</link>
+        <link>https://yorkfish.github.io/review/c/function/05-global-var-and-local-var/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/function/05_global_var_and_local_var/</guid>
+        <guid>https://yorkfish.github.io/review/c/function/05-global-var-and-local-var/</guid>
         <description>1. 全局变量 全局变量“管”的是它定义之下的语句 不在必要时，不要使用全局变量 全局变量使用过多，会降低程序的清晰性 2. 局部变量 在同一个源文件中，若外</description>
       </item>
       
       <item>
         <title>06. 变量的存储类别</title>
-        <link>https://yorkfish.github.io/review/c/function/06_storage_category_of_var/</link>
+        <link>https://yorkfish.github.io/review/c/function/06-storage-category-of-var/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/function/06_storage_category_of_var/</guid>
+        <guid>https://yorkfish.github.io/review/c/function/06-storage-category-of-var/</guid>
         <description>1. 两种角度 从变量的作用域（空间）角度来分 全局变量 局部变量 从变量值存在的时间（生存期）角度来分 静态存储方式 动态存储方式 2. 结构 用户区 ----------- | 程序区 |</description>
       </item>
       
       <item>
         <title>07. auto</title>
-        <link>https://yorkfish.github.io/review/c/function/07_auto/</link>
+        <link>https://yorkfish.github.io/review/c/function/07-auto/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/function/07_auto/</guid>
-        <description>1. 关键字 auto 2. 说明 “自动变量”是函数中的局部变量 关键字可以省略，若省略，则隐含确定为“自动存储类别” 属于动态存储方式，数据存储在动态存储区中 如</description>
+        <guid>https://yorkfish.github.io/review/c/function/07-auto/</guid>
+        <description>1. 关键字 auto 2. 说明 “自动变量”是函数中的局部变量，和 C++ 中的 auto 是两码事 关键字可以省略，若省略，则隐含确定为“自动存储类别” 属于动态存储方式，数据</description>
       </item>
       
       <item>
         <title>08. static</title>
-        <link>https://yorkfish.github.io/review/c/function/08_static/</link>
+        <link>https://yorkfish.github.io/review/c/function/08-static/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/function/08_static/</guid>
-        <description>1. 关键字 static 2. 说明 若希望函数中的局部变量在函数调用结束后继续存在，即其占用的存储单元不释放，需要用到静态局部变量 若之前调用过静态局部变量，则使</description>
+        <guid>https://yorkfish.github.io/review/c/function/08-static/</guid>
+        <description>1. 关键字 static 2. 说明 若希望函数中的局部变量在函数调用结束后继续存在，即其占用的存储单元不释放，需使用静态局部变量 若之前调用过静态局部变量，则使用</description>
       </item>
       
       <item>
         <title>09. register</title>
-        <link>https://yorkfish.github.io/review/c/function/09_register/</link>
+        <link>https://yorkfish.github.io/review/c/function/09-register/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/function/09_register/</guid>
-        <description>1. 结论 实际上，用 register 声明变量是不必要的 如今优化的编译系统能够识别频繁的变量，从而自动地将这些变量放在寄存器中 2. 了解 由于对寄存器的存取速度远高于</description>
+        <guid>https://yorkfish.github.io/review/c/function/09-register/</guid>
+        <description>1. 结论 实际上，用 register 声明变量是不必要的 如今优化的编译系统能够识别频繁的变量，从而自动地将这些变量放在寄存器中 同理，若非习惯，没必要刻意把 for 中的</description>
       </item>
       
       <item>
         <title>10. extern</title>
-        <link>https://yorkfish.github.io/review/c/function/10_extern/</link>
+        <link>https://yorkfish.github.io/review/c/function/10-extern/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/function/10_extern/</guid>
+        <guid>https://yorkfish.github.io/review/c/function/10-extern/</guid>
         <description>1. 声明外部变量 一般的做法：将外部变量的定义放在引用它的所有函数之前 类型名可写可不写 写：extern int A, B; 不写：extern A, B;，会有 warning 2. 编</description>
       </item>
       
       <item>
         <title>11. 变量的声明与定义</title>
-        <link>https://yorkfish.github.io/review/c/function/11_declaration_and_definition/</link>
+        <link>https://yorkfish.github.io/review/c/function/11-declaration-and-definition/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/function/11_declaration_and_definition/</guid>
+        <guid>https://yorkfish.github.io/review/c/function/11-declaration-and-definition/</guid>
         <description>1. 简介 组成 一个函数一般由两部分组成 声明部分 执行语句 声明与定义 函数的声明是函数的原型 函数的定义是函数的本身 int a; 既是声明，也是定义 extern a; 是声明，但</description>
       </item>
       
       <item>
         <title>12. 内部函数和外部函数</title>
-        <link>https://yorkfish.github.io/review/c/function/12_internal_and_external_functions/</link>
+        <link>https://yorkfish.github.io/review/c/function/12-internal-and-external-functions/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/function/12_internal_and_external_functions/</guid>
+        <guid>https://yorkfish.github.io/review/c/function/12-internal-and-external-functions/</guid>
         <description>1. 内部函数 如果一个函数只能被本文件中其他函数所调用，它称为内部函数 在定义内部函数时，在函数名和函数类型的前面加 static，即 static 类型标识符 函</description>
       </item>
       

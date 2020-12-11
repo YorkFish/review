@@ -16,46 +16,46 @@
       
       <item>
         <title>01. array</title>
-        <link>https://yorkfish.github.io/review/python/module/01_array/</link>
+        <link>https://yorkfish.github.io/review/python/module/01-array/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/module/01_array/</guid>
+        <guid>https://yorkfish.github.io/review/python/module/01-array/</guid>
         <description>官方文档：&amp;gt;&amp;gt;&amp;gt; 传送门 1. 类型表 Type Code C Type Python Type Minimum size (bytes) b signed char int 1 B unsigned char int 1 u Py_UNICODE Unicode character; deprecated since Python 3.3 2 h signed short int 2 H unsigned short int 2 i signed int int 2 I unsigned int</description>
       </item>
       
       <item>
         <title>02. random</title>
-        <link>https://yorkfish.github.io/review/python/module/02_random/</link>
+        <link>https://yorkfish.github.io/review/python/module/02-random/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/module/02_random/</guid>
+        <guid>https://yorkfish.github.io/review/python/module/02-random/</guid>
         <description>例一 随机数 1 2 3 4 5 6 7 8 9 10 11 12 13 &amp;gt;&amp;gt;&amp;gt; import random &amp;gt;&amp;gt;&amp;gt; random.random() # [0, 1.0) 0.010390541410120413 &amp;gt;&amp;gt;&amp;gt; &amp;gt;&amp;gt;&amp;gt; random.uniform(1, 10) # [1.0, 10.0) 2.2700210248026065 &amp;gt;&amp;gt;&amp;gt; &amp;gt;&amp;gt;&amp;gt; random.randrange(1, 10) # [1, 10) 3 &amp;gt;&amp;gt;&amp;gt; &amp;gt;&amp;gt;&amp;gt; random.randint(1, 10) # [1, 10] 8 &amp;gt;&amp;gt;&amp;gt; ps randint 其实是调用 randrange 1 2 def randint(self, a, b): return self.randrange(a, b+1) 例</description>
       </item>
       
       <item>
         <title>03. reduce</title>
-        <link>https://yorkfish.github.io/review/python/module/03_reduce/</link>
+        <link>https://yorkfish.github.io/review/python/module/03-reduce/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/module/03_reduce/</guid>
+        <guid>https://yorkfish.github.io/review/python/module/03-reduce/</guid>
         <description>1. 简介 Python3 要使用 reduce 需要从 functools 导入 reduce: 规约，可以使各元素按顺序进行计算，每次计算结果会参与到下次计算中 2. 举例 1 2 3 4 5 6 7 8 &amp;gt;&amp;gt;&amp;gt; from functools import reduce &amp;gt;&amp;gt;&amp;gt; def mul(a, b): ... return a</description>
       </item>
       
       <item>
         <title>04. typing</title>
-        <link>https://yorkfish.github.io/review/python/module/04_typing/</link>
+        <link>https://yorkfish.github.io/review/python/module/04-typing/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/module/04_typing/</guid>
+        <guid>https://yorkfish.github.io/review/python/module/04-typing/</guid>
         <description>1. 说明 因为 Python 的变量是动态的，所以不能真正像 C, Java 那样对函数的参数类型进行严格定义 Python 3.6 以后有了类型提示 列表、字典等，需要导入 typing 模块 2. 举例 例一 1 2</description>
       </item>
       
       <item>
         <title>05. others</title>
-        <link>https://yorkfish.github.io/review/python/module/05_others/</link>
+        <link>https://yorkfish.github.io/review/python/module/05-others/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/module/05_others/</guid>
+        <guid>https://yorkfish.github.io/review/python/module/05-others/</guid>
         <description>1. 说明 之前做 Python Challenge，对用到的“库”做过总结 另一个博客：&amp;gt;&amp;gt;&amp;gt;传送门 2. 预览 base64 binascii bz2 collections datetime diffflib email gzip hashlib os pickle Pillow re requests struct this urlib wave</description>
       </item>
       

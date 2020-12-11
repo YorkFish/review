@@ -16,91 +16,91 @@
       
       <item>
         <title>01. preview</title>
-        <link>https://yorkfish.github.io/review/python/multiprocessing/01_preview/</link>
+        <link>https://yorkfish.github.io/review/python/multiprocessing/01-preview/</link>
         <pubDate>Sat, 10 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/multiprocessing/01_preview/</guid>
+        <guid>https://yorkfish.github.io/review/python/multiprocessing/01-preview/</guid>
         <description>线程替代方案 subprocess 完全跳过线程，使用进程 是派生进程的主要替代方案 Python 2.4 后引入 multiprocessiong 使用 threadiing 接口派生，使用子进程 允许为多核或者多 CPU 派生进程，接口跟 threading 非常相</description>
       </item>
       
       <item>
         <title>02. create</title>
-        <link>https://yorkfish.github.io/review/python/multiprocessing/02_create/</link>
+        <link>https://yorkfish.github.io/review/python/multiprocessing/02-create/</link>
         <pubDate>Sat, 10 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/multiprocessing/02_create/</guid>
+        <guid>https://yorkfish.github.io/review/python/multiprocessing/02-create/</guid>
         <description>例一 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 import multiprocessing as mp def job(q): res = 0 for i in range(1000): res += i + i**2 + i**3 q.put(res) if __name__ == &amp;#34;__main__&amp;#34;: q = mp.Queue() p1 = mp.Process(target=job, args=(q,)) p2 = mp.Process(target=job, args=(q,)) p1.start() p2.start() p1.join() p2.join() res1 = q.get() res2 = q.get() print(res1</description>
       </item>
       
       <item>
         <title>03. without setting</title>
-        <link>https://yorkfish.github.io/review/python/multiprocessing/03_without_setting/</link>
+        <link>https://yorkfish.github.io/review/python/multiprocessing/03-without-setting/</link>
         <pubDate>Sat, 10 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/multiprocessing/03_without_setting/</guid>
+        <guid>https://yorkfish.github.io/review/python/multiprocessing/03-without-setting/</guid>
         <description>例 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 import multiprocessing import time def work(): for i in range(1, 11): print(i, &amp;#34;working...&amp;#34;) time.sleep(0.2) def main(): work_process = multiprocessing.Process(target=work) work_process.start() time.sleep(1) print(&amp;#34;all done&amp;#34;) if __name__ == &amp;#34;__main__&amp;#34;: main() &amp;gt;&amp;gt;&amp;gt; 1 working... 2 working... 3 working... 4 working... 5 working... all done 6 working... 7 working... 8 working... 9 working... 10</description>
       </item>
       
       <item>
         <title>04. daemon</title>
-        <link>https://yorkfish.github.io/review/python/multiprocessing/04_daemon/</link>
+        <link>https://yorkfish.github.io/review/python/multiprocessing/04-daemon/</link>
         <pubDate>Sat, 10 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/multiprocessing/04_daemon/</guid>
+        <guid>https://yorkfish.github.io/review/python/multiprocessing/04-daemon/</guid>
         <description>例 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 import multiprocessing import time def work(): for i in range(1, 11): print(i, &amp;#34;working...&amp;#34;) time.sleep(0.2) def main(): work_process = multiprocessing.Process(target=work) # 设置守护主进程，主进程结束后，子进程直接销毁，不再执行子</description>
       </item>
       
       <item>
         <title>05. transfer parameters</title>
-        <link>https://yorkfish.github.io/review/python/multiprocessing/05_transfer_parameters/</link>
+        <link>https://yorkfish.github.io/review/python/multiprocessing/05-transfer-parameters/</link>
         <pubDate>Sat, 10 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/multiprocessing/05_transfer_parameters/</guid>
+        <guid>https://yorkfish.github.io/review/python/multiprocessing/05-transfer-parameters/</guid>
         <description>例 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 import multiprocessing import time def sing(num): for i in range(num): print(&amp;#34;singing...&amp;#34;) time.sleep(0.5) def dance(num): for i in range(num): print(&amp;#34;dancing...&amp;#34;) time.sleep(0.5) if __name__ == &amp;#34;__main__&amp;#34;: sing_process = multiprocessing.Process(target=sing, args=(2,)) dance_process = multiprocessing.Process(target=dance, kwargs={&amp;#34;num&amp;#34;: 3}) sing_process.start() dance_process.start() 说明 args 以元组的方式给执行任</description>
       </item>
       
       <item>
         <title>06. efficiency comparison</title>
-        <link>https://yorkfish.github.io/review/python/multiprocessing/06_efficiency_comparison/</link>
+        <link>https://yorkfish.github.io/review/python/multiprocessing/06-efficiency-comparison/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/multiprocessing/06_efficiency_comparison/</guid>
+        <guid>https://yorkfish.github.io/review/python/multiprocessing/06-efficiency-comparison/</guid>
         <description>例 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 import multiprocessing as mp import threading as td import time def</description>
       </item>
       
       <item>
         <title>07. Queue</title>
-        <link>https://yorkfish.github.io/review/python/multiprocessing/07_queue/</link>
+        <link>https://yorkfish.github.io/review/python/multiprocessing/07-queue/</link>
         <pubDate>Sat, 10 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/multiprocessing/07_queue/</guid>
+        <guid>https://yorkfish.github.io/review/python/multiprocessing/07-queue/</guid>
         <description>例一 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 import multiprocessing def consumer(input_q): print(&amp;#34;Into consumer&amp;#34;) while True: item = input_q.get() # 处理项 print(&amp;#34;pull&amp;#34;, item, &amp;#34;out of queue&amp;#34;) # 此处替换为有用的工作 input_q.task_done() # 发出信</description>
       </item>
       
       <item>
         <title>08. pid</title>
-        <link>https://yorkfish.github.io/review/python/multiprocessing/08_pid/</link>
+        <link>https://yorkfish.github.io/review/python/multiprocessing/08-pid/</link>
         <pubDate>Sat, 10 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/multiprocessing/08_pid/</guid>
+        <guid>https://yorkfish.github.io/review/python/multiprocessing/08-pid/</guid>
         <description>例 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 import multiprocessing as mp import os import time def sing(num, name): print(&amp;#34;唱歌进程的 pid：&amp;#34;, os.getpid()) pri</description>
       </item>
       
       <item>
         <title>09. pool</title>
-        <link>https://yorkfish.github.io/review/python/multiprocessing/09_pool/</link>
+        <link>https://yorkfish.github.io/review/python/multiprocessing/09-pool/</link>
         <pubDate>Sat, 10 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/multiprocessing/09_pool/</guid>
+        <guid>https://yorkfish.github.io/review/python/multiprocessing/09-pool/</guid>
         <description>例 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 import multiprocessing def job(x): return x*x def multi_core(): pool = multiprocessing.Pool(processes=2) # 若不加参数，默认使用所有的核 res = pool.map(job, range(10)) print(res) if __name__ == &amp;#34;__main__&amp;#34;: multi_core() &amp;gt;&amp;gt;&amp;gt; [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]</description>
       </item>
       
       <item>
         <title>10. lock</title>
-        <link>https://yorkfish.github.io/review/python/multiprocessing/10_lock/</link>
+        <link>https://yorkfish.github.io/review/python/multiprocessing/10-lock/</link>
         <pubDate>Sat, 10 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/multiprocessing/10_lock/</guid>
+        <guid>https://yorkfish.github.io/review/python/multiprocessing/10-lock/</guid>
         <description>例一 数据类型 1 2 3 4 5 import multiprocessing as mp # 简单列举两项 value = mp.Value(&amp;#39;d&amp;#39;, 1) array = mp.Array(&amp;#39;i&amp;#39;, [1, 2, 3]) 例二 未加锁 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 import multiprocessing as mp import time def job(v, num): for _</description>
       </item>
       

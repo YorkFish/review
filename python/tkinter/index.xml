@@ -16,127 +16,127 @@
       
       <item>
         <title>01. window</title>
-        <link>https://yorkfish.github.io/review/python/tkinter/01_window/</link>
+        <link>https://yorkfish.github.io/review/python/tkinter/01-window/</link>
         <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/tkinter/01_window/</guid>
+        <guid>https://yorkfish.github.io/review/python/tkinter/01-window/</guid>
         <description>1. 最简易的窗口 1 2 3 4 import tkinter as tk window = tk.Tk() window.mainloop() ps 默认标题：tk 默认大小：200x200 2. 更多设置 自定义标题内容：window.title(&amp;quot</description>
       </item>
       
       <item>
         <title>02. Label</title>
-        <link>https://yorkfish.github.io/review/python/tkinter/02_label/</link>
+        <link>https://yorkfish.github.io/review/python/tkinter/02-label/</link>
         <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/tkinter/02_label/</guid>
+        <guid>https://yorkfish.github.io/review/python/tkinter/02-label/</guid>
         <description>1. 准备一个简易窗口 1 2 3 4 5 6 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x200&amp;#34;) window.mainloop() 2. 添加一个 label 1 2 3 l = tk.Label(window, text=&amp;#34;This is Label!&amp;#34;, bg=&amp;#34;green&amp;#34;, font=(&amp;#34;Consolas&amp;#34;, 16), width=20, height=2) l.pack() ps 一般地，tkinter 的 width, height 的单位是“字符” 3.</description>
       </item>
       
       <item>
         <title>03. Button</title>
-        <link>https://yorkfish.github.io/review/python/tkinter/03_button/</link>
+        <link>https://yorkfish.github.io/review/python/tkinter/03-button/</link>
         <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/tkinter/03_button/</guid>
+        <guid>https://yorkfish.github.io/review/python/tkinter/03-button/</guid>
         <description>1. 准备一个简易窗口 1 2 3 4 5 6 7 8 9 10 11 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x200&amp;#34;) string = tk.StringVar() string.set(&amp;#34;This is Label!&amp;#34;) l = tk.Label(window, textvariable=string, bg=&amp;#34;green&amp;#34;, font=(&amp;#34;Consolas&amp;#34;, 16), width=20, height=2) l.pack() window.mainloop() 2. 添加一个 button 1 2 3 b = tk.Button(window, text=&amp;#34;hit me&amp;#34;, bg=&amp;#34;white&amp;#34;, font=(&amp;#34;Arial&amp;#34;, 12), width=10, height=2, command=hit_me) b.pack() 3. hit_me 方</description>
       </item>
       
       <item>
         <title>04. Text</title>
-        <link>https://yorkfish.github.io/review/python/tkinter/04_text/</link>
+        <link>https://yorkfish.github.io/review/python/tkinter/04-text/</link>
         <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/tkinter/04_text/</guid>
+        <guid>https://yorkfish.github.io/review/python/tkinter/04-text/</guid>
         <description>1. 准备一个简易窗口 1 2 3 4 5 6 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x200&amp;#34;) window.mainloop() 2. 添加一个 Text 1 2 t = tk.Text(window, height=2) t.pack() 3. insert 文字 insert 到光标后：t.insert(&amp;quot;insert&amp;</description>
       </item>
       
       <item>
         <title>05. Entry</title>
-        <link>https://yorkfish.github.io/review/python/tkinter/05_entry/</link>
+        <link>https://yorkfish.github.io/review/python/tkinter/05-entry/</link>
         <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/tkinter/05_entry/</guid>
+        <guid>https://yorkfish.github.io/review/python/tkinter/05-entry/</guid>
         <description>1. 准备一个简易窗口 1 2 3 4 5 6 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x200&amp;#34;) window.mainloop() 2. 添加三个 entry 1 2 3 4 5 6 e1 = tk.Entry(window, font=(&amp;#34;Consolas&amp;#34;, 20), show=None) # 显示 e2 = tk.Entry(window, font=(&amp;#34;Consolas&amp;#34;, 20), show=&amp;#39;*&amp;#39;) # 隐藏 e3 = tk.Entry(window, font=(&amp;#34;Consolas&amp;#34;, 20), show=&amp;#39;1&amp;#39;) # 恶搞 e1.pack() e2.pack() e3.pack() 3. 获取</description>
       </item>
       
       <item>
         <title>06. Listbox</title>
-        <link>https://yorkfish.github.io/review/python/tkinter/06_listbox/</link>
+        <link>https://yorkfish.github.io/review/python/tkinter/06-listbox/</link>
         <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/tkinter/06_listbox/</guid>
+        <guid>https://yorkfish.github.io/review/python/tkinter/06-listbox/</guid>
         <description>1. 准备一个简易窗口 1 2 3 4 5 6 7 8 9 10 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x400&amp;#34;) str1 = tk.StringVar() l = tk.Label(window, textvariable=str1, bg=&amp;#34;yellow&amp;#34;, font=(&amp;#34;Consolas&amp;#34;, 20), width=10, height=2) l.pack() window.mainloop() 2. 添加一个 listbox 1 2 3 4 string = tk.StringVar() string.set((11, 22, 33, 44)) lb = tk.Listbox(window, listvariable=string) lb.pack() 3. insert 内容 1 2</description>
       </item>
       
       <item>
         <title>07. Radiobutton</title>
-        <link>https://yorkfish.github.io/review/python/tkinter/07_radiobutton/</link>
+        <link>https://yorkfish.github.io/review/python/tkinter/07-radiobutton/</link>
         <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/tkinter/07_radiobutton/</guid>
+        <guid>https://yorkfish.github.io/review/python/tkinter/07-radiobutton/</guid>
         <description>1. 准备一个简易窗口 1 2 3 4 5 6 7 8 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x200&amp;#34;) l = tk.Label(window, text=&amp;#34;empty&amp;#34;, bg=&amp;#34;yellow&amp;#34;, width=20, height=2) l.pack() window.mainloop() 2. 添加一个 radiobutton 1 2 3 4 5 6 7 8 9 10 string = tk.StringVar() def print_selection(): l.config(text=&amp;#34;you have selected &amp;#34; + string.get()) r = tk.Radiobutton(window, text=&amp;#34;Option A&amp;#34;, variable=string, value=&amp;#39;A&amp;#39;, font=(&amp;#34;Consolas&amp;#34;,</description>
       </item>
       
       <item>
         <title>08. Scale</title>
-        <link>https://yorkfish.github.io/review/python/tkinter/08_scale/</link>
+        <link>https://yorkfish.github.io/review/python/tkinter/08-scale/</link>
         <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/tkinter/08_scale/</guid>
+        <guid>https://yorkfish.github.io/review/python/tkinter/08-scale/</guid>
         <description>1. 准备一个简易窗口 1 2 3 4 5 6 7 8 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x200&amp;#34;) l = tk.Label(window, text=&amp;#34;empty&amp;#34;, bg=&amp;#34;yellow&amp;#34;, width=30, height=2) l.pack() window.mainloop() 2. 添加一个 scale 1 2 3 4 5 6 7 8 9 def print_selection(v): l.config(text=&amp;#34;you have selected &amp;#34; + v) s = tk.Scale(window, label=&amp;#34;try me&amp;#34;, orient=&amp;#39;horizontal&amp;#39;, from_=0, to=10, length=400, showvalue=0, tickinterval=2, resolution=0.01,</description>
       </item>
       
       <item>
         <title>09. Checkbutton</title>
-        <link>https://yorkfish.github.io/review/python/tkinter/09_checkbutton/</link>
+        <link>https://yorkfish.github.io/review/python/tkinter/09-checkbutton/</link>
         <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/tkinter/09_checkbutton/</guid>
+        <guid>https://yorkfish.github.io/review/python/tkinter/09-checkbutton/</guid>
         <description>1. 准备一个简易窗口 1 2 3 4 5 6 7 8 9 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x200&amp;#34;) l = tk.Label(window, text=&amp;#34;empty&amp;#34;, bg=&amp;#34;yellow&amp;#34;, font=(&amp;#34;Consolas&amp;#34;, 18), width=20) l.pack() window.mainloop() 2. 添加两个 checkbutton 1 2 3 4 5 6 7 8 9 10 var1 = tk.BooleanVar() var2 = tk.BooleanVar() c1 = tk.Checkbutton(window, text=&amp;#34;C &amp;#34;, font=(&amp;#34;Consolas&amp;#34;, 16), # 对齐~</description>
       </item>
       
       <item>
         <title>10. Canvas</title>
-        <link>https://yorkfish.github.io/review/python/tkinter/10_canvas/</link>
+        <link>https://yorkfish.github.io/review/python/tkinter/10-canvas/</link>
         <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/tkinter/10_canvas/</guid>
+        <guid>https://yorkfish.github.io/review/python/tkinter/10-canvas/</guid>
         <description>1. 准备一个简易窗口 1 2 3 4 5 6 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;500x300&amp;#34;) window.mainloop() 2. 添加一个 canvas 1 2 3 canvas = tk.Canvas(window, bg=&amp;#34;gray&amp;#34;, width=500, height=250) # ... canvas.pack() 3. 添加图片 1 2 image_file = tk.PhotoImage(file=&amp;#34;test.png&amp;#34;) image = canvas.create_image(0, 0, anchor=&amp;#34;nw&amp;#34;, image=image_file) ps Python 3.8 的 tkinter 支持 PGM, PPM, GIF, PNG</description>
       </item>
       
       <item>
         <title>11. Menu</title>
-        <link>https://yorkfish.github.io/review/python/tkinter/11_menu/</link>
+        <link>https://yorkfish.github.io/review/python/tkinter/11-menu/</link>
         <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/tkinter/11_menu/</guid>
+        <guid>https://yorkfish.github.io/review/python/tkinter/11-menu/</guid>
         <description>1. 准备一个简易窗口 1 2 3 4 5 6 7 8 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x200&amp;#34;) l = tk.Label(window, text=&amp;#34;do 0&amp;#34;, bg=&amp;#34;yellow&amp;#34;) l.pack() window.mainloop() 2. 添加 menubar 1 2 3 4 5 menubar = tk.Menu(window) filemenu = tk.Menu(menubar, tearoff=0) menubar.add_cascade(label=&amp;#34;File&amp;#34;, menu=filemenu, underline=1) filemenu.add_command(label=&amp;#34;New&amp;#34;, command=do_job) window.config(menu=menubar) # 将 window 的 menu 设置为自定义的 menubar ps</description>
       </item>
       
       <item>
         <title>12. Frame</title>
-        <link>https://yorkfish.github.io/review/python/tkinter/12_frame/</link>
+        <link>https://yorkfish.github.io/review/python/tkinter/12-frame/</link>
         <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/tkinter/12_frame/</guid>
+        <guid>https://yorkfish.github.io/review/python/tkinter/12-frame/</guid>
         <description>1. 准备一个简易窗口 1 2 3 4 5 6 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x200&amp;#34;) window.mainloop() 2. 定义主 frame 1 2 frm = tk.Frame(window) frm.pack() 3. 定义左 frame 1 2 frm_l = tk.Frame(frm) frm_l.pack(side=&amp;#34;left&amp;#34;) frm_r 同理 4. 在左 frame 上添加 label 1 tk.Label(frm_l, text=&amp;#34;on the frm_l1&amp;#34;).pack() frm_r 同理 1 2 3 4</description>
       </item>
       
       <item>
         <title>13. Massagebox</title>
-        <link>https://yorkfish.github.io/review/python/tkinter/13_massagebox/</link>
+        <link>https://yorkfish.github.io/review/python/tkinter/13-massagebox/</link>
         <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/tkinter/13_massagebox/</guid>
+        <guid>https://yorkfish.github.io/review/python/tkinter/13-massagebox/</guid>
         <description>1. 准备一个简易窗口 1 2 3 4 5 6 7 import tkinter as tk import tkinter.messagebox # messagebox 需要另外导入 window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x200&amp;#34;) window.mainloop() 2. 添加一个 button 并关联弹窗 1 2 3 4 5 def hit_me(): tk.messagebox.showinfo(title=&amp;#34;showinfo&amp;#34;, message=&amp;#34;This is showinfo.&amp;#34;) tk.Button(window, text=&amp;#34;hit me&amp;#34;, command=hit_me).pack() &amp;gt;&amp;gt;&amp;gt; ps: 有声音，与更</description>
       </item>
       
       <item>
         <title>14. pack &amp; grid &amp; place</title>
-        <link>https://yorkfish.github.io/review/python/tkinter/14_pack_grid_place/</link>
+        <link>https://yorkfish.github.io/review/python/tkinter/14-pack-grid-place/</link>
         <pubDate>Sun, 04 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/tkinter/14_pack_grid_place/</guid>
+        <guid>https://yorkfish.github.io/review/python/tkinter/14-pack-grid-place/</guid>
         <description>1. 准备一个简易窗口 1 2 3 4 5 6 import tkinter as tk window = tk.Tk() window.title(&amp;#34;YorkFish&amp;#34;) window.geometry(&amp;#34;300x200&amp;#34;) window.mainloop() 2. pack 1 tk.Label(window, text=1).pack(side=&amp;#34;top&amp;#34;) ps: 除了 top，还有 bottom, left, right 3. grid 简单地说，就是按照格子摆放 1 2 3 for i in range(3): for j in range(4): tk.Label(window, text=1).grid(row=i,</description>
       </item>
       

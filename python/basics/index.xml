@@ -16,181 +16,181 @@
       
       <item>
         <title>01. add, or, &amp;, |</title>
-        <link>https://yorkfish.github.io/review/python/basics/01_and-or/</link>
+        <link>https://yorkfish.github.io/review/python/basics/01-and-or/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/basics/01_and-or/</guid>
+        <guid>https://yorkfish.github.io/review/python/basics/01-and-or/</guid>
         <description>1. 两组运算符 and, or &amp;amp;, | 2. 四种情况 情况一 当运算对象（本质）为 True, False 时，两组运算符没有差别 1 2 3 4 5 &amp;gt;&amp;gt;&amp;gt; 1&amp;lt;2 and 3&amp;lt;4 True &amp;gt;&amp;gt;&amp;gt; 1&amp;lt;2 &amp;amp; 3&amp;lt;4 True &amp;gt;&amp;gt;&amp;gt; 情况二 当运算对象为数值变量</description>
       </item>
       
       <item>
         <title>02. arg, args, kwargs</title>
-        <link>https://yorkfish.github.io/review/python/basics/02_arg_args_kwargs/</link>
+        <link>https://yorkfish.github.io/review/python/basics/02-arg-args-kwargs/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/basics/02_arg_args_kwargs/</guid>
+        <guid>https://yorkfish.github.io/review/python/basics/02-arg-args-kwargs/</guid>
         <description>1. 说明 若函数形如 test(arg, *args, **kwargs)，则 arg: 接收第一个参数 args: 若有，凑成元组 kwargs: 若有，凑成字典 2. 举例 1 2 3 4 5 def test(arg, *args, **kwargs): print(f&amp;#34;{arg=}, {args=}, {kwargs=}&amp;#34;) test(1, 2, student=&amp;#34;Tom&amp;#34;, teacher=&amp;#34;Jerry&amp;#34;) &amp;gt;&amp;gt;&amp;gt; arg=1, args=(2,), kwargs={&#39;student&#39;: &#39;Tom&#39;, &#39;teacher&#39;:</description>
       </item>
       
       <item>
         <title>03. compare</title>
-        <link>https://yorkfish.github.io/review/python/basics/03_compare/</link>
+        <link>https://yorkfish.github.io/review/python/basics/03-compare/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/basics/03_compare/</guid>
+        <guid>https://yorkfish.github.io/review/python/basics/03-compare/</guid>
         <description>1. 说明 a &amp;lt; b &amp;lt; c &amp;lt; ... &amp;lt; n-1 &amp;lt; n 会被转换为 a &amp;lt; b and b &amp;lt; c and ... and n-1 &amp;lt; n 若 a &amp;lt; b 为 False，则后面内容会被短路 a &amp;lt; b &amp;gt; c 也是合法的 2. 举例 1 2 3 4 5</description>
       </item>
       
       <item>
         <title>04. equal</title>
-        <link>https://yorkfish.github.io/review/python/basics/04_equal/</link>
+        <link>https://yorkfish.github.io/review/python/basics/04-equal/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/basics/04_equal/</guid>
+        <guid>https://yorkfish.github.io/review/python/basics/04-equal/</guid>
         <description>例一 不同类型的数值，只要大小相等，Python 就认为它们相等 1 2 3 4 5 6 7 8 9 10 &amp;gt;&amp;gt;&amp;gt; a = 1 &amp;gt;&amp;gt;&amp;gt; b = 1.0 &amp;gt;&amp;gt;&amp;gt; a == b True &amp;gt;&amp;gt;&amp;gt; &amp;gt;&amp;gt;&amp;gt; a = [1, 2] &amp;gt;&amp;gt;&amp;gt; b = [1.0, 2.0] &amp;gt;&amp;gt;&amp;gt; a == b True &amp;gt;&amp;gt;&amp;gt;</description>
       </item>
       
       <item>
         <title>05. for-else</title>
-        <link>https://yorkfish.github.io/review/python/basics/05_for_else/</link>
+        <link>https://yorkfish.github.io/review/python/basics/05-for-else/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/basics/05_for_else/</guid>
+        <guid>https://yorkfish.github.io/review/python/basics/05-for-else/</guid>
         <description>1. 说明 与 for 对应的 else 只有完整地走完 for 后才生效 2. 举例 1 2 3 4 5 6 7 8 9 10 11 12 def find_num(lst, num): for i in lst: if i == num: print(&amp;#34;found&amp;#34;, num) break else: print(&amp;#34;not found&amp;#34;, num) lst = [1, 2, 3, 4, 5] find_num(lst, 3) find_num(lst, 6) &amp;gt;&amp;gt;&amp;gt; found 3 not found</description>
       </item>
       
       <item>
         <title>06. format</title>
-        <link>https://yorkfish.github.io/review/python/basics/06_format/</link>
+        <link>https://yorkfish.github.io/review/python/basics/06-format/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/basics/06_format/</guid>
+        <guid>https://yorkfish.github.io/review/python/basics/06-format/</guid>
         <description>1. 说明 有人喜欢 &#39;%s %s&#39; % (&#39;one&#39;, &#39;two&#39;) 的形式 有人喜欢 &#39;{} {}&#39;.format(1, 2) 的形式 于是 Python 保留了两种形式 3.6 之后，增加了 f-string 3.8 之后，f-string 增加了 f&#39;{expr=}&#39; 2. 简介 要详细了解，还得</description>
       </item>
       
       <item>
         <title>07. function arguments</title>
-        <link>https://yorkfish.github.io/review/python/basics/07_function_arguments/</link>
+        <link>https://yorkfish.github.io/review/python/basics/07-function-arguments/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/basics/07_function_arguments/</guid>
+        <guid>https://yorkfish.github.io/review/python/basics/07-function-arguments/</guid>
         <description>1. 说明 与另的语言不同，Python 的函数可以很多参数 参数多了，可读性会降低 Python 3.8 之后的两个符号 /: 此符号之前的参数必须是位置参数 *: 此符号之后的参</description>
       </item>
       
       <item>
         <title>08. generator</title>
-        <link>https://yorkfish.github.io/review/python/basics/08_generator/</link>
+        <link>https://yorkfish.github.io/review/python/basics/08-generator/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/basics/08_generator/</guid>
+        <guid>https://yorkfish.github.io/review/python/basics/08-generator/</guid>
         <description>1. 简介 列表、集合、字典可以用生成式快速生成 2. 举例 1 2 3 4 5 6 7 8 9 &amp;gt;&amp;gt;&amp;gt; [i for i in range(10)] [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] &amp;gt;&amp;gt;&amp;gt; &amp;gt;&amp;gt;&amp;gt; {s for s in range(10)} {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} &amp;gt;&amp;gt;&amp;gt; &amp;gt;&amp;gt;&amp;gt; {d: d%2==0</description>
       </item>
       
       <item>
         <title>09. help</title>
-        <link>https://yorkfish.github.io/review/python/basics/09_help/</link>
+        <link>https://yorkfish.github.io/review/python/basics/09-help/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/basics/09_help/</guid>
+        <guid>https://yorkfish.github.io/review/python/basics/09-help/</guid>
         <description>1. 简介 help() 可以查看开发者对于“模块、函数、类”所编写的详细描述文档 2. 说明 例一 1 2 3 4 5 6 7 8 &amp;#34;&amp;#34;&amp;#34; This module is for explain &amp;#34;help()&amp;#34;. help 函数可以查看开发者对于“模块、函数</description>
       </item>
       
       <item>
         <title>10. import</title>
-        <link>https://yorkfish.github.io/review/python/basics/10_import/</link>
+        <link>https://yorkfish.github.io/review/python/basics/10-import/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/basics/10_import/</guid>
+        <guid>https://yorkfish.github.io/review/python/basics/10-import/</guid>
         <description>例一 导入时避免使用相对路径 文件结构 D:\test prints.py import_issue.py import_issue.py 1 from .prints import * 运行结果 ... ImportError: attempted relative import with no known parent package ... 说明 . 所表示的根路径也是 &#39;__main__&#39; 的值 在入口文件中，应该避免使用相</description>
       </item>
       
       <item>
         <title>11. lambda</title>
-        <link>https://yorkfish.github.io/review/python/basics/11_lambda/</link>
+        <link>https://yorkfish.github.io/review/python/basics/11-lambda/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/basics/11_lambda/</guid>
+        <guid>https://yorkfish.github.io/review/python/basics/11-lambda/</guid>
         <description>例一 平方 1 2 3 4 &amp;gt;&amp;gt;&amp;gt; a = lambda x: x ** 2 &amp;gt;&amp;gt;&amp;gt; a(3) 9 &amp;gt;&amp;gt;&amp;gt; 例二 最小值 1 2 3 4 &amp;gt;&amp;gt;&amp;gt; b = lambda x, y: x if x &amp;lt; y else y &amp;gt;&amp;gt;&amp;gt; b(66, 88) 66 &amp;gt;&amp;gt;&amp;gt; 例三 1 2 3 4 5 6 7 8 &amp;gt;&amp;gt;&amp;gt; lst = [lambda x: x.strip(), lambda x: x ** 2] &amp;gt;&amp;gt;&amp;gt; lst</description>
       </item>
       
       <item>
         <title>12. list</title>
-        <link>https://yorkfish.github.io/review/python/basics/12_list/</link>
+        <link>https://yorkfish.github.io/review/python/basics/12-list/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/basics/12_list/</guid>
+        <guid>https://yorkfish.github.io/review/python/basics/12-list/</guid>
         <description>1. copy &amp;amp; deepcopy 例一 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 &amp;gt;&amp;gt;&amp;gt; a = [1, 2, 3] &amp;gt;&amp;gt;&amp;gt; b = a &amp;gt;&amp;gt;&amp;gt; id(a) 2581819681792 &amp;gt;&amp;gt;&amp;gt; id(b) 2581819681792 &amp;gt;&amp;gt;&amp;gt; &amp;gt;&amp;gt;&amp;gt; a[1] = 22 &amp;gt;&amp;gt;&amp;gt; id(a) 2581819681792 &amp;gt;&amp;gt;&amp;gt; id(b) 2581819681792 &amp;gt;&amp;gt;&amp;gt; &amp;gt;&amp;gt;&amp;gt; a = [4, 5, 6] &amp;gt;&amp;gt;&amp;gt; id(a) 2581819678848 &amp;gt;&amp;gt;&amp;gt; id(b) 2581819681792 &amp;gt;&amp;gt;&amp;gt; 例二 1 2</description>
       </item>
       
       <item>
         <title>13. plus</title>
-        <link>https://yorkfish.github.io/review/python/basics/13_plus/</link>
+        <link>https://yorkfish.github.io/review/python/basics/13-plus/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/basics/13_plus/</guid>
+        <guid>https://yorkfish.github.io/review/python/basics/13-plus/</guid>
         <description>1. 举例 例一 加数字 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 &amp;gt;&amp;gt;&amp;gt; a = 1 &amp;gt;&amp;gt;&amp;gt; b = 1 &amp;gt;&amp;gt;&amp;gt; id(a) 140724528887584 &amp;gt;&amp;gt;&amp;gt; a += b &amp;gt;&amp;gt;&amp;gt; id(a) 140724528887616 &amp;gt;&amp;gt;&amp;gt; &amp;gt;&amp;gt;&amp;gt; a = 1 &amp;gt;&amp;gt;&amp;gt; b = 1 &amp;gt;&amp;gt;&amp;gt; id(a) 140724528887584 &amp;gt;&amp;gt;&amp;gt; a = a + b &amp;gt;&amp;gt;&amp;gt; id(a) 140724528887616 &amp;gt;&amp;gt;&amp;gt; ps 数字的相加</description>
       </item>
       
       <item>
         <title>14. set</title>
-        <link>https://yorkfish.github.io/review/python/basics/14_set/</link>
+        <link>https://yorkfish.github.io/review/python/basics/14-set/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/basics/14_set/</guid>
+        <guid>https://yorkfish.github.io/review/python/basics/14-set/</guid>
         <description>1. set 间的运算 1 2 3 4 5 6 7 8 9 10 11 &amp;gt;&amp;gt;&amp;gt; a = {1, 2, 3} &amp;gt;&amp;gt;&amp;gt; b = {2, 3, 4} &amp;gt;&amp;gt;&amp;gt; a &amp;amp; b # intersection {2, 3} &amp;gt;&amp;gt;&amp;gt; a | b # union set {1, 2, 3, 4} &amp;gt;&amp;gt;&amp;gt; a - b {1} &amp;gt;&amp;gt;&amp;gt; a ^ b # difference set {1, 4} &amp;gt;&amp;gt;&amp;gt; 2. list 借助 set 解决</description>
       </item>
       
       <item>
         <title>15. swap</title>
-        <link>https://yorkfish.github.io/review/python/basics/15_swap/</link>
+        <link>https://yorkfish.github.io/review/python/basics/15-swap/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/basics/15_swap/</guid>
+        <guid>https://yorkfish.github.io/review/python/basics/15-swap/</guid>
         <description>例一 C 的话有溢出风险，Python 就不用担心了 1 2 3 4 5 6 7 8 9 10 &amp;gt;&amp;gt;&amp;gt; a = 1 &amp;gt;&amp;gt;&amp;gt; b = 2 &amp;gt;&amp;gt;&amp;gt; a = a + b &amp;gt;&amp;gt;&amp;gt; b = a - b &amp;gt;&amp;gt;&amp;gt; a = a - b &amp;gt;&amp;gt;&amp;gt; a 2 &amp;gt;&amp;gt;&amp;gt; b 1 &amp;gt;&amp;gt;&amp;gt; 例二 1 2</description>
       </item>
       
       <item>
         <title>16. transmit</title>
-        <link>https://yorkfish.github.io/review/python/basics/16_transmit/</link>
+        <link>https://yorkfish.github.io/review/python/basics/16-transmit/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/basics/16_transmit/</guid>
+        <guid>https://yorkfish.github.io/review/python/basics/16-transmit/</guid>
         <description>1. 说明 若参数为不可变对象，如 int, str, tuple 等，采用的是“值传递”，相当于用形参接收参数，不影响原值 若参数为可变对象，如 list, dict 等，采用的是“引用传递”，</description>
       </item>
       
       <item>
         <title>17. try-except-else-finally</title>
-        <link>https://yorkfish.github.io/review/python/basics/17_try-except-else-finally/</link>
+        <link>https://yorkfish.github.io/review/python/basics/17-try-except-else-finally/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/basics/17_try-except-else-finally/</guid>
+        <guid>https://yorkfish.github.io/review/python/basics/17-try-except-else-finally/</guid>
         <description>例一 有点像 switch-case 1 2 3 4 5 6 7 8 9 10 try: a = b except ArithmeticError: print(&amp;#34;ArithmeticError!&amp;#34;) except KeyError: print(&amp;#34;KeyError!&amp;#34;) except TypeError: print(&amp;#34;TypeError!&amp;#34;) except Exception: print(&amp;#34;Some error!&amp;#34;) &amp;gt;&amp;gt;&amp;gt; Some error! 例二 1 2 3 4 try: a = b except Exception as e: print(e) &amp;gt;&amp;gt;&amp;gt; name &#39;b&#39; is not defined 例三 1 2 3 4 5 6 try: a = b except</description>
       </item>
       
       <item>
         <title>18. underscore</title>
-        <link>https://yorkfish.github.io/review/python/basics/18_underscroe/</link>
+        <link>https://yorkfish.github.io/review/python/basics/18-underscroe/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/basics/18_underscroe/</guid>
+        <guid>https://yorkfish.github.io/review/python/basics/18-underscroe/</guid>
         <description>情形一 说明 后置单下划线 撞了关键字，但又懒得想变量名 举例 1 class_ = &amp;#34;101&amp;#34; tkinter.Scale() 的 from_ 参数 情形二 说明 下划线作占位符 少起一个名字 举例 1 a = [[1, 2, 3] for _ in range(10)] 情形三 说</description>
       </item>
       
       <item>
         <title>19. variable</title>
-        <link>https://yorkfish.github.io/review/python/basics/19_variable/</link>
+        <link>https://yorkfish.github.io/review/python/basics/19-variable/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/basics/19_variable/</guid>
+        <guid>https://yorkfish.github.io/review/python/basics/19-variable/</guid>
         <description>1. 全局变量 例一 1 2 3 4 5 6 7 8 9 def test(): global num num = 2 print(&amp;#34;&amp;gt;&amp;gt;&amp;gt; num =&amp;#34;, num) num = 1 test() print(&amp;#34;&amp;lt;&amp;lt;&amp;lt; num =&amp;#34;, num) &amp;gt;&amp;gt;&amp;gt; &amp;gt;&amp;gt;&amp;gt; num = 2 &amp;lt;&amp;lt;&amp;lt; num = 2 例二 1 2 3 4 5 6 7 8 9 10 11 12 13 14 def test(): num = 1 def inside(): global num num</description>
       </item>
       
       <item>
         <title>20. yield</title>
-        <link>https://yorkfish.github.io/review/python/basics/20_yield/</link>
+        <link>https://yorkfish.github.io/review/python/basics/20-yield/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/basics/20_yield/</guid>
+        <guid>https://yorkfish.github.io/review/python/basics/20-yield/</guid>
         <description>1. 说明 属于 generator 有速度优势 协程会用到 2. 举例 公共部分 1 2 3 4 5 6 def fib(num): n, a, b = 0, 0, 1 while n &amp;lt; num: yield b # 相当于挂起；可以看成一种不退出的 return a, b = b, a+b n += 1</description>
       </item>
       

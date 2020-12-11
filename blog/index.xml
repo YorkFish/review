@@ -16,28 +16,28 @@
       
       <item>
         <title>Linux command - time</title>
-        <link>https://yorkfish.github.io/review/blog/05_linux_command_time/</link>
+        <link>https://yorkfish.github.io/review/blog/05-linux-command-time/</link>
         <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://yorkfish.github.io/review/blog/05_linux_command_time/</guid>
+        <guid>https://yorkfish.github.io/review/blog/05-linux-command-time/</guid>
         <description>以 C 为例 格式：time + 可执行文件名 结果：除了可执行文件的运行结果，还有 real, user, sys 三个时间可供查看</description>
       </item>
       
       <item>
         <title>Hugo-zdoc 添加图片</title>
-        <link>https://yorkfish.github.io/review/blog/04_zdoc_add_image/</link>
+        <link>https://yorkfish.github.io/review/blog/04-zdoc-add-image/</link>
         <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://yorkfish.github.io/review/blog/04_zdoc_add_image/</guid>
+        <guid>https://yorkfish.github.io/review/blog/04-zdoc-add-image/</guid>
         <description>&lt;p&gt;有两种方式&lt;/p&gt;</description>
       </item>
       
       <item>
         <title>doc command</title>
-        <link>https://yorkfish.github.io/review/blog/03_dos_command/</link>
+        <link>https://yorkfish.github.io/review/blog/03-dos-command/</link>
         <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://yorkfish.github.io/review/blog/03_dos_command/</guid>
+        <guid>https://yorkfish.github.io/review/blog/03-dos-command/</guid>
         <description>&lt;h2 id=&#34;摘要&#34;&gt;摘要&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;记事本&lt;/li&gt;
@@ -48,10 +48,10 @@
       
       <item>
         <title>进制转换</title>
-        <link>https://yorkfish.github.io/review/blog/02_binary-decimal_conversion/</link>
+        <link>https://yorkfish.github.io/review/blog/02-binary-decimal-conversion/</link>
         <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://yorkfish.github.io/review/blog/02_binary-decimal_conversion/</guid>
+        <guid>https://yorkfish.github.io/review/blog/02-binary-decimal-conversion/</guid>
         <description>&lt;h2 id=&#34;1-二进制转十进制&#34;&gt;1. 二进制转十进制&lt;/h2&gt;
 &lt;h3 id=&#34;例一-0b10111&#34;&gt;例一 0b101.11&lt;/h3&gt;
 &lt;ul&gt;
@@ -62,10 +62,10 @@
       
       <item>
         <title>Usage</title>
-        <link>https://yorkfish.github.io/review/blog/01_usage/</link>
+        <link>https://yorkfish.github.io/review/blog/01-usage/</link>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://yorkfish.github.io/review/blog/01_usage/</guid>
+        <guid>https://yorkfish.github.io/review/blog/01-usage/</guid>
         <description>&lt;h2 id=&#34;1-拷贝文档&#34;&gt;1. 拷贝文档&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;在 &lt;code&gt;content&lt;/code&gt; 文件夹下新建 &lt;code&gt;blog&lt;/code&gt; 文件夹&lt;/li&gt;

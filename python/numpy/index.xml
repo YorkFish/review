@@ -16,118 +16,118 @@
       
       <item>
         <title>01. 概述</title>
-        <link>https://yorkfish.github.io/review/python/numpy/01_overview/</link>
+        <link>https://yorkfish.github.io/review/python/numpy/01-overview/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/numpy/01_overview/</guid>
+        <guid>https://yorkfish.github.io/review/python/numpy/01-overview/</guid>
         <description>numpy 的用处 数学计算 形状计算 各种排序 傅里叶变换 线性代数计算 统计计算 ……</description>
       </item>
       
       <item>
         <title>02. ndarray build</title>
-        <link>https://yorkfish.github.io/review/python/numpy/02_ndarray_build/</link>
+        <link>https://yorkfish.github.io/review/python/numpy/02-ndarray-build/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/numpy/02_ndarray_build/</guid>
+        <guid>https://yorkfish.github.io/review/python/numpy/02-ndarray-build/</guid>
         <description>1. 说明 n dimension array 简单地说，就是多维数组 2. 操作 导入 1 import numpy as np 创建 整数 1 2 3 4 5 6 &amp;gt;&amp;gt;&amp;gt; a = np.array([1, 2, 3, 4]) &amp;gt;&amp;gt;&amp;gt; a array([1, 2, 3, 4]) &amp;gt;&amp;gt;&amp;gt; print(a) [1 2 3 4] &amp;gt;&amp;gt;&amp;gt; 复数 1 2 3 &amp;gt;&amp;gt;&amp;gt; a = np.array([1, 2, 3, 4], dtype=complex)</description>
       </item>
       
       <item>
         <title>03. ndarray attribute</title>
-        <link>https://yorkfish.github.io/review/python/numpy/03_ndarray_attribute/</link>
+        <link>https://yorkfish.github.io/review/python/numpy/03-ndarray-attribute/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/numpy/03_ndarray_attribute/</guid>
+        <guid>https://yorkfish.github.io/review/python/numpy/03-ndarray-attribute/</guid>
         <description>1. 创建 1 2 3 4 5 6 7 &amp;gt;&amp;gt;&amp;gt; import numpy as np &amp;gt;&amp;gt;&amp;gt; a = np.arange(12).reshape((3, 4)) &amp;gt;&amp;gt;&amp;gt; print(a) [[ 0 1 2 3] [ 4 5 6 7] [ 8 9 10 11]] &amp;gt;&amp;gt;&amp;gt; 2. 查看性质 数组的轴（维度） 1 2 3 &amp;gt;&amp;gt;&amp;gt; a.ndim 2 &amp;gt;&amp;gt;&amp;gt; 数组的形状 1 2 3 &amp;gt;&amp;gt;&amp;gt; a.shape (3, 4)</description>
       </item>
       
       <item>
         <title>04. ndarray calculate</title>
-        <link>https://yorkfish.github.io/review/python/numpy/04_ndarray_calculate/</link>
+        <link>https://yorkfish.github.io/review/python/numpy/04-ndarray-calculate/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/numpy/04_ndarray_calculate/</guid>
+        <guid>https://yorkfish.github.io/review/python/numpy/04-ndarray-calculate/</guid>
         <description>1. 说明 当对 ndarray 使用各种算术运算符时 numpy 会将其应用于数组的每一个元素 计算完成后返回一个与原来形状相同的 ndarray 2. 操作 导入 1 import numpy as np 四则运算 1 2 3 4 5 6 7</description>
       </item>
       
       <item>
         <title>05. matrix multiplication</title>
-        <link>https://yorkfish.github.io/review/python/numpy/05_ndarray_matrix/</link>
+        <link>https://yorkfish.github.io/review/python/numpy/05-ndarray-matrix/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/numpy/05_ndarray_matrix/</guid>
+        <guid>https://yorkfish.github.io/review/python/numpy/05-ndarray-matrix/</guid>
         <description>1. 说明 numpy 有矩阵类 但还是尽量使用 ndarray 为好 不要混用！ 2. 操作 导入 1 import numpy as np 创建 1 2 3 4 5 6 7 8 9 10 11 12 &amp;gt;&amp;gt;&amp;gt; a = np.arange(12).reshape((3, 4)) &amp;gt;&amp;gt;&amp;gt; b = np.arange(12).reshape((4, 3)) &amp;gt;&amp;gt;&amp;gt; print(a) [[ 0 1 2 3] [ 4 5 6 7] [</description>
       </item>
       
       <item>
         <title>06. index-slice-iterator</title>
-        <link>https://yorkfish.github.io/review/python/numpy/06_ndarray_slice/</link>
+        <link>https://yorkfish.github.io/review/python/numpy/06-ndarray-slice/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/numpy/06_ndarray_slice/</guid>
+        <guid>https://yorkfish.github.io/review/python/numpy/06-ndarray-slice/</guid>
         <description>1. 导入 1 import numpy as np 2. 操作 切片 一维 1 2 3 4 5 6 7 8 9 10 11 12 &amp;gt;&amp;gt;&amp;gt; a = np.arange(12) &amp;gt;&amp;gt;&amp;gt; print(a) [ 0 1 2 3 4 5 6 7 8 9 10 11] &amp;gt;&amp;gt;&amp;gt; print(a[1]) 1 &amp;gt;&amp;gt;&amp;gt; print(a[2:8]) [2 3 4 5 6 7] &amp;gt;&amp;gt;&amp;gt; print(a[2:8:2]) [2 4 6] &amp;gt;&amp;gt;&amp;gt; print(a[::-1]) [11 10 9 8 7 6</description>
       </item>
       
       <item>
         <title>07. ndarray operation</title>
-        <link>https://yorkfish.github.io/review/python/numpy/07_ndarray_operation/</link>
+        <link>https://yorkfish.github.io/review/python/numpy/07-ndarray-operation/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/numpy/07_ndarray_operation/</guid>
+        <guid>https://yorkfish.github.io/review/python/numpy/07-ndarray-operation/</guid>
         <description>1. 导入 1 import numpy as np 2. 操作 创建 1 2 3 4 5 6 7 8 9 10 11 12 13 &amp;gt;&amp;gt;&amp;gt; a = np.arange(12) &amp;gt;&amp;gt;&amp;gt; b = a.reshape((3, 4)) &amp;gt;&amp;gt;&amp;gt; print(a) [ 0 1 2 3 4 5 6 7 8 9 10 11] &amp;gt;&amp;gt;&amp;gt; print(b) [[ 0 1 2 3] [ 4 5 6 7] [ 8 9 10 11]] &amp;gt;&amp;gt;&amp;gt; id(a) 1809452646272</description>
       </item>
       
       <item>
         <title>08. matplotlib pyplot</title>
-        <link>https://yorkfish.github.io/review/python/numpy/08_matplotlib_pyplot/</link>
+        <link>https://yorkfish.github.io/review/python/numpy/08-matplotlib-pyplot/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/numpy/08_matplotlib_pyplot/</guid>
+        <guid>https://yorkfish.github.io/review/python/numpy/08-matplotlib-pyplot/</guid>
         <description>举例 1 2 3 4 5 6 7 8 9 10 11 import numpy as np import matplotlib.pyplot as plt def square(x): return -x**2 + 1 a = np.linspace(-5, 5, 200) # [-5, 5] 之内取 200 个点 plt.plot(a, square(a)) plt.show() 得到图片</description>
       </item>
       
       <item>
         <title>09. hstack &amp; vstack</title>
-        <link>https://yorkfish.github.io/review/python/numpy/09_hstack_and_vstack/</link>
+        <link>https://yorkfish.github.io/review/python/numpy/09-hstack-and-vstack/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/numpy/09_hstack_and_vstack/</guid>
+        <guid>https://yorkfish.github.io/review/python/numpy/09-hstack-and-vstack/</guid>
         <description>1. 导入 1 import numpy as py 2. 一维 创建 1 2 3 4 5 6 7 &amp;gt;&amp;gt;&amp;gt; a = np.arange(4) &amp;gt;&amp;gt;&amp;gt; b = np.arange(4, 8) &amp;gt;&amp;gt;&amp;gt; print(a) [0 1 2 3] &amp;gt;&amp;gt;&amp;gt; print(b) [4 5 6 7] &amp;gt;&amp;gt;&amp;gt; hstack 1 2 3 &amp;gt;&amp;gt;&amp;gt; print(np.hstack((a, b))) [0 1 2 3 4 5 6 7] &amp;gt;&amp;gt;&amp;gt; vstack 1 2 3 4 &amp;gt;&amp;gt;&amp;gt; print(np.vstack((a, b))) [[0 1 2 3]</description>
       </item>
       
       <item>
         <title>10. concatenate</title>
-        <link>https://yorkfish.github.io/review/python/numpy/10_concatenate/</link>
+        <link>https://yorkfish.github.io/review/python/numpy/10-concatenate/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/numpy/10_concatenate/</guid>
+        <guid>https://yorkfish.github.io/review/python/numpy/10-concatenate/</guid>
         <description>1. 简介 np.hstack() 与 np.vstack() 无法指定 axis 2. 操作 导入 1 import numpy as np 创建 1 2 3 4 5 6 7 8 &amp;gt;&amp;gt;&amp;gt; a = np.array([[1, 2], [3, 4]]) &amp;gt;&amp;gt;&amp;gt; b = np.array([[5, 6]]) &amp;gt;&amp;gt;&amp;gt; print(a) [[1 2] [3 4]] &amp;gt;&amp;gt;&amp;gt; print(b) [[5 6]] &amp;gt;&amp;gt;&amp;gt; 显示形状 1 2 3 4 5 &amp;gt;&amp;gt;&amp;gt; a.shape (2, 2) &amp;gt;&amp;gt;&amp;gt; b.shape (1,</description>
       </item>
       
       <item>
         <title>11. newaxis</title>
-        <link>https://yorkfish.github.io/review/python/numpy/11_newaxis/</link>
+        <link>https://yorkfish.github.io/review/python/numpy/11-newaxis/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/numpy/11_newaxis/</guid>
+        <guid>https://yorkfish.github.io/review/python/numpy/11-newaxis/</guid>
         <description>1. 导入 1 import numpy as np 2. 举例 例一 1 2 3 4 5 6 &amp;gt;&amp;gt;&amp;gt; a = np.arange(4) &amp;gt;&amp;gt;&amp;gt; print(a) [0 1 2 3] &amp;gt;&amp;gt;&amp;gt; a.shape (4,) &amp;gt;&amp;gt;&amp;gt; 例二 1 2 3 4 5 6 7 8 9 &amp;gt;&amp;gt;&amp;gt; b = a.reshape((4, 1)) &amp;gt;&amp;gt;&amp;gt; print(b) [[0] [1] [2] [3]] &amp;gt;&amp;gt;&amp;gt; b.shape (4, 1) &amp;gt;&amp;gt;&amp;gt; 例三 1 2 3 4 5 6 7 8</description>
       </item>
       
       <item>
         <title>12. stack()</title>
-        <link>https://yorkfish.github.io/review/python/numpy/12_stack/</link>
+        <link>https://yorkfish.github.io/review/python/numpy/12-stack/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/numpy/12_stack/</guid>
+        <guid>https://yorkfish.github.io/review/python/numpy/12-stack/</guid>
         <description>1. 简介 此 stack() 非彼 stack stack() 对每一个数组在 axis=0 上添加一维 把它们沿着这个新的维度串起来 2. 操作 导入 1 import numpy as np 例一 创建 沿着新的维度串起来 1 2 3 4 5 6 &amp;gt;&amp;gt;&amp;gt; a = np.array([1, 2])</description>
       </item>
       
       <item>
         <title>13. colstack &amp; rowstack</title>
-        <link>https://yorkfish.github.io/review/python/numpy/13_colstack_and_rowstack/</link>
+        <link>https://yorkfish.github.io/review/python/numpy/13-colstack-and-rowstack/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/numpy/13_colstack_and_rowstack/</guid>
+        <guid>https://yorkfish.github.io/review/python/numpy/13-colstack-and-rowstack/</guid>
         <description>1. 导入 1 import numpy as np colstack 例一 1 2 3 4 5 6 7 8 &amp;gt;&amp;gt;&amp;gt; a = np.array([1, 2, 3]) &amp;gt;&amp;gt;&amp;gt; b = np.array([4, 5, 6]) &amp;gt;&amp;gt;&amp;gt; c = np.column_stack((a, b)) &amp;gt;&amp;gt;&amp;gt; print(c) [[1 4] [2 5] [3 6]] &amp;gt;&amp;gt;&amp;gt; 例二 1 2 3 4 5 6 7 &amp;gt;&amp;gt;&amp;gt; a = np.array([[1, 2, 3], [4, 5, 6]]) &amp;gt;&amp;gt;&amp;gt; b = np.array([[9, 8, 7], [6,</description>
       </item>
       

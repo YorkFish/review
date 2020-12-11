@@ -16,37 +16,37 @@
       
       <item>
         <title>01. Create</title>
-        <link>https://yorkfish.github.io/review/c/thread/01_create/</link>
+        <link>https://yorkfish.github.io/review/c/thread/01-create/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/thread/01_create/</guid>
+        <guid>https://yorkfish.github.io/review/c/thread/01-create/</guid>
         <description>例一 Code 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 // filename: main.c #include &amp;lt;stdio.h&amp;gt;#include &amp;lt;stdlib.h&amp;gt;#include &amp;lt;pthread.h&amp;gt; void* test(void* args) { printf(&amp;#34;Hello World\n&amp;#34;); return NULL; // 对应 void* } int main() { pthread_t th; pthread_create(&amp;amp;th, NULL, test, NULL); return 0; } 编译命令 gcc main.c -lpthread -o main 线程函数编译时需要连</description>
       </item>
       
       <item>
         <title>02. 两条线程</title>
-        <link>https://yorkfish.github.io/review/c/thread/02_two_threads/</link>
+        <link>https://yorkfish.github.io/review/c/thread/02-two-threads/</link>
         <pubDate>Sat, 10 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/thread/02_two_threads/</guid>
+        <guid>https://yorkfish.github.io/review/c/thread/02-two-threads/</guid>
         <description>例一 创建两条线程 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 #include &amp;lt;stdio.h&amp;gt;#include &amp;lt;stdlib.h&amp;gt;#include &amp;lt;pthread.h&amp;gt; void* test(void* args) { int i; for (i = 0; i &amp;lt; 100; i++) { printf(&amp;#34;%d\n&amp;#34;, i); } return NULL; } int main() { pthread_t th1; pthread_t th2; pthread_create(&amp;amp;th1, NULL, test, NULL); pthread_create(&amp;amp;th2, NULL,</description>
       </item>
       
       <item>
         <title>03. Lock</title>
-        <link>https://yorkfish.github.io/review/c/thread/03_lock/</link>
+        <link>https://yorkfish.github.io/review/c/thread/03-lock/</link>
         <pubDate>Sat, 10 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/thread/03_lock/</guid>
+        <guid>https://yorkfish.github.io/review/c/thread/03-lock/</guid>
         <description>例一 未加锁 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 #include &amp;lt;stdio.h&amp;gt;#include &amp;lt;stdlib.h&amp;gt;#include &amp;lt;pthread.h&amp;gt; int s = 0; void* test(void* args) { int i; for (i = 0; i &amp;lt; 100000; i++) { s++; } return NULL; } int main() { pthread_t th1; pthread_t th2; pthread_create(&amp;amp;th1, NULL,</description>
       </item>
       
       <item>
         <title>04. Lock - upgrade</title>
-        <link>https://yorkfish.github.io/review/c/thread/04_lock_upgrade/</link>
+        <link>https://yorkfish.github.io/review/c/thread/04-lock-upgrade/</link>
         <pubDate>Sat, 10 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/c/thread/04_lock_upgrade/</guid>
+        <guid>https://yorkfish.github.io/review/c/thread/04-lock-upgrade/</guid>
         <description>例一 使用全局变量存值 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 #include &amp;lt;stdio.h&amp;gt;#include</description>
       </item>
       

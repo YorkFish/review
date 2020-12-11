@@ -16,28 +16,28 @@
       
       <item>
         <title>01. function</title>
-        <link>https://yorkfish.github.io/review/python/decorator/01_function/</link>
+        <link>https://yorkfish.github.io/review/python/decorator/01-function/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/decorator/01_function/</guid>
+        <guid>https://yorkfish.github.io/review/python/decorator/01-function/</guid>
         <description>例一 1 2 3 4 5 6 7 def add2(x, y): return x + y new_func = add2 print(new_func is add2) # True print(new_func(3, 4)) # 7 例二 就像列表名表示列表地址，函数名也表示函数地址 1 2 3 4 5 6 7 8 9 def add2(x, y): return x + y def test(x,</description>
       </item>
       
       <item>
         <title>02. decorator-function</title>
-        <link>https://yorkfish.github.io/review/python/decorator/02_decorator_for_func/</link>
+        <link>https://yorkfish.github.io/review/python/decorator/02-decorator-for-func/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/decorator/02_decorator_for_func/</guid>
+        <guid>https://yorkfish.github.io/review/python/decorator/02-decorator-for-func/</guid>
         <description>举例思路 不加装饰器 加装饰器 无参函数 带参函数 参数个数确定 参数个数不确定 装饰器带参 多个装饰器 例一 不加装饰器 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 def</description>
       </item>
       
       <item>
         <title>03. decorator-class</title>
-        <link>https://yorkfish.github.io/review/python/decorator/03_decorator_for_class/</link>
+        <link>https://yorkfish.github.io/review/python/decorator/03-decorator-for-class/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/decorator/03_decorator_for_class/</guid>
+        <guid>https://yorkfish.github.io/review/python/decorator/03-decorator-for-class/</guid>
         <description>举例 1 2 3 4 5 6 7 8 9 10 11 12 def deco(clss): clss.x = 1 clss.y = 2 return clss @deco class Person(object): pass print(Person.__dict__) &amp;gt;&amp;gt;&amp;gt; {&#39;__module__&#39;: &#39;__main__&#39;, &#39;__dict__&#39;: &amp;lt;attribute &#39;__dict__&#39; of &#39;Person&#39; objects&amp;gt;, &#39;__weakref__&#39;: &amp;lt;attribute &#39;__weakref__&#39; of &#39;Person&#39; objects&amp;gt;, &#39;__doc__&#39;: None, &#39;x&#39;: 1, &#39;y&#39;: 2}</description>
       </item>
       
