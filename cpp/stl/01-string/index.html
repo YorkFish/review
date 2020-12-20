@@ -1396,14 +1396,6 @@
         
         
         <li>
-          <a href="https://yorkfish.github.io/review/cpp/stl/05-deque/" class="menu__title " data-depth="0">04. deque</a>
-        </li>
-      
-    
-      
-        
-        
-        <li>
           <a href="https://yorkfish.github.io/review/cpp/stl/04-stack/" class="menu__title " data-depth="0">04. stack</a>
         </li>
       
@@ -1412,7 +1404,7 @@
         
         
         <li>
-          <a href="https://yorkfish.github.io/review/cpp/stl/06-set/" class="menu__title " data-depth="0">05. set</a>
+          <a href="https://yorkfish.github.io/review/cpp/stl/05-deque/" class="menu__title " data-depth="0">05. deque</a>
         </li>
       
     
@@ -1420,7 +1412,7 @@
         
         
         <li>
-          <a href="https://yorkfish.github.io/review/cpp/stl/07-map/" class="menu__title " data-depth="0">06. map</a>
+          <a href="https://yorkfish.github.io/review/cpp/stl/06-set/" class="menu__title " data-depth="0">06. set</a>
         </li>
       
     
@@ -1428,7 +1420,7 @@
         
         
         <li>
-          <a href="https://yorkfish.github.io/review/cpp/stl/08-unordered-set/" class="menu__title " data-depth="0">07. unordered_set</a>
+          <a href="https://yorkfish.github.io/review/cpp/stl/07-map/" class="menu__title " data-depth="0">07. map</a>
         </li>
       
     
@@ -1436,7 +1428,15 @@
         
         
         <li>
-          <a href="https://yorkfish.github.io/review/cpp/stl/09-unordered-map/" class="menu__title " data-depth="0">08. unordered_map</a>
+          <a href="https://yorkfish.github.io/review/cpp/stl/08-unordered-set/" class="menu__title " data-depth="0">08. unordered_set</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="https://yorkfish.github.io/review/cpp/stl/09-unordered-map/" class="menu__title " data-depth="0">09. unordered_map</a>
         </li>
       
     
@@ -2239,14 +2239,6 @@
         
         
         <li>
-          <a href="https://yorkfish.github.io/review/cpp/stl/05-deque/" class="menu__title " data-depth="0">04. deque</a>
-        </li>
-      
-    
-      
-        
-        
-        <li>
           <a href="https://yorkfish.github.io/review/cpp/stl/04-stack/" class="menu__title " data-depth="0">04. stack</a>
         </li>
       
@@ -2255,7 +2247,7 @@
         
         
         <li>
-          <a href="https://yorkfish.github.io/review/cpp/stl/06-set/" class="menu__title " data-depth="0">05. set</a>
+          <a href="https://yorkfish.github.io/review/cpp/stl/05-deque/" class="menu__title " data-depth="0">05. deque</a>
         </li>
       
     
@@ -2263,7 +2255,7 @@
         
         
         <li>
-          <a href="https://yorkfish.github.io/review/cpp/stl/07-map/" class="menu__title " data-depth="0">06. map</a>
+          <a href="https://yorkfish.github.io/review/cpp/stl/06-set/" class="menu__title " data-depth="0">06. set</a>
         </li>
       
     
@@ -2271,7 +2263,7 @@
         
         
         <li>
-          <a href="https://yorkfish.github.io/review/cpp/stl/08-unordered-set/" class="menu__title " data-depth="0">07. unordered_set</a>
+          <a href="https://yorkfish.github.io/review/cpp/stl/07-map/" class="menu__title " data-depth="0">07. map</a>
         </li>
       
     
@@ -2279,7 +2271,15 @@
         
         
         <li>
-          <a href="https://yorkfish.github.io/review/cpp/stl/09-unordered-map/" class="menu__title " data-depth="0">08. unordered_map</a>
+          <a href="https://yorkfish.github.io/review/cpp/stl/08-unordered-set/" class="menu__title " data-depth="0">08. unordered_set</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="https://yorkfish.github.io/review/cpp/stl/09-unordered-map/" class="menu__title " data-depth="0">09. unordered_map</a>
         </li>
       
     
@@ -2308,7 +2308,21 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    <h2 id="1-定义与输出">1. 定义与输出</h2>
+    <div class="notices info" data-title="常用方法">
+  <ul>
+<li>c_str()</li>
+<li>empty()</li>
+<li>size(), length()</li>
+<li>begin(), end(), rbegin(), rend()</li>
+<li>front(), back()</li>
+<li>push_back(), pop_back()</li>
+<li>erase()</li>
+<li>find(), rfind()</li>
+<li>substr()</li>
+</ul>
+
+</div>
+<h2 id="1-定义与输出">1. 定义与输出</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -2629,10 +2643,10 @@ k
 <li>可以把迭代器看成指针</li>
 <li>可以认为 <code>s.end()</code> 指向 <code>'\0'</code></li>
 <li>这里的 for 中使用 <code>it &lt; s.end()</code> 也行，不过 <code>!=</code> 比较保险，下面的不能用 <code>&lt;</code>
-<ul>
+<ol>
 <li><code>&lt;set&gt;</code>, <code>&lt;map&gt;</code>，因为它们的 <code>--</code> 与 <code>++</code> 找的是前驱与后继</li>
-<li><code>&lt;unordered_set&gt;</code>, <code>&lt;unordered_map&gt;</code>，它们是无序的</li>
-</ul>
+<li><code>&lt;unordered_set&gt;</code>, <code>&lt;unordered_map&gt;</code>，因为它们是无序的</li>
+</ol>
 </li>
 <li>类型名比较长时，可以使用 auto，如 for 中的 it 可以定义成 <code>auto it</code></li>
 <li>auto 也是 C++11 增加的，可以把它当作是 golang 的自动推导</li>

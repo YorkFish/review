@@ -379,11 +379,6 @@
   </url>
   
   <url>
-    <loc>https://yorkfish.github.io/review/cpp/stl/05-deque/</loc>
-    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yorkfish.github.io/review/cpp/04-input-and-output/</loc>
     <lastmod>2020-11-17T00:00:00+08:00</lastmod>
   </url>
@@ -494,12 +489,12 @@
   </url>
   
   <url>
-    <loc>https://yorkfish.github.io/review/cpp/05-logical-operation/</loc>
+    <loc>https://yorkfish.github.io/review/cpp/stl/05-deque/</loc>
     <lastmod>2020-11-17T00:00:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yorkfish.github.io/review/cpp/stl/06-set/</loc>
+    <loc>https://yorkfish.github.io/review/cpp/05-logical-operation/</loc>
     <lastmod>2020-11-17T00:00:00+08:00</lastmod>
   </url>
   
@@ -598,7 +593,7 @@
   </url>
   
   <url>
-    <loc>https://yorkfish.github.io/review/cpp/stl/07-map/</loc>
+    <loc>https://yorkfish.github.io/review/cpp/stl/06-set/</loc>
     <lastmod>2020-11-17T00:00:00+08:00</lastmod>
   </url>
   
@@ -676,12 +671,12 @@
   </url>
   
   <url>
-    <loc>https://yorkfish.github.io/review/cpp/07-string/</loc>
+    <loc>https://yorkfish.github.io/review/cpp/stl/07-map/</loc>
     <lastmod>2020-11-17T00:00:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yorkfish.github.io/review/cpp/stl/08-unordered-set/</loc>
+    <loc>https://yorkfish.github.io/review/cpp/07-string/</loc>
     <lastmod>2020-11-17T00:00:00+08:00</lastmod>
   </url>
   
@@ -776,7 +771,7 @@
   </url>
   
   <url>
-    <loc>https://yorkfish.github.io/review/cpp/stl/09-unordered-map/</loc>
+    <loc>https://yorkfish.github.io/review/cpp/stl/08-unordered-set/</loc>
     <lastmod>2020-11-17T00:00:00+08:00</lastmod>
   </url>
   
@@ -862,6 +857,11 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/cpp/09-function/</loc>
+    <lastmod>2020-11-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/cpp/stl/09-unordered-map/</loc>
     <lastmod>2020-11-17T00:00:00+08:00</lastmod>
   </url>
   
