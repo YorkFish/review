@@ -24,11 +24,11 @@
       </item>
       
       <item>
-        <title>02. head file</title>
-        <link>https://yorkfish.github.io/review/cpp/02-head-file/</link>
+        <title>02. header file</title>
+        <link>https://yorkfish.github.io/review/cpp/02-header-file/</link>
         <pubDate>Tue, 17 Nov 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/cpp/02-head-file/</guid>
+        <guid>https://yorkfish.github.io/review/cpp/02-header-file/</guid>
         <description>1. 万能头文件 #include &amp;lt;bits/stdc++.h&amp;gt; 2. iostream 包含了许多常用的工具 cin, cout max(), min() string 有的编译器必须要导入 &amp;lt;string&amp;gt; scanf(), printf() 使用它们的话，最好还是添加一下 &amp;lt;cstdio&amp;gt; 3. cstdio scanf(), printf() 比 cin, cout 快 scanf() 在有 %c 时，会读</description>
       </item>
       
