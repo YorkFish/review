@@ -135,6 +135,15 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/web/css/01-3-page-introduction-methods/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/web/css/</loc>
+    <lastmod>2021-01-04T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/web/html/02-title-label/</loc>
     <lastmod>2020-12-29T00:00:00+08:00</lastmod>
   </url>
@@ -260,7 +269,16 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/web/css/02-7-common-selectors/</loc>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/c/struct-union-enum/02-define/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/web/css/03-representation-of-color/</loc>
+    <lastmod>2021-01-04T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -393,6 +411,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/web/css/04-common-text-style-settings/</loc>
+    <lastmod>2021-01-04T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/web/html/04-wrap-label/</loc>
     <lastmod>2020-12-29T00:00:00+08:00</lastmod>
   </url>
@@ -513,6 +536,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/web/css/05-common-border-settings/</loc>
+    <lastmod>2021-01-04T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/web/html/05-list-label/</loc>
     <lastmod>2020-12-29T00:00:00+08:00</lastmod>
   </url>
@@ -622,6 +650,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/web/css/06-background-attribute/</loc>
+    <lastmod>2021-01-05T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/web/html/06-form-label/</loc>
     <lastmod>2020-12-29T00:00:00+08:00</lastmod>
   </url>
@@ -712,6 +745,11 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/python/numpy/06-ndarray-slice/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/web/css/07-overflow/</loc>
+    <lastmod>2021-01-05T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -815,6 +853,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/web/css/08-padding/</loc>
+    <lastmod>2021-01-05T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/web/html/08-block-label/</loc>
     <lastmod>2020-12-29T00:00:00+08:00</lastmod>
   </url>
@@ -915,6 +958,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/web/css/09-box-model/</loc>
+    <lastmod>2021-01-05T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/web/html/09-link-label/</loc>
     <lastmod>2020-12-29T00:00:00+08:00</lastmod>
   </url>
@@ -1000,6 +1048,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/web/css/10-3-elements/</loc>
+    <lastmod>2021-01-05T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/web/html/10-text-label/</loc>
     <lastmod>2020-12-29T00:00:00+08:00</lastmod>
   </url>
@@ -1080,6 +1133,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/web/css/11-display/</loc>
+    <lastmod>2021-01-05T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/web/html/11-line-level-element-without-semantics/</loc>
     <lastmod>2020-12-29T00:00:00+08:00</lastmod>
   </url>
@@ -1120,6 +1178,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/web/css/12-float/</loc>
+    <lastmod>2021-01-05T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/web/html/12-entity-character/</loc>
     <lastmod>2020-12-29T00:00:00+08:00</lastmod>
   </url>
@@ -1155,6 +1218,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/web/css/13-4-methods-of-clearing-floating/</loc>
+    <lastmod>2021-01-05T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/web/html/13-form/</loc>
     <lastmod>2020-12-29T00:00:00+08:00</lastmod>
   </url>
@@ -1185,6 +1253,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/web/css/14-position-relative-absolute/</loc>
+    <lastmod>2021-01-05T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/web/html/14-form-control/</loc>
     <lastmod>2020-12-29T00:00:00+08:00</lastmod>
   </url>
@@ -1207,6 +1280,11 @@
   <url>
     <loc>https://yorkfish.github.io/review/c/basics/14-strcpy-and-strncpy/</loc>
     <lastmod>2020-09-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/web/css/15-position-fixed/</loc>
+    <lastmod>2021-01-05T00:00:00+08:00</lastmod>
   </url>
   
   <url>

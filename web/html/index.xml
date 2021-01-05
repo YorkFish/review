@@ -6,7 +6,7 @@
     <description>Recent content in HTML on York&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <copyright>&amp;copy;2020, All Rights Reserved</copyright>
+    <copyright>&amp;copy;2020 - 2021, All Rights Reserved</copyright>
     <lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0800</lastBuildDate>
     
         <atom:link href="https://yorkfish.github.io/review/web/html/index.xml" rel="self" type="application/rss+xml" />
@@ -105,7 +105,7 @@
       </item>
       
       <item>
-        <title>11. Line Level Element without Semantics</title>
+        <title>11. Line Level Element</title>
         <link>https://yorkfish.github.io/review/web/html/11-line-level-element-without-semantics/</link>
         <pubDate>Tue, 29 Dec 2020 00:00:00 +0800</pubDate>
         
