@@ -15,6 +15,15 @@
     
       
       <item>
+        <title>01. Introduce</title>
+        <link>https://yorkfish.github.io/review/web/javascript/01-introduce/</link>
+        <pubDate>Wed, 06 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/javascript/01-introduce/</guid>
+        <description>定位 JS 是运行在浏览器端的脚本语言 关于浏览器 JS 由浏览器解释执行 JS 通常被直接嵌入 HTML 页面 关于脚本语言 JS 是客户端脚本语言 JS 是轻量级编程语言 JS 是解释性</description>
+      </item>
+      
+      <item>
         <title>01. string</title>
         <link>https://yorkfish.github.io/review/cpp/stl/01-string/</link>
         <pubDate>Tue, 24 Nov 2020 00:00:00 +0800</pubDate>
@@ -228,6 +237,15 @@
         
         <guid>https://yorkfish.github.io/review/web/css/01-3-page-introduction-methods/</guid>
         <description>外链式 在 HTML 文档的 head 头部分添加如下语句 1 &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;./xxx.css&amp;#34;&amp;gt; 在当前目录下新建一个 xxx.css 在 xxx.css 中写相应的程序代码 嵌入式 在 HTML 文档的 head 头部分使用 &amp;lt;style&amp;gt; 标签 1 2 3 4 5 6 7 &amp;lt;style&amp;gt; div{</description>
+      </item>
+      
+      <item>
+        <title>02. Embed a Page</title>
+        <link>https://yorkfish.github.io/review/web/javascript/02-embed-a-page/</link>
+        <pubDate>Wed, 06 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/javascript/02-embed-a-page/</guid>
+        <description>1. 外链式 在 body 体中使用 script 标签，并在其中增加 src=&amp;quot;./xxx.js&amp;quot; 1 2 3 &amp;lt;body&amp;gt; &amp;lt;script type=&amp;#34;text/javascript&amp;#34; src=&amp;#34;./static/JS/index.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; 之后，需在对应的 .js 文件中写相应代码 script 标签中的 type=&amp;quot;text/javascript&amp;quot; 可以不写，因为这是默认值 2. 嵌入式 在 body</description>
       </item>
       
       <item>
@@ -447,6 +465,15 @@
       </item>
       
       <item>
+        <title>03. Comments and Nomenclature</title>
+        <link>https://yorkfish.github.io/review/web/javascript/03-comments-and-nomenclature/</link>
+        <pubDate>Wed, 06 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/javascript/03-comments-and-nomenclature/</guid>
+        <description>注释 JS 语句以 ; 结尾 JS 注释与 C 一样 1 2 3 4 5 6 7 // 单行注释 /* 多行注释 1、... 2、... */ 命名规范 由数字、字母、下划线和 $ 组成 不能以数字开头 不</description>
+      </item>
+      
+      <item>
         <title>03. Representation of Color</title>
         <link>https://yorkfish.github.io/review/web/css/03-representation-of-color/</link>
         <pubDate>Mon, 04 Jan 2021 00:00:00 +0800</pubDate>
@@ -663,6 +690,15 @@
       </item>
       
       <item>
+        <title>04. Basic Data Type</title>
+        <link>https://yorkfish.github.io/review/web/javascript/04-basic-data-type/</link>
+        <pubDate>Wed, 06 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/javascript/04-basic-data-type/</guid>
+        <description>变量的定义 JS 的变量类型由它的值来决定 定义变量需要用关键字 var 在非严格模式下，可以不使用 var 关键字定义全局变量，但不推荐 在严格模式下，不使用 var 关键</description>
+      </item>
+      
+      <item>
         <title>04. Text Style</title>
         <link>https://yorkfish.github.io/review/web/css/04-common-text-style-settings/</link>
         <pubDate>Mon, 04 Jan 2021 00:00:00 +0800</pubDate>
@@ -861,6 +897,15 @@
       </item>
       
       <item>
+        <title>05. Data Type Conversion</title>
+        <link>https://yorkfish.github.io/review/web/javascript/05-data-type-conversion/</link>
+        <pubDate>Wed, 06 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/javascript/05-data-type-conversion/</guid>
+        <description>函数介绍 函数 释义 Number(value) 强转整数或浮点数 parseInt(value) 强转成整型 parseFloat(value) 强转成浮点型 String(value) 强转成字符串类型 Boolean(value) 强转成布尔类型 举例 Number(), parseInt(), parseFloat() 例1 1 2 3 4 5 6 7 8 9 10 11 var str1 = &amp;#39;123&amp;#39;; console.log(str1,</description>
+      </item>
+      
+      <item>
         <title>05. Border Settings</title>
         <link>https://yorkfish.github.io/review/web/css/05-common-border-settings/</link>
         <pubDate>Mon, 04 Jan 2021 00:00:00 +0800</pubDate>
@@ -1041,6 +1086,15 @@
       </item>
       
       <item>
+        <title>06. Operator</title>
+        <link>https://yorkfish.github.io/review/web/javascript/06-operator/</link>
+        <pubDate>Wed, 06 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/javascript/06-operator/</guid>
+        <description>简介 运算符 举例 算术运算符 +, -, *, /, ++, -- 字符串连接 + 赋值运算 =, +=, -=, *=, /=, %= 比较运算符 &amp;lt;, &amp;gt;, &amp;gt;=, &amp;lt;=, ==, !=, ===, !== 逻辑运算符 &amp;amp;&amp;amp;, ||, ! 位运算 ^, &amp;amp;, |, ~ 三元运算符 ? : 举</description>
+      </item>
+      
+      <item>
         <title>06. Background Attribute</title>
         <link>https://yorkfish.github.io/review/web/css/06-background-attribute/</link>
         <pubDate>Tue, 05 Jan 2021 00:00:00 +0800</pubDate>
@@ -1203,6 +1257,15 @@
       </item>
       
       <item>
+        <title>07. Process Control</title>
+        <link>https://yorkfish.github.io/review/web/javascript/07-process-control/</link>
+        <pubDate>Wed, 06 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/javascript/07-process-control/</guid>
+        <description>if 三种形式 1 2 3 4 5 6 7 8 9 10 11 // 第一种 if... // 第二种 if... else ... // 第三种 if... else if... else... 说明 支持单分支、双分支、多分支 else if 中间必须要有空格 举例 1 2 3 4 5 6 if</description>
+      </item>
+      
+      <item>
         <title>07. overflow</title>
         <link>https://yorkfish.github.io/review/web/css/07-overflow/</link>
         <pubDate>Tue, 05 Jan 2021 00:00:00 +0800</pubDate>
@@ -1362,6 +1425,15 @@
         
         <guid>https://yorkfish.github.io/review/c/struct-union-enum/07-linked-list/</guid>
         <description>1. 简介 链表可以根据需要开辟内存单元 链表有一个“头指针”变量 它存放一个地址 该地址指向一个元素 链表中每一个元素称为“结点” 每个结点都应包括两个部</description>
+      </item>
+      
+      <item>
+        <title>08. Loop</title>
+        <link>https://yorkfish.github.io/review/web/javascript/08-loop/</link>
+        <pubDate>Wed, 06 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/javascript/08-loop/</guid>
+        <description>for-loop 1 2 3 for (var i = 0; i &amp;lt; len; i++) { ... } while-loop 1 2 3 4 5 var i = 0; while (i &amp;lt; 8) { ... i++; } for-in for-in 语句是严格的迭代语句，用于枚举对象的属性 1 2 3 4 var lst = [1, 2, 3, 4, 5]; for (i</description>
       </item>
       
       <item>
@@ -1536,6 +1608,15 @@
       </item>
       
       <item>
+        <title>09. Get Element</title>
+        <link>https://yorkfish.github.io/review/web/javascript/09-get-element/</link>
+        <pubDate>Wed, 06 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/javascript/09-get-element/</guid>
+        <description>说明 可以使用内置对象 document 上的 getElementById() 方法来获取页面上设置了 id 属性的元素 获取到的是一个 html 对象 然后将它赋值给一个变量 错误的写法 Code 1 2 3 4 5 &amp;lt;script type=&amp;#34;text/javascript&amp;#34;&amp;gt; var oDiv = document.getElementById(&amp;#39;div1&amp;#39;); &amp;lt;/script&amp;gt;</description>
+      </item>
+      
+      <item>
         <title>09. Box Model</title>
         <link>https://yorkfish.github.io/review/web/css/09-box-model/</link>
         <pubDate>Tue, 05 Jan 2021 00:00:00 +0800</pubDate>
@@ -1689,6 +1770,15 @@
       </item>
       
       <item>
+        <title>10. Element Operation</title>
+        <link>https://yorkfish.github.io/review/web/javascript/10-element-operation/</link>
+        <pubDate>Wed, 06 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/javascript/10-element-operation/</guid>
+        <description>样式操作 形式：标签对象.style.css属性名 = &amp;quot;值&amp;quot;; // 改变标签对象的样式 示例：id.style.color = &amp;quot;red&amp;quot;; 注意</description>
+      </item>
+      
+      <item>
         <title>10. 3 Elements</title>
         <link>https://yorkfish.github.io/review/web/css/10-3-elements/</link>
         <pubDate>Tue, 05 Jan 2021 00:00:00 +0800</pubDate>
@@ -1833,6 +1923,15 @@
       </item>
       
       <item>
+        <title>11. Timer</title>
+        <link>https://yorkfish.github.io/review/web/javascript/11-timer/</link>
+        <pubDate>Wed, 06 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/javascript/11-timer/</guid>
+        <description>计时事件 设定一个间隔，时间到了后准时执行代码，此为“计时事件” 作用 制作动画 异步操作 类型 单次定时器 多次定时器 语法 setInterval() 和 setTimeout() 是 Window 对象的两个方法 1 2 3</description>
+      </item>
+      
+      <item>
         <title>11. display</title>
         <link>https://yorkfish.github.io/review/web/css/11-display/</link>
         <pubDate>Tue, 05 Jan 2021 00:00:00 +0800</pubDate>
@@ -1914,6 +2013,15 @@
       </item>
       
       <item>
+        <title>12. function</title>
+        <link>https://yorkfish.github.io/review/web/javascript/12-function/</link>
+        <pubDate>Wed, 06 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/javascript/12-function/</guid>
+        <description>定义 使用 function 语句 1 2 3 function abc() { alert(&amp;#39;abc&amp;#39;); } 在表达式中定义 1 2 3 4 5 6 7 8 9 10 11 /* 形式 var 函数名 = function(参数1, 参数2, ...) {...}; */ var add = function(a, b) { return a +</description>
+      </item>
+      
+      <item>
         <title>12. float</title>
         <link>https://yorkfish.github.io/review/web/css/12-float/</link>
         <pubDate>Tue, 05 Jan 2021 00:00:00 +0800</pubDate>
@@ -1986,6 +2094,15 @@
       </item>
       
       <item>
+        <title>13. Object</title>
+        <link>https://yorkfish.github.io/review/web/javascript/13-object/</link>
+        <pubDate>Wed, 06 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/javascript/13-object/</guid>
+        <description>创建对象 创建内置对象 1 2 3 4 var myObject = new Object(); myObject.name = &amp;#34;LiJie&amp;#34;; myObject.age = 18; myObject.say = function() {...}; 创建自定义对象 形式：var 对象名 = {属性名1: 属性值, 属性名2: 属性值2, ...} 使用自</description>
+      </item>
+      
+      <item>
         <title>13. clear float</title>
         <link>https://yorkfish.github.io/review/web/css/13-4-methods-of-clearing-floating/</link>
         <pubDate>Tue, 05 Jan 2021 00:00:00 +0800</pubDate>
@@ -2049,6 +2166,15 @@
       </item>
       
       <item>
+        <title>14. Array</title>
+        <link>https://yorkfish.github.io/review/web/javascript/14-array/</link>
+        <pubDate>Wed, 06 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/javascript/14-array/</guid>
+        <description>简介 数组就是一组数据的集合 JS 中，数组里面的数据可以是不同类型的 定义 1 2 3 4 5 // 1. 用对象的实例创建 var array1 = new Array(1, 2, 3); // 2. 直接量创建 var array2 = [1, 2, 3, &amp;#34;abc&amp;#34;]; 操</description>
+      </item>
+      
+      <item>
         <title>14. position - I</title>
         <link>https://yorkfish.github.io/review/web/css/14-position-relative-absolute/</link>
         <pubDate>Tue, 05 Jan 2021 00:00:00 +0800</pubDate>
@@ -2091,6 +2217,15 @@
         
         <guid>https://yorkfish.github.io/review/c/basics/14-strcpy-and-strncpy/</guid>
         <description>1. strcpy(字符数组1, 字符串2) 简介 string copy 字符串赋值函数 将“字符串2”复制到“字符数组1”中去 注意事项 “字符数组1”必须定义得足够大，以</description>
+      </item>
+      
+      <item>
+        <title>15. Math Object</title>
+        <link>https://yorkfish.github.io/review/web/javascript/15-math-object/</link>
+        <pubDate>Wed, 06 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/javascript/15-math-object/</guid>
+        <description>Math 例1. 四舍五入 1 2 3 4 var num1 = Math.round(5.921); var num2 = Math.round(5.321); console.log(num1); // 6 console.log(num2); // 5 例2 最值 1 2 3 4 5 6 7 // 获取最大值 var num1 = Math.max(10, 20, 30, 41, 52, 14, 28, 39); console.log(num1); // 52 // 获取最小值 var num2 = Math.min(10, 20, 30, 41,</description>
       </item>
       
       <item>
