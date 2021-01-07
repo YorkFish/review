@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jQuery on York&#39;s blog</title>
+    <link>https://yorkfish.github.io/review/web/jquery/</link>
+    <description>Recent content in jQuery on York&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2020 - 2021, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 07 Jan 2021 00:00:00 +0800</lastBuildDate>
+    
+        <atom:link href="https://yorkfish.github.io/review/web/jquery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>01. Introduce</title>
+        <link>https://yorkfish.github.io/review/web/jquery/01-introduce/</link>
+        <pubDate>Thu, 07 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/jquery/01-introduce/</guid>
+        <description>说明 官网：&amp;gt;&amp;gt;&amp;gt; 传送门 jQuery 是一个是免费、开源的 Javascript 库，也是目前使用最广泛的 Javascript 函数库 作用 jQuery 极大地方便使用者完成前端的相关操作，例</description>
+      </item>
+      
+      <item>
+        <title>02. Easy Operation</title>
+        <link>https://yorkfish.github.io/review/web/jquery/02-easy-operation/</link>
+        <pubDate>Thu, 07 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/jquery/02-easy-operation/</guid>
+        <description>1. 选择器 简介 jQuery 用法思想：选择某个网页元素，然后对它进行某种操作 jQuery 选择器：可以快速地选择元素，其选择规则和 CSS 样式相同 基础选择器 1 2 3 4 5 6 7 8</description>
+      </item>
+      
+      <item>
+        <title>03. Element Operation</title>
+        <link>https://yorkfish.github.io/review/web/jquery/03-element-operation/</link>
+        <pubDate>Thu, 07 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/jquery/03-element-operation/</guid>
+        <description>可以通过 jQuery 操作控制元素的样式、文本、属性等 1. 样式操作 CSS 操作行内样式 1 2 3 4 5 6 7 8 // 1. 获取 div 的样式 $(&amp;#34;div&amp;#34;).css(&amp;#34;width&amp;#34;); $(&amp;#34;div&amp;#34;).css(&amp;#34;color&amp;#34;); // 2. 设置 div 的样式 $(&amp;#34;div&amp;#34;).css(&amp;#34;width&amp;#34;, &amp;#34;30px&amp;#34;); $(&amp;#34;div&amp;#34;).css(&amp;#34;height&amp;#34;, &amp;#34;30px&amp;#34;); $(&amp;#34;div&amp;#34;).css({fontSize: &amp;#34;30px&amp;#34;, color: &amp;#34;red&amp;#34;}); 选择器</description>
+      </item>
+      
+      <item>
+        <title>04. Event</title>
+        <link>https://yorkfish.github.io/review/web/jquery/04-event/</link>
+        <pubDate>Thu, 07 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/jquery/04-event/</guid>
+        <description>1. 事件绑定 基本绑定 1 2 3 4 5 6 7 // 单击与双击事件 $(element).click(function(){}); $(element).dblclick(function(){}); // 加载完毕事件 $(document).ready(function(){}); $(function(){}); 方法绑定 1 2 $(element).bind(&amp;#39;click&amp;#39;, function(){}); // 绑定事件 $(element).unbind(); // 解除事件绑定 动态绑定 live 方法在高版本(&amp;g</description>
+      </item>
+      
+      <item>
+        <title>05. Element Node Operation</title>
+        <link>https://yorkfish.github.io/review/web/jquery/05-element-node-operation/</link>
+        <pubDate>Thu, 07 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/jquery/05-element-node-operation/</guid>
+        <description>1. 创建节点 1 var Div = $(&amp;#39;&amp;lt;div&amp;gt;这是一个div元素&amp;lt;/div&amp;gt;&amp;#39;); 2. 插入节点 append() 和 appendTo() 在现存元素的内</description>
+      </item>
+      
+    
+  </channel>
+</rss>

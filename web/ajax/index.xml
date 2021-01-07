@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AJAX on York&#39;s blog</title>
+    <link>https://yorkfish.github.io/review/web/ajax/</link>
+    <description>Recent content in AJAX on York&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2020 - 2021, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 07 Jan 2021 00:00:00 +0800</lastBuildDate>
+    
+        <atom:link href="https://yorkfish.github.io/review/web/ajax/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>01. Introduce</title>
+        <link>https://yorkfish.github.io/review/web/ajax/01-introduce/</link>
+        <pubDate>Thu, 07 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/ajax/01-introduce/</guid>
+        <description>AJAX 是一种“艺术”，是在不重新加载整个页面的情况下与服务器交换数据并更新部分网页的艺术 网上是这样说的 AJAX 指异步 JavaScript 及 XML (Asynchronous JavaScript And XML) AJAX 是一种在 2005 年由 Google 推</description>
+      </item>
+      
+      <item>
+        <title>02. Usage</title>
+        <link>https://yorkfish.github.io/review/web/ajax/02-usage/</link>
+        <pubDate>Thu, 07 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/ajax/02-usage/</guid>
+        <description>使用 AJAX 技术 首先，得有 Web 服务器 如，能够通过浏览器去执行 HTML 和 Python 之前写的 HTML，直接在浏览器打开时，使用的是 file 协议 而 AJAX 是基于 HTTP 请求的，所以需要 HTML</description>
+      </item>
+      
+      <item>
+        <title>03. json</title>
+        <link>https://yorkfish.github.io/review/web/ajax/03-json/</link>
+        <pubDate>Thu, 07 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/ajax/03-json/</guid>
+        <description>说明 json(JavaScript Object Notation)，意为 JS 对象表示法 这里说的 josn 指的是类似于 JS 对象的一种数据格式 目前这种数据格式比较流行，逐渐替换掉了传统的 XML 数据格式</description>
+      </item>
+      
+    
+  </channel>
+</rss>

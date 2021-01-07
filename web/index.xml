@@ -41,6 +41,33 @@
         <description></description>
       </item>
       
+      <item>
+        <title>jQuery</title>
+        <link>https://yorkfish.github.io/review/web/jquery/</link>
+        <pubDate>Thu, 07 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/jquery/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>AJAX</title>
+        <link>https://yorkfish.github.io/review/web/ajax/</link>
+        <pubDate>Thu, 07 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/ajax/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Bootstrap</title>
+        <link>https://yorkfish.github.io/review/web/bootstrap/</link>
+        <pubDate>Thu, 07 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/bootstrap/</guid>
+        <description></description>
+      </item>
+      
     
   </channel>
 </rss>
