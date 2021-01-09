@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vue on York&#39;s blog</title>
+    <link>https://yorkfish.github.io/review/web/vue/</link>
+    <description>Recent content in Vue on York&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2020 - 2021, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 09 Jan 2021 00:00:00 +0800</lastBuildDate>
+    
+        <atom:link href="https://yorkfish.github.io/review/web/vue/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>01. Overview</title>
+        <link>https://yorkfish.github.io/review/web/vue/01-overview/</link>
+        <pubDate>Sat, 09 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/vue/01-overview/</guid>
+        <description>说明 官方文档：&amp;gt;&amp;gt;&amp;gt; 传送门 下载地址：&amp;gt;&amp;gt;&amp;gt; 传送门 两个版本 开发版本（不妨先下载这个） 生产版本（删去了报错信</description>
+      </item>
+      
+      <item>
+        <title>02. Template Syntax</title>
+        <link>https://yorkfish.github.io/review/web/vue/02-template-syntax/</link>
+        <pubDate>Sat, 09 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/vue/02-template-syntax/</guid>
+        <description>举例 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;outline&amp;lt;/title&amp;gt; &amp;lt;script type=&amp;#34;text/javascript&amp;#34; src=&amp;#34;./vue.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div id=&amp;#34;app&amp;#34;&amp;gt; &amp;lt;p&amp;gt;{{msg}}&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;{{str}}&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;{{obj}}&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;{{arr}}&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;{{1+1}}&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;{{1&amp;gt;0?&amp;#39;Y&amp;#39;:&amp;#39;N&amp;#39;}}&amp;lt;/p&amp;gt; &amp;lt;!-- &amp;lt;p&amp;gt;{{var n = 1;}}&amp;lt;/p&amp;gt; [Vue warn]: Error compiling template: ... --&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>03. Text Instruction</title>
+        <link>https://yorkfish.github.io/review/web/vue/03-text-instruction/</link>
+        <pubDate>Sat, 09 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/vue/03-text-instruction/</guid>
+        <description>举例 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;outline&amp;lt;/title&amp;gt; &amp;lt;script type=&amp;#34;text/javascript&amp;#34; src=&amp;#34;./vue.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div id=&amp;#34;app&amp;#34;&amp;gt; &amp;lt;p v-html=&amp;#34;msg&amp;#34;&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p v-text=&amp;#34;msg&amp;#34;&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;script type=&amp;#34;text/javascript&amp;#34;&amp;gt; new Vue({ el: &amp;#34;#app&amp;#34;, data: { msg: &amp;#34;&amp;lt;h1&amp;gt;你好&amp;</description>
+      </item>
+      
+      <item>
+        <title>04. Property Operation</title>
+        <link>https://yorkfish.github.io/review/web/vue/04-property-operation/</link>
+        <pubDate>Sat, 09 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/vue/04-property-operation/</guid>
+        <description>举例 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;outline&amp;lt;/title&amp;gt; &amp;lt;script type=&amp;#34;text/javascript&amp;#34; src=&amp;#34;./vue.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; vue 1 版本可以这么用，但 2 版本改了 &amp;lt;a href={{url}</description>
+      </item>
+      
+      <item>
+        <title>05. Style operation</title>
+        <link>https://yorkfish.github.io/review/web/vue/05-style-operation/</link>
+        <pubDate>Sat, 09 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/vue/05-style-operation/</guid>
+        <description>举例 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;outline&amp;lt;/title&amp;gt; &amp;lt;script type=&amp;#34;text/javascript&amp;#34; src=&amp;#34;./vue.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;style type=&amp;#34;text/css&amp;#34;&amp;gt; .box1{ width: 200px;</description>
+      </item>
+      
+      <item>
+        <title>06. v-model</title>
+        <link>https://yorkfish.github.io/review/web/vue/06-v-model/</link>
+        <pubDate>Sat, 09 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/vue/06-v-model/</guid>
+        <description>举例 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;v-model&amp;lt;/title&amp;gt; &amp;lt;script src=&amp;#34;./vue.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;style&amp;gt; &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div id=&amp;#34;app&amp;#34;&amp;gt; &amp;lt;form&amp;gt; &amp;lt;!-- 1.</description>
+      </item>
+      
+      <item>
+        <title>07. v-for</title>
+        <link>https://yorkfish.github.io/review/web/vue/07-v-for/</link>
+        <pubDate>Sat, 09 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/vue/07-v-for/</guid>
+        <description>举例 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;v-for&amp;lt;/title&amp;gt; &amp;lt;script src=&amp;#34;./vue.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;style&amp;gt; &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div id=&amp;#34;app&amp;#34;&amp;gt; &amp;lt;form&amp;gt; &amp;lt;/form&amp;gt; &amp;lt;ul&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>08. v-if</title>
+        <link>https://yorkfish.github.io/review/web/vue/08-v-if/</link>
+        <pubDate>Sat, 09 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/vue/08-v-if/</guid>
+        <description>举例 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;v-if&amp;lt;/title&amp;gt; &amp;lt;script src=&amp;#34;./vue.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;style&amp;gt; div{ width: 200px; height: 200px; } .box1{ background: red; } .box2{ background:</description>
+      </item>
+      
+      <item>
+        <title>09. Event Binding</title>
+        <link>https://yorkfish.github.io/review/web/vue/09-event-binding/</link>
+        <pubDate>Sat, 09 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/vue/09-event-binding/</guid>
+        <description>举例 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;event binding&amp;lt;/title&amp;gt; &amp;lt;script src=&amp;#34;./vue.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;style&amp;gt; &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div id=&amp;#34;app&amp;#34;&amp;gt; &amp;lt;form&amp;gt; &amp;lt;/form&amp;gt; &amp;lt;button v-on</description>
+      </item>
+      
+      <item>
+        <title>10. v-show</title>
+        <link>https://yorkfish.github.io/review/web/vue/10-v-show/</link>
+        <pubDate>Sat, 09 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/vue/10-v-show/</guid>
+        <description>举例 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;v-show&amp;lt;/title&amp;gt; &amp;lt;script src=&amp;#34;./vue.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;style&amp;gt; .box1{ width: 200px; height: 200px; background: red; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div id=&amp;#34;app&amp;#34;&amp;gt; &amp;lt;form&amp;gt; &amp;lt;!-- a --&amp;gt; &amp;lt;/form&amp;gt; &amp;lt;button @click=&amp;#34;show&amp;#34;&amp;gt;show&amp;lt;/button&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>11. filter</title>
+        <link>https://yorkfish.github.io/review/web/vue/11-filter/</link>
+        <pubDate>Sat, 09 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/vue/11-filter/</guid>
+        <description>举例 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt; &amp;lt;title&amp;gt;filter&amp;lt;/title&amp;gt; &amp;lt;script src=&amp;quot;./vue.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;style&amp;gt; &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div id=&amp;quot;app&amp;quot;&amp;gt; {{msg}} &amp;lt;br&amp;gt; {{msg|capitalize}} &amp;lt;br&amp;gt; {{price}} &amp;lt;br&amp;gt; {{price|currency}} &amp;lt;br&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; new Vue({ el: &amp;quot;#app&amp;quot;, data: { msg: &amp;quot;hello&amp;quot;, price: 20 }, filters: { // 官网的例子 capitalize: function(val){ return val.charAt(0).toUpperCase() + val.slice(1); }, currency: function(val){ return val + &amp;quot; $&amp;quot;; } } }); &amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;</description>
+      </item>
+      
+      <item>
+        <title>12. Calculation Properties</title>
+        <link>https://yorkfish.github.io/review/web/vue/12-calculation-properties/</link>
+        <pubDate>Sat, 09 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/vue/12-calculation-properties/</guid>
+        <description>例1 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt; &amp;lt;title&amp;gt;calculation properties&amp;lt;/title&amp;gt; &amp;lt;script src=&amp;quot;./vue.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;style&amp;gt; &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div id=&amp;quot;app&amp;quot;&amp;gt; &amp;lt;!-- 当 a 发生变化时，输出 a+1 --&amp;gt; &amp;lt;input type=&amp;quot;text&amp;quot; v-model=&amp;quot;a&amp;quot;&amp;gt; &amp;lt;br&amp;gt; {{a+1}} &amp;lt;br&amp;gt; {{parseInt(a)+1}} &amp;lt;br&amp;gt; {{b}} &amp;lt;br&amp;gt; {{c()}} &amp;lt;br&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; var vm = new Vue({ el: &amp;quot;#app&amp;quot;, data: { a: 1 }, computed: { // 写业务逻辑，有缓存 b:</description>
+      </item>
+      
+      <item>
+        <title>13. Listening Properties</title>
+        <link>https://yorkfish.github.io/review/web/vue/13-listening-properties/</link>
+        <pubDate>Sat, 09 Jan 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/web/vue/13-listening-properties/</guid>
+        <description>举例 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt; &amp;lt;title&amp;gt;listening properties&amp;lt;/title&amp;gt; &amp;lt;script src=&amp;quot;./vue.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;style&amp;gt; &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div id=&amp;quot;app&amp;quot;&amp;gt; &amp;lt;input type=&amp;quot;text&amp;quot; v-model=&amp;quot;firstName&amp;quot;&amp;gt; &amp;lt;input type=&amp;quot;text&amp;quot; v-model=&amp;quot;lastName&amp;quot;&amp;gt; &amp;lt;br&amp;gt; {{firstName + lastName}} &amp;lt;br&amp;gt; {{fullName}} &amp;lt;br&amp;gt; {{num}} &amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; new Vue({ el: &amp;quot;#app&amp;quot;, data: { firstName: &amp;quot;&amp;quot;, lastName: &amp;quot;&amp;quot;, num: 0 }, computed: { fullName: function(){ return this.firstName + this.lastName; } }, watch: { fullName: function(){ this.num++; } } }); &amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;</description>
+      </item>
+      
+    
+  </channel>
+</rss>
