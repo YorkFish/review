@@ -7,12 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy;2020 - 2021, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 10 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Jan 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://yorkfish.github.io/review/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+      
+      <item>
+        <title>06. LaTeX</title>
+        <link>https://yorkfish.github.io/review/blog/06-latex/</link>
+        <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/06-latex/</guid>
+        <description>&amp;gt;: \geq \begin{equation} \label{1_5} \begin{aligned} a \geq b &amp;amp; \cdots \mbox{geq, 大于等于} \\ a \leq b &amp;amp; \cdots \mbox{leq, 小于等于} \end{aligned} \end{equation}</description>
+      </item>
       
       <item>
         <title>Linux command - time</title>

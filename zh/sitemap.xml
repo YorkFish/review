@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yorkfish.github.io/review/latex/01-general-structure/</loc>
+    <lastmod>2021-01-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/web/vue/01-overview/</loc>
     <lastmod>2021-01-09T00:00:00+08:00</lastmod>
   </url>
@@ -143,6 +148,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/latex/</loc>
+    <lastmod>2020-08-23T00:30:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/hugo/hugo-01/</loc>
     <lastmod>2020-08-23T00:30:00+08:00</lastmod>
   </url>
@@ -161,6 +171,11 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/web/css/01-3-page-introduction-methods/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/latex/02-multiline-comment/</loc>
+    <lastmod>2021-01-17T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -324,6 +339,11 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/c/struct-union-enum/02-define/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/latex/03-book-structure/</loc>
+    <lastmod>2021-01-17T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -491,6 +511,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/latex/04-insert-picture/</loc>
+    <lastmod>2021-01-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/web/vue/04-property-operation/</loc>
     <lastmod>2021-01-09T00:00:00+08:00</lastmod>
   </url>
@@ -640,6 +665,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/latex/05-list/</loc>
+    <lastmod>2021-01-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/web/vue/05-style-operation/</loc>
     <lastmod>2021-01-09T00:00:00+08:00</lastmod>
   </url>
@@ -774,6 +804,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/latex/06-mathematical-formula/</loc>
+    <lastmod>2021-01-17T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/web/vue/06-v-model/</loc>
     <lastmod>2021-01-09T00:00:00+08:00</lastmod>
   </url>
@@ -884,6 +919,11 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/python/numpy/06-ndarray-slice/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/latex/07-draw/</loc>
+    <lastmod>2021-01-17T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -1004,6 +1044,11 @@
   <url>
     <loc>https://yorkfish.github.io/review/c/file/</loc>
     <lastmod>2020-09-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/latex/08-table/</loc>
+    <lastmod>2021-01-17T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -1592,8 +1637,18 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/blog/06-latex/</loc>
+    <lastmod>2021-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/blog/</loc>
-    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/tags/latex/</loc>
+    <lastmod>2021-01-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>

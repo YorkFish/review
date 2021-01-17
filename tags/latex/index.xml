@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LaTeX on York&#39;s blog</title>
+    <link>https://yorkfish.github.io/review/tags/latex/</link>
+    <description>Recent content in LaTeX on York&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2020 - 2021, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 10 Jan 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://yorkfish.github.io/review/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>06. LaTeX</title>
+        <link>https://yorkfish.github.io/review/blog/06-latex/</link>
+        <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/06-latex/</guid>
+        <description>&amp;gt;: \geq \begin{equation} \label{1_5} \begin{aligned} a \geq b &amp;amp; \cdots \mbox{geq, 大于等于} \\ a \leq b &amp;amp; \cdots \mbox{leq, 小于等于} \end{aligned} \end{equation}</description>
+      </item>
+      
+    
+  </channel>
+</rss>
