@@ -2679,12 +2679,33 @@
       </item>
       
       <item>
-        <title>06. LaTeX</title>
+        <title>星空之夜</title>
+        <link>https://yorkfish.github.io/review/blog/07-exercise-01-28/</link>
+        <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/07-exercise-01-28/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;活动时间：2021-01-28&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;题目描述&#34;&gt;题目描述&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AcWing 1402&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;orange&#34;&gt;中等&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;夜空深处，闪亮的星星以星群的形式出现在人们眼中，形态万千。&lt;/li&gt;
+&lt;li&gt;一个星群是指一组非空的在水平，垂直或对角线方向相邻的星星的集合。&lt;/li&gt;
+&lt;li&gt;一个星群不能是一个更大星群的一部分。&lt;/li&gt;
+&lt;li&gt;星群可能是相似的。&lt;/li&gt;
+&lt;li&gt;如果两个星群的形状、包含星星的数目相同，那么无论它们的朝向如何，都认为它们是相似的。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
+      
+      <item>
+        <title>一些 LaTeX 的符号</title>
         <link>https://yorkfish.github.io/review/blog/06-latex/</link>
         <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
         
         <guid>https://yorkfish.github.io/review/blog/06-latex/</guid>
-        <description>&amp;gt;: \geq \begin{equation} \label{1_5} \begin{aligned} a \geq b &amp;amp; \cdots \mbox{geq, 大于等于} \\ a \leq b &amp;amp; \cdots \mbox{leq, 小于等于} \end{aligned} \end{equation}</description>
+        <description>绝对值：\left| \right| 向下取整：\lfloor x \rfloor 向上取整：\lceil x \rceil 小于等于：\leq 大于等于：\gep 下标：v_i 分数：\frac</description>
       </item>
       
       <item>
