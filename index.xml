@@ -2679,6 +2679,32 @@
       </item>
       
       <item>
+        <title>加分二叉树</title>
+        <link>https://yorkfish.github.io/review/blog/08-exercise-01-29/</link>
+        <pubDate>Sat, 30 Jan 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/08-exercise-01-29/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;活动时间：2021-01-29&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;题目描述&#34;&gt;题目描述&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AcWing 479&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;orange&#34;&gt;中等&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;设一个 n 个节点的二叉树 tree 的中序遍历为 (1,2,3,&amp;hellip;,n)，其中数字 1,2,3,&amp;hellip;,n 为节点编号。&lt;/li&gt;
+&lt;li&gt;每个节点都有一个分数（均为正整数），记第 i 个节点的分数为 di，&lt;/li&gt;
+&lt;li&gt;tree 及它的每个子树都有一个加分，任一棵子树 subtree（也包含 tree 本身）的加分计算方法如下
+&lt;ul&gt;
+&lt;li&gt;subtree 的左子树的加分 x subtree 的右子树的加分 + subtree 的根的分数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;若某个子树为空，规定其加分为 1。&lt;/li&gt;
+&lt;li&gt;叶子的加分就是叶节点本身的分数，不考虑它的空子树。&lt;/li&gt;
+&lt;li&gt;试求一棵符合中序遍历为 (1,2,3,&amp;hellip;,n) 且加分最高的二叉树 tree。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
+      
+      <item>
         <title>星空之夜</title>
         <link>https://yorkfish.github.io/review/blog/07-exercise-01-28/</link>
         <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
