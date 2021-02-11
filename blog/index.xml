@@ -7,12 +7,294 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy;2020 - 2021, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 31 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Feb 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://yorkfish.github.io/review/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+      
+      <item>
+        <title>乌龟棋</title>
+        <link>https://yorkfish.github.io/review/blog/18-exercise-02-09/</link>
+        <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/18-exercise-02-09/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;活动时间：2021-02-09&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;题目描述&#34;&gt;题目描述&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AcWing 312&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;green&#34;&gt;简单&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;小明过生日的时候，爸爸送给他一副乌龟棋当作礼物。&lt;/li&gt;
+&lt;li&gt;乌龟棋的棋盘只有一行，该行有 N 个格子，每个格子上一个分数（非负整数）。&lt;/li&gt;
+&lt;li&gt;棋盘第 1 格是唯一的起点，第 N 格是终点，游戏要求玩家控制一个乌龟棋子从起点出发走到终点。&lt;/li&gt;
+&lt;li&gt;乌龟棋中共有 M 张爬行卡片，分成 4 种不同的类型（M 张卡片中不一定包含所有 4 种类型的卡片），每种类型的卡片上分别标有 1, 2, 3, 4  四个数字之一，表示使用这种卡片后，乌龟棋子将向前爬行相应的格子数。&lt;/li&gt;
+&lt;li&gt;游戏中，玩家每次需要从所有的爬行卡片中选择一张之前没有使用过的爬行卡片，控制乌龟棋子前进相应的格子数，每张卡片只能使用一次。&lt;/li&gt;
+&lt;li&gt;游戏中，乌龟棋子自动获得起点格子的分数，并且在后续的爬行中每到达一个格子，就得到该格子相应的分数。&lt;/li&gt;
+&lt;li&gt;玩家最终游戏得分就是乌龟棋子从起点到终点过程中到过的所有格子的分数总和。&lt;/li&gt;
+&lt;li&gt;很明显，用不同的爬行卡片使用顺序会使得最终游戏的得分不同，小明想要找到一种卡片使用顺序使得最终游戏得分最多。&lt;/li&gt;
+&lt;li&gt;现在，告诉你棋盘上每个格子的分数和所有的爬行卡片，你能告诉小明，他最多能得到多少分吗？&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
+      
+      <item>
+        <title>鱼塘钓鱼</title>
+        <link>https://yorkfish.github.io/review/blog/17-exercise-02-08/</link>
+        <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/17-exercise-02-08/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;活动时间：2021-02-08&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;题目描述&#34;&gt;题目描述&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AcWing 1262&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;green&#34;&gt;简单&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;有 N 个鱼塘排成一排，每个鱼塘中有一定数量的鱼，例如：N=5 时，如下表&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;鱼塘编号&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;1&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;2&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;3&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;4&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;5&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;第 1 分钟能钓到的鱼的数量(1&amp;hellip;1000)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;10&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;14&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;20&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;16&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;每钓鱼 1 分钟钓鱼数的减少量(1&amp;hellip;100)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;6&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;5&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;当前鱼塘到下一个相邻鱼塘需要的时间（单位：分钟）&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;5&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;/&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;即：在第 1 个鱼塘中钓鱼第 1 分钟内可钓到 10 条鱼，第 2 分钟内只能钓到 8 条鱼，……，第 5 分钟以后再也钓不到鱼了。&lt;/li&gt;
+&lt;li&gt;从第 1 个鱼塘到第 2 个鱼塘需要 3 分钟，从第 2 个鱼塘到第 3 个鱼塘需要 5 分钟，……&lt;/li&gt;
+&lt;li&gt;给出一个截止时间 T，设计一个钓鱼方案，从第 1 个鱼塘出发，希望能钓到最多的鱼。&lt;/li&gt;
+&lt;li&gt;假设能钓到鱼的数量仅和已钓鱼的次数有关，且每次钓鱼的时间都是整数分钟。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
+      
+      <item>
+        <title>关押罪犯</title>
+        <link>https://yorkfish.github.io/review/blog/16-exercise-02-07/</link>
+        <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/16-exercise-02-07/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;活动时间：2021-02-07&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;题目描述&#34;&gt;题目描述&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AcWing 257&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;orange&#34;&gt;中等&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;S 城现有两座监狱，一共关押着 N 名罪犯，编号分别为 1~N。&lt;/li&gt;
+&lt;li&gt;他们之间的关系自然也极不和谐。&lt;/li&gt;
+&lt;li&gt;很多罪犯之间甚至积怨已久，如果客观条件具备则随时可能爆发冲突。&lt;/li&gt;
+&lt;li&gt;我们用“怨气值”（一个正整数值）来表示某两名罪犯之间的仇恨程度，怨气值越大，则这两名罪犯之间的积怨越多。&lt;/li&gt;
+&lt;li&gt;如果两名怨气值为 c 的罪犯被关押在同一监狱，他们俩之间会发生摩擦，并造成影响力为 c 的冲突事件。&lt;/li&gt;
+&lt;li&gt;每年年末，警察局会将本年内监狱中的所有冲突事件按影响力从大到小排成一个列表，然后上报到 S 城 Z 市长那里。&lt;/li&gt;
+&lt;li&gt;公务繁忙的 Z 市长只会去看列表中的第一个事件的影响力，如果影响很坏，他就会考虑撤换警察局长。&lt;/li&gt;
+&lt;li&gt;在详细考察了 N 名罪犯间的矛盾关系后，警察局长觉得压力巨大。&lt;/li&gt;
+&lt;li&gt;他准备将罪犯们在两座监狱内重新分配，以求产生的冲突事件影响力都较小，从而保住自己的乌纱帽。&lt;/li&gt;
+&lt;li&gt;假设只要处于同一监狱内的某两个罪犯间有仇恨，那么他们一定会在每年的某个时候发生摩擦。那么，应如何分配罪犯，才能使 Z 市长看到的那个冲突事件的影响力最小？这个最小值是多少？&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
+      
+      <item>
+        <title>借教室</title>
+        <link>https://yorkfish.github.io/review/blog/15-exercise-02-06/</link>
+        <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/15-exercise-02-06/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;活动时间：2021-02-06&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;题目描述&#34;&gt;题目描述&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AcWing 503&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;green&#34;&gt;简单&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;在大学期间，经常需要租借教室。&lt;/li&gt;
+&lt;li&gt;大到院系举办活动，小到学习小组自习讨论，都需要向学校申请借教室。&lt;/li&gt;
+&lt;li&gt;教室的大小功能不同，借教室人的身份不同，借教室的手续也不一样。 &lt;/li&gt;
+&lt;li&gt;面对海量租借教室的信息，我们自然希望编程解决这个问题。&lt;/li&gt;
+&lt;li&gt;我们需要处理接下来 n 天的借教室信息，其中第 i 天学校有 r&lt;sub&gt;i&lt;/sub&gt; 个教室可供租借。&lt;/li&gt;
+&lt;li&gt;共有 m 份订单，每份订单用三个正整数描述，分别为 d&lt;sub&gt;j&lt;/sub&gt;, s&lt;sub&gt;j&lt;/sub&gt;, t&lt;sub&gt;j&lt;/sub&gt;，&lt;/li&gt;
+&lt;li&gt;表示某租借者需要从第 s&lt;sub&gt;j&lt;/sub&gt; 天到第 t&lt;sub&gt;j&lt;/sub&gt; 天租借教室（包括第 s&lt;sub&gt;j&lt;/sub&gt; 天和第 t&lt;sub&gt;j&lt;/sub&gt; 天），每天需要租借 d&lt;sub&gt;j&lt;/sub&gt; 个教室。 &lt;/li&gt;
+&lt;li&gt;我们假定，租借者对教室的大小、地点没有要求。&lt;/li&gt;
+&lt;li&gt;即对于每份订单，我们只需要每天提供 d&lt;sub&gt;j&lt;/sub&gt; 个教室，而它们具体是哪些教室，每天是否是相同的教室则不用考虑。 &lt;/li&gt;
+&lt;li&gt;借教室的原则是先到先得，也就是说我们要按照订单的先后顺序依次为每份订单分配教室。&lt;/li&gt;
+&lt;li&gt;如果在分配的过程中遇到一份订单无法完全满足，则需要停止教室的分配，通知当前申请人修改订单。&lt;/li&gt;
+&lt;li&gt;这里的无法满足指从第 s&lt;sub&gt;j&lt;/sub&gt; 天到第 t&lt;sub&gt;j&lt;/sub&gt; 天中有至少一天剩余的教室数量不足 d&lt;sub&gt;j&lt;/sub&gt; 个。&lt;/li&gt;
+&lt;li&gt;现在我们需要知道，是否会有订单无法完全满足。&lt;/li&gt;
+&lt;li&gt;如果有，需要通知哪一个申请人修改订单。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
+      
+      <item>
+        <title>聪明的质监员</title>
+        <link>https://yorkfish.github.io/review/blog/14-exercise-02-05/</link>
+        <pubDate>Sat, 06 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/14-exercise-02-05/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;活动时间：2021-02-05&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;题目描述&#34;&gt;题目描述&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;AcWing 499&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;font color=&#34;green&#34;&gt;简单&lt;/font&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;小 T 是一名质量监督员，最近负责检验一批矿产的质量。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;这批矿产共有 n 个矿石，从 1 到 n 逐一编号，每个矿石都有自己的重量 w&lt;sub&gt;i&lt;/sub&gt; 以及价值 v&lt;sub&gt;i&lt;/sub&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;检验矿产的流程是&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;给定 m 个区间 [L&lt;sub&gt;i&lt;/sub&gt;，R&lt;sub&gt;i&lt;/sub&gt;]；&lt;/li&gt;
+&lt;li&gt;选出一个参数 W；&lt;/li&gt;
+&lt;li&gt;对于一个区间 [L&lt;sub&gt;i&lt;/sub&gt;，R&lt;sub&gt;i&lt;/sub&gt;]，计算矿石在这个区间上的检验值 Y&lt;sub&gt;i&lt;/sub&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;p class=&#34;md__image&#34;&gt;
+  &lt;img src=&#34;https://yorkfish.github.io/review/review/imgs/blog/exercises/cal_stone.png&#34; alt=&#34;stone&#34;  /&gt;
+&lt;/p&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;这批矿产的检验结果 Y 为各个区间的检验值之和。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;即：Y = Y&lt;sub&gt;1&lt;/sub&gt; + Y&lt;sub&gt;2&lt;/sub&gt; + &amp;hellip; + Y&lt;sub&gt;m&lt;/sub&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;若这批矿产的检验结果与所给标准值 S 相差太多，就需要再去检验另一批矿产。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;小 T 不想费时间去检验另一批矿产，所以他想通过调整参数 W 的值，让检验结果尽可能的靠近标准值 S，&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;即，使得 S-Y 的绝对值最小。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;请你帮忙求出这个最小值。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
+      
+      <item>
+        <title>耍杂技的牛</title>
+        <link>https://yorkfish.github.io/review/blog/13-exercise-02-04/</link>
+        <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/13-exercise-02-04/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;活动时间：2021-02-04&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;题目描述&#34;&gt;题目描述&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AcWing 125&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;orange&#34;&gt;中等&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;农民约翰的 N 头奶牛（编号为 1&amp;hellip;N）计划逃跑并加入马戏团，为此它们决定练习表演杂技。&lt;/li&gt;
+&lt;li&gt;奶牛们不是非常有创意，只提出了一个杂技表演：&lt;/li&gt;
+&lt;li&gt;叠罗汉，表演时，奶牛们站在彼此的身上，形成一个高高的垂直堆叠。&lt;/li&gt;
+&lt;li&gt;奶牛们正在试图找到自己在这个堆叠中应该所处的位置顺序。&lt;/li&gt;
+&lt;li&gt;这 N 头奶牛中的每一头都有着自己的重量 W&lt;sub&gt;i&lt;/sub&gt; 以及自己的强壮程度 S&lt;sub&gt;i&lt;/sub&gt;。&lt;/li&gt;
+&lt;li&gt;一头牛支撑不住的可能性取决于它头上所有牛的总重量（不包括它自己）减去它的身体强壮程度的值，&lt;/li&gt;
+&lt;li&gt;现在称该数值为风险值，风险值越大，这只牛撑不住的可能性越高。&lt;/li&gt;
+&lt;li&gt;您的任务是确定奶牛的排序，使得所有奶牛的风险值中的最大值尽可能的小。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
+      
+      <item>
+        <title>糖果传递</title>
+        <link>https://yorkfish.github.io/review/blog/12-exercise-02-03/</link>
+        <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/12-exercise-02-03/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;活动时间：2021-02-03&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;题目描述&#34;&gt;题目描述&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AcWing 122&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;orange&#34;&gt;中等&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;有 n 个小朋友坐成一圈，每人有 a[i] 个糖果。&lt;/li&gt;
+&lt;li&gt;每人只能给左右两人传递糖果。&lt;/li&gt;
+&lt;li&gt;每人每次传递一个糖果代价为 1。&lt;/li&gt;
+&lt;li&gt;求使所有人获得均等糖果的最小代价。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
+      
+      <item>
+        <title>数独简单版</title>
+        <link>https://yorkfish.github.io/review/blog/11-exercise-02-02/</link>
+        <pubDate>Wed, 03 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/11-exercise-02-02/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;活动时间：2021-02-02&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;题目描述&#34;&gt;题目描述&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AcWing 1613&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;green&#34;&gt;简单&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;数独是一种传统益智游戏，你需要把一个 9x9 的数独补充完整，&lt;/li&gt;
+&lt;li&gt;使得图中每行、每列、每个 3x3 的九宫格内数字 1~9 均恰好出现一次。&lt;/li&gt;
+&lt;li&gt;请编写一个程序填写数独。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
+      
+      <item>
+        <title>K倍区间</title>
+        <link>https://yorkfish.github.io/review/blog/10-exercise-02-01/</link>
+        <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/10-exercise-02-01/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;活动时间：2021-02-01&lt;/li&gt;
+&lt;li&gt;ps: 2021-01-31 没有出题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;题目描述&#34;&gt;题目描述&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AcWing 1230&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;orange&#34;&gt;中等&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;给定一个长度为 &lt;code&gt;N&lt;/code&gt; 的数列，&lt;code&gt;A1&lt;/code&gt;,&lt;code&gt;A2&lt;/code&gt;,&amp;hellip;,&lt;code&gt;AN&lt;/code&gt;，&lt;/li&gt;
+&lt;li&gt;如果其中一段连续的子序列 &lt;code&gt;Ai&lt;/code&gt;,&lt;code&gt;Ai+1&lt;/code&gt;,&amp;hellip;,&lt;code&gt;Aj&lt;/code&gt; 之和是 &lt;code&gt;K&lt;/code&gt; 的倍数，我们就称这个区间 &lt;code&gt;[i,j]&lt;/code&gt; 是 &lt;code&gt;K&lt;/code&gt; 倍区间。&lt;/li&gt;
+&lt;li&gt;你能求出数列中总共有多少个 &lt;code&gt;K&lt;/code&gt; 倍区间吗？&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
       
       <item>
         <title>牛异或</title>

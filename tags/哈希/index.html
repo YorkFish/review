@@ -8,9 +8,12 @@
     
 
 
-<script src="/review/js/enquire.min.aa37bdcb743826eecdae5c5d177fc7d6552340f1b4378ffaa9c82b2c6111400b.js"></script>
+  
+  <script defer src="/review/js/fuse.min.c4bee9a8d44273d6154fe86006923d4131eb2e8069d8897687137c6f37f553e3.js"></script>
 
-<script defer src="/review/js/fuse.min.c4bee9a8d44273d6154fe86006923d4131eb2e8069d8897687137c6f37f553e3.js"></script>
+
+
+<script src="/review/js/enquire.min.aa37bdcb743826eecdae5c5d177fc7d6552340f1b4378ffaa9c82b2c6111400b.js"></script>
 
 <script defer src="/review/js/lazysizes.min.5e11d056075a05065b9c0bfec44084a113fc2976c2952ec804dedb61c7662db9.js"></script>
 
@@ -21,17 +24,22 @@
 <script>
   "use strict";
 
-  
-  var languagedir = JSON.parse("\"ltr\"");
-
   window.onload = function() {
+    
+    var languagedir = JSON.parse("\"ltr\"");
+    
+    var baseurl = JSON.parse("\"https://yorkfish.github.io/review\"");
+    
+    var permalink = JSON.parse("\"https://yorkfish.github.io/review/tags/%E5%93%88%E5%B8%8C/\"");
 
     
     var toggleSidebarElem = document.getElementById("toggle-sidebar");
+    var toggleMenuElem = document.getElementById("toggle-menu");
     var tocBodyElem = document.querySelector('.toc__body');
     var tocLabelElem = document.querySelector('.toc__label');
     var listMainElem = document.getElementById('list-main');
     var listSideElem = document.getElementById('list-side');
+    var singleMenuElem = document.getElementById('single-menu');
     var sliderIcons = document.querySelectorAll('.slider__icon');
 
     toggleSidebarElem ?
@@ -77,7 +85,40 @@
           });
         }
       }) : null;
+
+    toggleMenuElem ?
+      toggleMenuElem.addEventListener('change', function (e) {
+        if (e.target.checked) {
+          if (listMainElem && singleMenuElem) {
+            listMainElem.className = 'm';
+            singleMenuElem.className = 'l';
+          }
+
+          sliderIcons && sliderIcons.forEach(function (elem) {
+            if (elem.classList.contains('hide')) {
+              elem.classList.remove('hide');
+            } else {
+              elem.classList.add('hide');
+            }
+          });
+
+        } else {
+          if (listMainElem && singleMenuElem) {
+            listMainElem.className = 'lm';
+            singleMenuElem.className = 'hide';
+          }
+
+          sliderIcons && sliderIcons.forEach(function (elem) {
+            if (elem.classList.contains('hide')) {
+              elem.classList.remove('hide');
+            } else {
+              elem.classList.add('hide');
+            }
+          });
+        }
+      }) : null;
     
+
 
     
     var navCollapseBtn = document.getElementById('navCollapseBtn');
@@ -118,26 +159,95 @@
     }
     
 
+
+
+    
+    document.querySelectorAll('.tab') ? 
+    document.querySelectorAll('.tab').forEach(function(elem, idx) {
+      var containerId = elem.getAttribute('id');
+      var containerElem = elem;
+      var tabLinks = elem.querySelectorAll('.tab__link');
+      var tabContents = elem.querySelectorAll('.tab__content');
+      var ids = [];
+
+      tabLinks && tabLinks.length > 0 ?
+      tabLinks.forEach(function(link, index, self) {
+        link.onclick = function(e) {
+          for (var i = 0; i < self.length; i++) {
+            if (index === parseInt(i, 10)) {
+              if (!self[i].classList.contains('active')) {
+                self[i].classList.add('active');
+                tabContents[i].style.display = 'block';
+              }
+            } else {
+              self[i].classList.remove('active');
+              tabContents[i].style.display = 'none';
+            }
+          }
+        }
+      }) : null;
+    }) : null;
+    
+
+
+    
+    document.querySelectorAll('.codetab') ? 
+    document.querySelectorAll('.codetab').forEach(function(elem, idx) {
+      var containerId = elem.getAttribute('id');
+      var containerElem = elem;
+      var codetabLinks = elem.querySelectorAll('.codetab__link');
+      var codetabContents = elem.querySelectorAll('.codetab__content');
+      var ids = [];
+
+      codetabLinks && codetabLinks.length > 0 ?
+      codetabLinks.forEach(function(link, index, self) {
+        link.onclick = function(e) {
+          for (var i = 0; i < self.length; i++) {
+            if (index === parseInt(i, 10)) {
+              if (!self[i].classList.contains('active')) {
+                self[i].classList.add('active');
+                codetabContents[i].style.display = 'block';
+              }
+            } else {
+              self[i].classList.remove('active');
+              codetabContents[i].style.display = 'none';
+            }
+          }
+        }
+      }) : null;
+    }) : null;
+    
+
     
     
+    
+    var enableDarkMode = JSON.parse("true");
     var root = document.getElementById('root');
     var toggleToLightBtn = document.getElementById('toggleToLight');
     var toggleToDarkBtn = document.getElementById('toggleToDark');
 
-    toggleToDark.onclick = function(e) {
-      root.className = 'theme__dark';
-      localStorage.setItem('theme', 'dark');
-      toggleToLightBtn.className = 'navbar__icons--icon';
-      toggleToDarkBtn.className = 'hide';
-    }
-
-    toggleToLight.onclick = function (e) {
+    if (!enableDarkMode) {
       root.className = 'theme__light';
       localStorage.setItem('theme', 'light');
-      toggleToLightBtn.className = 'hide';
-      toggleToDarkBtn.className = 'navbar__icons--icon';
+    }
+    
+    if (toggleToDarkBtn) {
+      toggleToDarkBtn.onclick = function (e) {
+        root.className = 'theme__dark';
+        localStorage.setItem('theme', 'dark');
+        toggleToLightBtn.className = 'navbar__icons--icon';
+        toggleToDarkBtn.className = 'hide';
+      }
     }
 
+    if (toggleToLightBtn) {
+      toggleToLightBtn.onclick = function (e) {
+        root.className = 'theme__light';
+        localStorage.setItem('theme', 'light');
+        toggleToLightBtn.className = 'hide';
+        toggleToDarkBtn.className = 'navbar__icons--icon';
+      }
+    }
 
     
     document.querySelectorAll('.menu__list').forEach(function(elem) {
@@ -156,13 +266,11 @@
 
         var parent = elem.parentNode;
         while (parent.classList.contains('menu__list') && parent.classList.contains('active')) {
-          console.log('parent');
           parent.style.maxHeight = 100 * parent.children.length + "px";
           parent = parent.parentNode;
         }
 
         if (content.style.maxHeight) {
-          console.log('null');
           content.style.maxHeight = null;
           content.classList.remove('active');
           menuTitleIcon.classList.add('right');
@@ -173,7 +281,6 @@
             menuTitleIcon.classList.remove('down');
           }
         } else {
-          console.log('scrollHeight');
           content.style.maxHeight = content.scrollHeight + "px";
           content.classList.add('active');
           menuTitleIcon.classList.remove('right');
@@ -251,7 +358,7 @@
     var dataBGImgs = document.querySelectorAll('div[data-bgimg]');
 
     
-    var tocLevels = JSON.parse("null");
+    var tocLevels = JSON.parse("[\"h2\",\"h3\",\"h4\"]");
 
     if (tocLevels) {
       tocLevels = tocLevels.toString();
@@ -456,13 +563,13 @@
 
   
     
-    var searchURL = JSON.parse("\"https://yorkfish.github.io/\"");
+    var langprefix = JSON.parse("\"\"");
     var searchResults = null;
     var searchMenu = null;
     var searchText = null;
     
     
-    var enableSearchHighlight = JSON.parse("null");
+    var enableSearchHighlight = JSON.parse("true");
     
     var enableSearch = JSON.parse("true");
 
@@ -471,7 +578,7 @@
     if (enableSearch) {
       (function initFuse() {
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', searchURL + "index.json");
+        xhr.open('GET', baseurl + langprefix + "/index.json");
         xhr.setRequestHeader('Content-Type', 'application/json; charset=utf-8');
         xhr.onload = function () {
           if (xhr.status === 200) {
@@ -831,7 +938,6 @@
       var dropdownItems = searchResultsContainer.querySelectorAll('.dd-item');
       dropdownItems ? dropdownItems.forEach(function (item) {
         item.addEventListener('mousedown', function (e) {
-          console.log('mousedown');
           e.target.click();
         });
       }) : null;
@@ -867,7 +973,6 @@
       var dropdownItems = searchResultsContainer.querySelectorAll('.dd-item');
       dropdownItems ? dropdownItems.forEach(function (item) {
         item.addEventListener('mousedown', function (e) {
-          console.log('mousedown');
           e.target.click();
         });
       }) : null;
@@ -954,7 +1059,6 @@
       var dropdownItems = searchResultsContainer.querySelectorAll('.dd-item');
       dropdownItems ? dropdownItems.forEach(function (item) {
         item.addEventListener('mousedown', function (e) {
-          console.log('mousedown');
           e.target.click();
         });
       }) : null;
@@ -1014,12 +1118,20 @@
 
 </head>
 
+
 <body id="root" class="theme__light">
     <script>
+        var rootElem = document.getElementById('root');
+        var themeOptions = JSON.parse("[\"light\",\"dark\"]");
         var localTheme = localStorage.getItem('theme');
+
         if (localTheme) {
-            document.getElementById('root').className = `theme__${localTheme}`;
-        }        
+            if (themeOptions && themeOptions.length > 0) {
+                themeOptions.includes(localTheme) ? 
+                rootElem.className = `theme__${localTheme}` :
+                rootElem.className = `theme__${themeOptions[0]}`;
+            }
+        }
     </script>
     
     <div id="container">
@@ -1061,31 +1173,8 @@
   
   
   <li class="">
-    <a href="https://yorkfish.github.io/review/tags/trie/"
-      class="menu__title ">Trie</a>
-  </li>
-  
-
-    
-      
-  
-  
-  
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-  
-  
-  <li class="">
-    <a href="https://yorkfish.github.io/review/tags/%E5%89%8D%E7%BC%80%E5%92%8C/"
-      class="menu__title ">前缀和</a>
+    <a href="https://yorkfish.github.io/review/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"
+      class="menu__title ">动态规划</a>
   </li>
   
 
@@ -1130,6 +1219,98 @@
   
   
   <li class="">
+    <a href="https://yorkfish.github.io/review/tags/%E7%BA%BF%E6%80%A7dp/"
+      class="menu__title ">线性DP</a>
+  </li>
+  
+
+    
+      
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  <li class="">
+    <a href="https://yorkfish.github.io/review/tags/%E5%A0%86/"
+      class="menu__title ">堆</a>
+  </li>
+  
+
+    
+      
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  <li class="">
+    <a href="https://yorkfish.github.io/review/tags/%E5%A4%9A%E8%B7%AF%E5%BD%92%E5%B9%B6/"
+      class="menu__title ">多路归并</a>
+  </li>
+  
+
+    
+      
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  <li class="">
+    <a href="https://yorkfish.github.io/review/tags/%E6%9E%9A%E4%B8%BE/"
+      class="menu__title ">枚举</a>
+  </li>
+  
+
+    
+      
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  <li class="">
     <a href="https://yorkfish.github.io/review/tags/%E8%B4%AA%E5%BF%83/"
       class="menu__title ">贪心</a>
   </li>
@@ -1153,8 +1334,146 @@
   
   
   <li class="">
-    <a href="https://yorkfish.github.io/review/tags/%E5%8C%BA%E9%97%B4dp/"
-      class="menu__title ">区间DP</a>
+    <a href="https://yorkfish.github.io/review/tags/%E4%BA%8C%E5%88%86/"
+      class="menu__title ">二分</a>
+  </li>
+  
+
+    
+      
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  <li class="">
+    <a href="https://yorkfish.github.io/review/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"
+      class="menu__title ">并查集</a>
+  </li>
+  
+
+    
+      
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  <li class="">
+    <a href="https://yorkfish.github.io/review/tags/%E6%9F%93%E8%89%B2%E6%B3%95%E5%88%A4%E5%AE%9A%E4%BA%8C%E5%88%86%E5%9B%BE/"
+      class="menu__title ">染色法判定二分图</a>
+  </li>
+  
+
+    
+      
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  <li class="">
+    <a href="https://yorkfish.github.io/review/tags/%E5%B7%AE%E5%88%86/"
+      class="menu__title ">差分</a>
+  </li>
+  
+
+    
+      
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  <li class="">
+    <a href="https://yorkfish.github.io/review/tags/%E6%95%B0%E5%89%8D%E7%BC%80%E5%92%8C/"
+      class="menu__title ">数前缀和</a>
+  </li>
+  
+
+    
+      
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  <li class="">
+    <a href="https://yorkfish.github.io/review/tags/%E4%B8%AD%E4%BD%8D%E6%95%B0/"
+      class="menu__title ">中位数</a>
+  </li>
+  
+
+    
+      
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  <li class="">
+    <a href="https://yorkfish.github.io/review/tags/%E6%8E%A8%E5%85%AC%E5%BC%8F/"
+      class="menu__title ">推公式</a>
   </li>
   
 
@@ -1178,6 +1497,98 @@
   <li class="">
     <a href="https://yorkfish.github.io/review/tags/dfs/"
       class="menu__title ">DFS</a>
+  </li>
+  
+
+    
+      
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  <li class="">
+    <a href="https://yorkfish.github.io/review/tags/%E6%95%B0%E7%8B%AC/"
+      class="menu__title ">数独</a>
+  </li>
+  
+
+    
+      
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  <li class="">
+    <a href="https://yorkfish.github.io/review/tags/%E5%89%8D%E7%BC%80%E5%92%8C/"
+      class="menu__title ">前缀和</a>
+  </li>
+  
+
+    
+      
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  <li class="">
+    <a href="https://yorkfish.github.io/review/tags/trie/"
+      class="menu__title ">Trie</a>
+  </li>
+  
+
+    
+      
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  <li class="">
+    <a href="https://yorkfish.github.io/review/tags/%E5%8C%BA%E9%97%B4dp/"
+      class="menu__title ">区间DP</a>
   </li>
   
 
@@ -1761,184 +2172,48 @@
         
 <div class="top">
   <header class="header__wrapper bgcolor__header">
-    <div class="divider">
-      <div class="lmr">
-        <div class="blog-header blog-header__align-center" style="width: 100%; height: 112px;">
-  <div class="blog-header__title">
-    哈希
-  </div>
-</div>
-      </div>
+    
+      
+        
+    
+  
+    
+  
+    
+    <div class="blog-header blog-header__align-center" style="background-image: url('/review/images/header/sun.jpg'); background-size: cover;
+    background-repeat: no-repeat; background-position: center; width: 100%; height: 280px; padding: 0px 50px;">
+      
+      
+        
+        <div class="blog-header__title blog-header__title--shadow" style="font-size: 44px; ;">
+          York&#39;s blog
+        </div>
+              
+      
+      
+        <div style="height: 20px"></div>
+      
+      
+        
+        <div class="blog-header__subtitle" style="font-size: 16px; ">
+          
+        </div>
+        
+      
     </div>
-  </header>
+    
+  
 
-  <div class="header__wrapper bgcolor__breadcrumb">
-    <div class="divider">
-      <div class="lmr flexbox jc-center flex-wrap tag__wrapper">
-        
-          
-            <a href="/review/tags/basics/" class="tag">
-              <span class="tag__text">
-                basics
-              </span>
-              <span class="tag__num" dir="auto">
-                1
-              </span>
-            </a>
-          
-        
-          
-            <a href="/review/tags/command/" class="tag">
-              <span class="tag__text">
-                command
-              </span>
-              <span class="tag__num" dir="auto">
-                2
-              </span>
-            </a>
-          
-        
-          
-            <a href="/review/tags/dfs/" class="tag">
-              <span class="tag__text">
-                DFS
-              </span>
-              <span class="tag__num" dir="auto">
-                1
-              </span>
-            </a>
-          
-        
-          
-            <a href="/review/tags/dos/" class="tag">
-              <span class="tag__text">
-                dos
-              </span>
-              <span class="tag__num" dir="auto">
-                1
-              </span>
-            </a>
-          
-        
-          
-            <a href="/review/tags/flood-fill/" class="tag">
-              <span class="tag__text">
-                Flood Fill
-              </span>
-              <span class="tag__num" dir="auto">
-                1
-              </span>
-            </a>
-          
-        
-          
-            <a href="/review/tags/latex/" class="tag">
-              <span class="tag__text">
-                LaTeX
-              </span>
-              <span class="tag__num" dir="auto">
-                1
-              </span>
-            </a>
-          
-        
-          
-            <a href="/review/tags/linux/" class="tag">
-              <span class="tag__text">
-                Linux
-              </span>
-              <span class="tag__num" dir="auto">
-                1
-              </span>
-            </a>
-          
-        
-          
-            <a href="/review/tags/trie/" class="tag">
-              <span class="tag__text">
-                Trie
-              </span>
-              <span class="tag__num" dir="auto">
-                1
-              </span>
-            </a>
-          
-        
-          
-            <a href="/review/tags/zdoc/" class="tag">
-              <span class="tag__text">
-                zdoc
-              </span>
-              <span class="tag__num" dir="auto">
-                2
-              </span>
-            </a>
-          
-        
-          
-            <a href="/review/tags/%E5%89%8D%E7%BC%80%E5%92%8C/" class="tag">
-              <span class="tag__text">
-                前缀和
-              </span>
-              <span class="tag__num" dir="auto">
-                1
-              </span>
-            </a>
-          
-        
-          
-            <a href="/review/tags/%E5%8C%BA%E9%97%B4dp/" class="tag">
-              <span class="tag__text">
-                区间DP
-              </span>
-              <span class="tag__num" dir="auto">
-                1
-              </span>
-            </a>
-          
-        
-          
-            <a href="/review/tags/%E5%93%88%E5%B8%8C/" class="tag">
-              <span class="tag__text">
-                哈希
-              </span>
-              <span class="tag__num" dir="auto">
-                1
-              </span>
-            </a>
-          
-        
-          
-            <a href="/review/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/" class="tag">
-              <span class="tag__text">
-                每日一题
-              </span>
-              <span class="tag__num" dir="auto">
-                3
-              </span>
-            </a>
-          
-        
-          
-            <a href="/review/tags/%E8%B4%AA%E5%BF%83/" class="tag">
-              <span class="tag__text">
-                贪心
-              </span>
-              <span class="tag__num" dir="auto">
-                1
-              </span>
-            </a>
-          
-        
-      </div>
-    </div>
-  </div>
+
+      
+    
+  </header>
 </div>
 
 <div class="mid blog__bg">
   <main class="main blog__bg">
-    <div class="sv" data-view="full">
-      <div class="blog">
+    <div class="sv">
+      <div class="blog-post">
         
           <article class="summary-card">
   <header>
@@ -1999,6 +2274,312 @@
 
 
       </div>
+      <div class="blog-tags">
+        
+<h6 class="tag-cloud__label">
+  哈希
+</h6>
+<div class="tag-cloud__tags">
+  
+    
+      <a href="/review/tags/basics/" class="tag">
+        <span class="tag__text" style="font-size: 0.837037037037037rem;">
+          basics
+        </span>
+        <span class="tag__num" style="font-size: 0.837037037037037rem;" dir="auto">
+          (1)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/command/" class="tag">
+        <span class="tag__text" style="font-size: 0.8740740740740741rem;">
+          command
+        </span>
+        <span class="tag__num" style="font-size: 0.8740740740740741rem;" dir="auto">
+          (2)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/dfs/" class="tag">
+        <span class="tag__text" style="font-size: 0.8740740740740741rem;">
+          DFS
+        </span>
+        <span class="tag__num" style="font-size: 0.8740740740740741rem;" dir="auto">
+          (2)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/dos/" class="tag">
+        <span class="tag__text" style="font-size: 0.837037037037037rem;">
+          dos
+        </span>
+        <span class="tag__num" style="font-size: 0.837037037037037rem;" dir="auto">
+          (1)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/flood-fill/" class="tag">
+        <span class="tag__text" style="font-size: 0.837037037037037rem;">
+          Flood Fill
+        </span>
+        <span class="tag__num" style="font-size: 0.837037037037037rem;" dir="auto">
+          (1)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/latex/" class="tag">
+        <span class="tag__text" style="font-size: 0.837037037037037rem;">
+          LaTeX
+        </span>
+        <span class="tag__num" style="font-size: 0.837037037037037rem;" dir="auto">
+          (1)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/linux/" class="tag">
+        <span class="tag__text" style="font-size: 0.837037037037037rem;">
+          Linux
+        </span>
+        <span class="tag__num" style="font-size: 0.837037037037037rem;" dir="auto">
+          (1)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/trie/" class="tag">
+        <span class="tag__text" style="font-size: 0.837037037037037rem;">
+          Trie
+        </span>
+        <span class="tag__num" style="font-size: 0.837037037037037rem;" dir="auto">
+          (1)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/zdoc/" class="tag">
+        <span class="tag__text" style="font-size: 0.8740740740740741rem;">
+          zdoc
+        </span>
+        <span class="tag__num" style="font-size: 0.8740740740740741rem;" dir="auto">
+          (2)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/%E4%B8%AD%E4%BD%8D%E6%95%B0/" class="tag">
+        <span class="tag__text" style="font-size: 0.837037037037037rem;">
+          中位数
+        </span>
+        <span class="tag__num" style="font-size: 0.837037037037037rem;" dir="auto">
+          (1)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/%E4%BA%8C%E5%88%86/" class="tag">
+        <span class="tag__text" style="font-size: 0.9111111111111112rem;">
+          二分
+        </span>
+        <span class="tag__num" style="font-size: 0.9111111111111112rem;" dir="auto">
+          (3)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/%E5%89%8D%E7%BC%80%E5%92%8C/" class="tag">
+        <span class="tag__text" style="font-size: 0.8740740740740741rem;">
+          前缀和
+        </span>
+        <span class="tag__num" style="font-size: 0.8740740740740741rem;" dir="auto">
+          (2)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/" class="tag">
+        <span class="tag__text" style="font-size: 0.837037037037037rem;">
+          动态规划
+        </span>
+        <span class="tag__num" style="font-size: 0.837037037037037rem;" dir="auto">
+          (1)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/%E5%8C%BA%E9%97%B4dp/" class="tag">
+        <span class="tag__text" style="font-size: 0.837037037037037rem;">
+          区间DP
+        </span>
+        <span class="tag__num" style="font-size: 0.837037037037037rem;" dir="auto">
+          (1)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/%E5%93%88%E5%B8%8C/" class="tag">
+        <span class="tag__text" style="font-size: 0.837037037037037rem;">
+          哈希
+        </span>
+        <span class="tag__num" style="font-size: 0.837037037037037rem;" dir="auto">
+          (1)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/%E5%A0%86/" class="tag">
+        <span class="tag__text" style="font-size: 0.837037037037037rem;">
+          堆
+        </span>
+        <span class="tag__num" style="font-size: 0.837037037037037rem;" dir="auto">
+          (1)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/%E5%A4%9A%E8%B7%AF%E5%BD%92%E5%B9%B6/" class="tag">
+        <span class="tag__text" style="font-size: 0.837037037037037rem;">
+          多路归并
+        </span>
+        <span class="tag__num" style="font-size: 0.837037037037037rem;" dir="auto">
+          (1)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/%E5%B7%AE%E5%88%86/" class="tag">
+        <span class="tag__text" style="font-size: 0.837037037037037rem;">
+          差分
+        </span>
+        <span class="tag__num" style="font-size: 0.837037037037037rem;" dir="auto">
+          (1)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/" class="tag">
+        <span class="tag__text" style="font-size: 0.837037037037037rem;">
+          并查集
+        </span>
+        <span class="tag__num" style="font-size: 0.837037037037037rem;" dir="auto">
+          (1)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/%E6%8E%A8%E5%85%AC%E5%BC%8F/" class="tag">
+        <span class="tag__text" style="font-size: 0.837037037037037rem;">
+          推公式
+        </span>
+        <span class="tag__num" style="font-size: 0.837037037037037rem;" dir="auto">
+          (1)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/%E6%95%B0%E5%89%8D%E7%BC%80%E5%92%8C/" class="tag">
+        <span class="tag__text" style="font-size: 0.837037037037037rem;">
+          数前缀和
+        </span>
+        <span class="tag__num" style="font-size: 0.837037037037037rem;" dir="auto">
+          (1)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/%E6%95%B0%E7%8B%AC/" class="tag">
+        <span class="tag__text" style="font-size: 0.837037037037037rem;">
+          数独
+        </span>
+        <span class="tag__num" style="font-size: 0.837037037037037rem;" dir="auto">
+          (1)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/%E6%9E%9A%E4%B8%BE/" class="tag">
+        <span class="tag__text" style="font-size: 0.837037037037037rem;">
+          枚举
+        </span>
+        <span class="tag__num" style="font-size: 0.837037037037037rem;" dir="auto">
+          (1)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/%E6%9F%93%E8%89%B2%E6%B3%95%E5%88%A4%E5%AE%9A%E4%BA%8C%E5%88%86%E5%9B%BE/" class="tag">
+        <span class="tag__text" style="font-size: 0.837037037037037rem;">
+          染色法判定二分图
+        </span>
+        <span class="tag__num" style="font-size: 0.837037037037037rem;" dir="auto">
+          (1)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/" class="tag">
+        <span class="tag__text" style="font-size: 1.2444444444444445rem;">
+          每日一题
+        </span>
+        <span class="tag__num" style="font-size: 1.2444444444444445rem;" dir="auto">
+          (12)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/%E7%BA%BF%E6%80%A7dp/" class="tag">
+        <span class="tag__text" style="font-size: 0.837037037037037rem;">
+          线性DP
+        </span>
+        <span class="tag__num" style="font-size: 0.837037037037037rem;" dir="auto">
+          (1)
+        </span>
+      </a>
+    
+  
+    
+      <a href="/review/tags/%E8%B4%AA%E5%BF%83/" class="tag">
+        <span class="tag__text" style="font-size: 0.9481481481481482rem;">
+          贪心
+        </span>
+        <span class="tag__num" style="font-size: 0.9481481481481482rem;" dir="auto">
+          (4)
+        </span>
+      </a>
+    
+  
+</div>
+      </div>
     </div>
 
   </main>
@@ -2006,27 +2587,33 @@
 
 <script>
   var singleViewElem = document.querySelectorAll('.sv');
+  var postElem = document.querySelector('.blog-post');
+  var tagsElem = document.querySelector('.blog-tags');
 
   enquire.register("screen and (max-width:1280px)", {
     match: function () {
       singleViewElem.forEach(function (elem) {
-        elem.setAttribute('data-view', 'full');
+        postElem.className = "blog-post";
+        tagsElem.className = "blog-tags";
       });
     },
     unmatch: function () {
       singleViewElem.forEach(function (elem) {
-        elem.setAttribute('data-view', 'full');
+        postElem.className = "blog-post";
+        tagsElem.className = "blog-tags";
       });
     },
   }).register("screen and (max-width:769px)", {
     match: function () {
       singleViewElem.forEach(function (elem) {
-        elem.setAttribute('data-view', 'mobile');
+        postElem.className = "blog-total";
+        tagsElem.className = "hide";
       });
     },
     unmatch: function () {
       singleViewElem.forEach(function (elem) {
-        elem.setAttribute('data-view', 'full');
+        postElem.className = "blog-post";
+        tagsElem.className = "blog-tags";
       });
     },
   });

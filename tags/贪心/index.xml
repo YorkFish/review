@@ -7,12 +7,117 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy;2020 - 2021, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 31 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Feb 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://yorkfish.github.io/review/tags/%E8%B4%AA%E5%BF%83/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+      
+      <item>
+        <title>鱼塘钓鱼</title>
+        <link>https://yorkfish.github.io/review/blog/17-exercise-02-08/</link>
+        <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/17-exercise-02-08/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;活动时间：2021-02-08&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;题目描述&#34;&gt;题目描述&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AcWing 1262&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;green&#34;&gt;简单&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;有 N 个鱼塘排成一排，每个鱼塘中有一定数量的鱼，例如：N=5 时，如下表&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;鱼塘编号&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;1&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;2&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;3&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;4&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;5&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;第 1 分钟能钓到的鱼的数量(1&amp;hellip;1000)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;10&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;14&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;20&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;16&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;每钓鱼 1 分钟钓鱼数的减少量(1&amp;hellip;100)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;6&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;5&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;当前鱼塘到下一个相邻鱼塘需要的时间（单位：分钟）&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;5&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;/&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;即：在第 1 个鱼塘中钓鱼第 1 分钟内可钓到 10 条鱼，第 2 分钟内只能钓到 8 条鱼，……，第 5 分钟以后再也钓不到鱼了。&lt;/li&gt;
+&lt;li&gt;从第 1 个鱼塘到第 2 个鱼塘需要 3 分钟，从第 2 个鱼塘到第 3 个鱼塘需要 5 分钟，……&lt;/li&gt;
+&lt;li&gt;给出一个截止时间 T，设计一个钓鱼方案，从第 1 个鱼塘出发，希望能钓到最多的鱼。&lt;/li&gt;
+&lt;li&gt;假设能钓到鱼的数量仅和已钓鱼的次数有关，且每次钓鱼的时间都是整数分钟。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
+      
+      <item>
+        <title>耍杂技的牛</title>
+        <link>https://yorkfish.github.io/review/blog/13-exercise-02-04/</link>
+        <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/13-exercise-02-04/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;活动时间：2021-02-04&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;题目描述&#34;&gt;题目描述&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AcWing 125&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;orange&#34;&gt;中等&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;农民约翰的 N 头奶牛（编号为 1&amp;hellip;N）计划逃跑并加入马戏团，为此它们决定练习表演杂技。&lt;/li&gt;
+&lt;li&gt;奶牛们不是非常有创意，只提出了一个杂技表演：&lt;/li&gt;
+&lt;li&gt;叠罗汉，表演时，奶牛们站在彼此的身上，形成一个高高的垂直堆叠。&lt;/li&gt;
+&lt;li&gt;奶牛们正在试图找到自己在这个堆叠中应该所处的位置顺序。&lt;/li&gt;
+&lt;li&gt;这 N 头奶牛中的每一头都有着自己的重量 W&lt;sub&gt;i&lt;/sub&gt; 以及自己的强壮程度 S&lt;sub&gt;i&lt;/sub&gt;。&lt;/li&gt;
+&lt;li&gt;一头牛支撑不住的可能性取决于它头上所有牛的总重量（不包括它自己）减去它的身体强壮程度的值，&lt;/li&gt;
+&lt;li&gt;现在称该数值为风险值，风险值越大，这只牛撑不住的可能性越高。&lt;/li&gt;
+&lt;li&gt;您的任务是确定奶牛的排序，使得所有奶牛的风险值中的最大值尽可能的小。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
+      
+      <item>
+        <title>糖果传递</title>
+        <link>https://yorkfish.github.io/review/blog/12-exercise-02-03/</link>
+        <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/12-exercise-02-03/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;活动时间：2021-02-03&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;题目描述&#34;&gt;题目描述&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AcWing 122&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;orange&#34;&gt;中等&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;有 n 个小朋友坐成一圈，每人有 a[i] 个糖果。&lt;/li&gt;
+&lt;li&gt;每人只能给左右两人传递糖果。&lt;/li&gt;
+&lt;li&gt;每人每次传递一个糖果代价为 1。&lt;/li&gt;
+&lt;li&gt;求使所有人获得均等糖果的最小代价。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
       
       <item>
         <title>牛异或</title>

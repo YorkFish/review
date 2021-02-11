@@ -7,12 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy;2020 - 2021, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 31 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Feb 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://yorkfish.github.io/review/tags/%E5%89%8D%E7%BC%80%E5%92%8C/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+      
+      <item>
+        <title>K倍区间</title>
+        <link>https://yorkfish.github.io/review/blog/10-exercise-02-01/</link>
+        <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/10-exercise-02-01/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;活动时间：2021-02-01&lt;/li&gt;
+&lt;li&gt;ps: 2021-01-31 没有出题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;题目描述&#34;&gt;题目描述&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AcWing 1230&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;orange&#34;&gt;中等&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;给定一个长度为 &lt;code&gt;N&lt;/code&gt; 的数列，&lt;code&gt;A1&lt;/code&gt;,&lt;code&gt;A2&lt;/code&gt;,&amp;hellip;,&lt;code&gt;AN&lt;/code&gt;，&lt;/li&gt;
+&lt;li&gt;如果其中一段连续的子序列 &lt;code&gt;Ai&lt;/code&gt;,&lt;code&gt;Ai+1&lt;/code&gt;,&amp;hellip;,&lt;code&gt;Aj&lt;/code&gt; 之和是 &lt;code&gt;K&lt;/code&gt; 的倍数，我们就称这个区间 &lt;code&gt;[i,j]&lt;/code&gt; 是 &lt;code&gt;K&lt;/code&gt; 倍区间。&lt;/li&gt;
+&lt;li&gt;你能求出数列中总共有多少个 &lt;code&gt;K&lt;/code&gt; 倍区间吗？&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
       
       <item>
         <title>牛异或</title>
