@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>树形DP on York&#39;s blog</title>
+    <link>https://yorkfish.github.io/review/tags/%E6%A0%91%E5%BD%A2dp/</link>
+    <description>Recent content in 树形DP on York&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2020 - 2021, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 20 Feb 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://yorkfish.github.io/review/tags/%E6%A0%91%E5%BD%A2dp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>网络延时</title>
+        <link>https://yorkfish.github.io/review/blog/26-exercise-02-19/</link>
+        <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/26-exercise-02-19/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;活动时间：2021-02-19&lt;/li&gt;
+&lt;li&gt;ps: 2021-02-18 没有出题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;题目描述&#34;&gt;题目描述&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AcWing 3215&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;orange&#34;&gt;中等&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;给定一个公司的网络，由 n 台交换机和 m 台终端电脑组成，交换机与交换机、交换机与电脑之间使用网络连接。&lt;/li&gt;
+&lt;li&gt;交换机按层级设置，编号为 1 的交换机为根交换机，层级为 1。&lt;/li&gt;
+&lt;li&gt;其他的交换机都连接到一台比自己上一层的交换机上，其层级为对应交换机的层级加 1。&lt;/li&gt;
+&lt;li&gt;所有的终端电脑都直接连接到交换机上。&lt;/li&gt;
+&lt;li&gt;当信息在电脑、交换机之间传递时，每一步只能通过自己传递到自己所连接的另一台电脑或交换机。&lt;/li&gt;
+&lt;li&gt;请问，电脑与电脑之间传递消息、或者电脑与交换机之间传递消息、或者交换机与交换机之间传递消息最多需要多少步。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
+      
+    
+  </channel>
+</rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>二叉树 on York&#39;s blog</title>
+    <link>https://yorkfish.github.io/review/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/</link>
+    <description>Recent content in 二叉树 on York&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2020 - 2021, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 14 Feb 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://yorkfish.github.io/review/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>合并果子</title>
+        <link>https://yorkfish.github.io/review/blog/21-exercise-02-13/</link>
+        <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/21-exercise-02-13/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;活动时间：2021-02-13&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;题目描述&#34;&gt;题目描述&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AcWing 148&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;green&#34;&gt;简单&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;在一个果园里，达达已经将所有的果子打了下来，而且按果子的不同种类分成了不同的堆。&lt;/li&gt;
+&lt;li&gt;达达决定把所有的果子合成一堆。&lt;/li&gt;
+&lt;li&gt;每一次合并，达达可以把两堆果子合并到一起，消耗的体力等于两堆果子的重量之和。&lt;/li&gt;
+&lt;li&gt;可以看出，所有的果子经过 n-1 次合并之后，就只剩下一堆了。&lt;/li&gt;
+&lt;li&gt;达达在合并果子时总共消耗的体力等于每次合并所耗体力之和。&lt;/li&gt;
+&lt;li&gt;因为还要花大力气把这些果子搬回家，所以达达在合并果子时要尽可能地节省体力。&lt;/li&gt;
+&lt;li&gt;假定每个果子重量都为 1，并且已知果子的种类数和每种果子的数目，你的任务是设计出合并的次序方案，使达达耗费的体力最少，并输出这个最小的体力耗费值。&lt;/li&gt;
+&lt;li&gt;例如有 3 种果子，数目依次为 1, 2, 9。&lt;/li&gt;
+&lt;li&gt;可以先将 1, 2 堆合并，新堆数目为 3，耗费体力为 3。&lt;/li&gt;
+&lt;li&gt;接着，将新堆与原先的第三堆合并，又得到新的堆，数目为 12，耗费体力为 12。&lt;/li&gt;
+&lt;li&gt;所以达达总共耗费体力 = 3+12 = 15。&lt;/li&gt;
+&lt;li&gt;可以证明 15 为最小的体力耗费值。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
+      
+    
+  </channel>
+</rss>

@@ -7,12 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy;2020 - 2021, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 07 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Feb 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://yorkfish.github.io/review/tags/%E5%B7%AE%E5%88%86/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+      
+      <item>
+        <title>积木大赛</title>
+        <link>https://yorkfish.github.io/review/blog/22-exercise-02-14/</link>
+        <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/22-exercise-02-14/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;活动时间：2021-02-14&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;题目描述&#34;&gt;题目描述&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AcWing 507&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;orange&#34;&gt;中等&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;春春幼儿园举办了一年一度的“积木大赛”。&lt;/li&gt;
+&lt;li&gt;今年比赛的内容是搭建一座宽度为 n 的大厦，大厦可以看成由 n 块宽度为 1 的积木组成，&lt;/li&gt;
+&lt;li&gt;第 i 块积木的最终高度需要是 h&lt;sub&gt;i&lt;/sub&gt;。&lt;/li&gt;
+&lt;li&gt;在搭建开始之前，没有任何积木（可以看成块高度为 0 的积木）。&lt;/li&gt;
+&lt;li&gt;接下来每次操作，小朋友们可以选择一段连续区间 [L,R]，然后将第 L 块到第 R 块之间（含第 L 块和第 R 块）所有积木的高度分别增加 1。&lt;/li&gt;
+&lt;li&gt;小M是个聪明的小朋友，她很快想出了建造大厦的最佳策略，使得建造所需的操作次数最少。&lt;/li&gt;
+&lt;li&gt;但她不是一个勤于动手的孩子，所以想请你帮忙实现这个策略，并求出最少的操作次数。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
       
       <item>
         <title>借教室</title>

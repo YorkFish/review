@@ -7,12 +7,63 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy;2020 - 2021, All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 09 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Feb 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://yorkfish.github.io/review/tags/%E8%B4%AA%E5%BF%83/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+      
+      <item>
+        <title>积木大赛</title>
+        <link>https://yorkfish.github.io/review/blog/22-exercise-02-14/</link>
+        <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/22-exercise-02-14/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;活动时间：2021-02-14&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;题目描述&#34;&gt;题目描述&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AcWing 507&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;orange&#34;&gt;中等&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;春春幼儿园举办了一年一度的“积木大赛”。&lt;/li&gt;
+&lt;li&gt;今年比赛的内容是搭建一座宽度为 n 的大厦，大厦可以看成由 n 块宽度为 1 的积木组成，&lt;/li&gt;
+&lt;li&gt;第 i 块积木的最终高度需要是 h&lt;sub&gt;i&lt;/sub&gt;。&lt;/li&gt;
+&lt;li&gt;在搭建开始之前，没有任何积木（可以看成块高度为 0 的积木）。&lt;/li&gt;
+&lt;li&gt;接下来每次操作，小朋友们可以选择一段连续区间 [L,R]，然后将第 L 块到第 R 块之间（含第 L 块和第 R 块）所有积木的高度分别增加 1。&lt;/li&gt;
+&lt;li&gt;小M是个聪明的小朋友，她很快想出了建造大厦的最佳策略，使得建造所需的操作次数最少。&lt;/li&gt;
+&lt;li&gt;但她不是一个勤于动手的孩子，所以想请你帮忙实现这个策略，并求出最少的操作次数。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
+      
+      <item>
+        <title>合并果子</title>
+        <link>https://yorkfish.github.io/review/blog/21-exercise-02-13/</link>
+        <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/21-exercise-02-13/</guid>
+        <description>&lt;ul&gt;
+&lt;li&gt;活动时间：2021-02-13&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;题目描述&#34;&gt;题目描述&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AcWing 148&lt;/li&gt;
+&lt;li&gt;&lt;font color=&#34;green&#34;&gt;简单&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;在一个果园里，达达已经将所有的果子打了下来，而且按果子的不同种类分成了不同的堆。&lt;/li&gt;
+&lt;li&gt;达达决定把所有的果子合成一堆。&lt;/li&gt;
+&lt;li&gt;每一次合并，达达可以把两堆果子合并到一起，消耗的体力等于两堆果子的重量之和。&lt;/li&gt;
+&lt;li&gt;可以看出，所有的果子经过 n-1 次合并之后，就只剩下一堆了。&lt;/li&gt;
+&lt;li&gt;达达在合并果子时总共消耗的体力等于每次合并所耗体力之和。&lt;/li&gt;
+&lt;li&gt;因为还要花大力气把这些果子搬回家，所以达达在合并果子时要尽可能地节省体力。&lt;/li&gt;
+&lt;li&gt;假定每个果子重量都为 1，并且已知果子的种类数和每种果子的数目，你的任务是设计出合并的次序方案，使达达耗费的体力最少，并输出这个最小的体力耗费值。&lt;/li&gt;
+&lt;li&gt;例如有 3 种果子，数目依次为 1, 2, 9。&lt;/li&gt;
+&lt;li&gt;可以先将 1, 2 堆合并，新堆数目为 3，耗费体力为 3。&lt;/li&gt;
+&lt;li&gt;接着，将新堆与原先的第三堆合并，又得到新的堆，数目为 12，耗费体力为 12。&lt;/li&gt;
+&lt;li&gt;所以达达总共耗费体力 = 3+12 = 15。&lt;/li&gt;
+&lt;li&gt;可以证明 15 为最小的体力耗费值。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
       
       <item>
         <title>鱼塘钓鱼</title>
