@@ -17,9 +17,9 @@
 
 <script defer src="/review/js/lazysizes.min.5e11d056075a05065b9c0bfec44084a113fc2976c2952ec804dedb61c7662db9.js"></script>
 
-<script defer src="/review/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/review/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
 
-<script defer src="/review/js/helper/fadeinout.min.93a331f96194789a542f33690bbe4f0c102c7e78ffc018217f5a1c33010bad91.js"></script>
+<script defer src="/review/js/helper/fadeinout.min.9fb19682560d5fa5596fffec85da605067c4acc86aad05add4d8fff9d362a446.js"></script>
 
 <script>
   "use strict";
@@ -1083,7 +1083,7 @@
 <meta property="og:url" content="https://yorkfish.github.io/review/cpp/08-pair/">
 <meta property="og:type" content="article">
 
-<meta name="generator" content="Hugo 0.74.3" />
+<meta name="generator" content="Hugo 0.81.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="https://yorkfish.github.io/review/cpp/08-pair/">
@@ -1559,6 +1559,14 @@
         
         <li>
           <a href="https://yorkfish.github.io/review/cpp/stl/10-list/" class="menu__title " data-depth="0">10. list</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="https://yorkfish.github.io/review/cpp/stl/11-bitset/" class="menu__title " data-depth="0">11. bitset</a>
         </li>
       
     
@@ -2449,6 +2457,14 @@
         </li>
       
     
+      
+        
+        
+        <li>
+          <a href="https://yorkfish.github.io/review/cpp/stl/11-bitset/" class="menu__title " data-depth="0">11. bitset</a>
+        </li>
+      
+    
   </ul>
   
 
@@ -2484,9 +2500,15 @@
 </span><span class="lnt">15
 </span><span class="lnt">16
 </span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-c++" data-lang="c++"><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span><span class="cp"></span>
+<span class="cp">#define x first
+</span><span class="cp">#define y second
 </span><span class="cp"></span>
 <span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
 
@@ -2497,7 +2519,7 @@
 
     <span class="n">pair</span><span class="o">&lt;</span><span class="kt">char</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;</span> <span class="n">p2</span><span class="p">;</span>
     <span class="n">p2</span> <span class="o">=</span> <span class="n">make_pair</span><span class="p">(</span><span class="sc">&#39;b&#39;</span><span class="p">,</span> <span class="mi">98</span><span class="p">);</span>  <span class="c1">// c++98 需要借助函数定义
-</span><span class="c1"></span>    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">p2</span><span class="p">.</span><span class="n">first</span> <span class="o">&lt;&lt;</span> <span class="sc">&#39; &#39;</span> <span class="o">&lt;&lt;</span> <span class="n">p2</span><span class="p">.</span><span class="n">second</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+</span><span class="c1"></span>    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">p2</span><span class="p">.</span><span class="n">x</span> <span class="o">&lt;&lt;</span> <span class="sc">&#39; &#39;</span> <span class="o">&lt;&lt;</span> <span class="n">p2</span><span class="p">.</span><span class="n">y</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
 
     <span class="c1">// pair 六种比较都有，双关键字比较
 </span><span class="c1"></span>
@@ -2508,7 +2530,14 @@
 </div><p>&gt;&gt;&gt;</p>
 <pre><code>a 97
 b 98
-</code></pre>
+</code></pre><div class="notices info" data-title="Ps">
+  <ul>
+<li>支持比较运算（字典序），以 first 为第一关键字，以 second 为第二关键字</li>
+<li>如果需要“三元组”，使用 struct 即可</li>
+</ul>
+
+</div>
+
   </article>
 </div>
       

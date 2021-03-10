@@ -74,7 +74,7 @@
         <pubDate>Tue, 24 Nov 2020 00:00:00 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/cpp/stl/01-string/</guid>
-        <description>c_str() empty() size(), length() begin(), end(), rbegin(), rend() front(), back() push_back(), pop_back() erase() find(), rfind() substr() 1. 定义与输出 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 #include &amp;lt;iostream&amp;gt;#include &amp;lt;cstdio&amp;gt; using namespace std; int main() { string s1; // 默认的空字符串 string s2 = s1; // s2 是 s1 的一个副</description>
+        <description>c_str() empty() clear() size(), length() begin(), end(), rbegin(), rend() front(), back() push_back(), pop_back() erase() find(), rfind() substr(起始索引[, 子串长度]) 1. 定义与输出 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 #include &amp;lt;iostream&amp;gt;#include &amp;lt;cstdio&amp;gt; using namespace std; int main() { string s1; //</description>
       </item>
       
       <item>
@@ -362,7 +362,7 @@
         <pubDate>Tue, 17 Nov 2020 00:00:00 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/cpp/stl/02-vector/</guid>
-        <description>at() empty() size() begin(), end(), rbegin(), rend() front(), back() push_back(), pop_pack() 1. 简介 vector 是动态数组，使用前需导入 &amp;lt;vector&amp;gt; 支持随机访问，不支持在任意位置 O(1) 插入 元素的增删一般应该在末尾进行 可以按照字典序比较 2.</description>
+        <description>[], at() empty() clear() size() begin(), end() rbegin(), rend() front(), back() push_back(), pop_pack() insert() insert(p, t) insert(p, n, t) insert(p, i, j) erase(p) erase(t, k) 1. 简介 vector 是动态数组，使用前需导入 &amp;lt;vector&amp;gt; 支持随机访问，不支持在任意位置 O(1) 插入，即在非末尾插入或删</description>
       </item>
       
       <item>
@@ -641,7 +641,7 @@
         <pubDate>Tue, 17 Nov 2020 00:00:00 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/cpp/stl/03-queue/</guid>
-        <description>empty() size() front(), back() push(), pop() top() —— 优先队列 1. 简介 队列是用堆实现的 队列底层是用 deque 与 vector 实现的 2. 定义 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 #include &amp;lt;iostream&amp;gt;#include &amp;lt;queue&amp;gt; using namespace std; struct</description>
+        <description>empty() size() front(), back() push(), pop() empty() size() push(), pop() top() 1. 简介 队列 队列是用堆实现的 队列底层是用 deque 与 vector 实现的 是一个配适器类 不允许随机访问元素 不能遍历队列 元素只能先进先出 (FIFO) 优先队</description>
       </item>
       
       <item>
@@ -650,7 +650,7 @@
         <pubDate>Tue, 20 Oct 2020 00:00:00 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/regex/03-metacharacter/</guid>
-        <description>元字符：修饰原子的符号 1. 常用 符号 匹配对象 [] 原子列表，自定义原子范围 [^] 排除列表，自定义排除范围 ^ 匹配开头 $ 匹配结尾 | 逻辑运算（万能钥匙） \b 词边</description>
+        <description>元字符：修饰原子的符号 1. 常用 符号 匹配对象 [] 原子列表，自定义原子范围 [^] 排除列表，自定义排除范围 ^ 匹配开头 $ 匹配结尾 ` ` \b 词边界（对中文无效） \B</description>
       </item>
       
       <item>
@@ -893,7 +893,7 @@
         <pubDate>Tue, 17 Nov 2020 00:00:00 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/cpp/stl/04-stack/</guid>
-        <description>empty() size() top() push() pop() 1. 简介 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 #include &amp;lt;iostream&amp;gt;#include &amp;lt;stack&amp;gt; using namespace std; int main() { stack&amp;lt;int&amp;gt; stk; stk.push(1); // 压栈 stk.push(2); stk.push(3); cout &amp;lt;&amp;lt; stk.top() &amp;lt;&amp;lt; endl; // 取栈顶元素 stk.pop(); // 这个 pop 无返回值 cout &amp;lt;&amp;lt; stk.top() &amp;lt;&amp;lt; endl; cout</description>
+        <description>empty() size() top() push() pop() 1. 简介 适配器 可以将任意类型的序列容器转换为一个堆栈，一般使用 deque 作为支持的序列容器 元素只能先进后出 (FILO) 不能遍历整个 stack 给 vector 提供了栈接口 与</description>
       </item>
       
       <item>
@@ -1127,7 +1127,7 @@
         <pubDate>Tue, 17 Nov 2020 00:00:00 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/cpp/stl/05-deque/</guid>
-        <description>empty() size() begin(), end() front(), back() push_front(), push_back() pop_front(), pop_back() clear() 1. 简介 deque: double-ended queue 双端队列 deque 是一个支持在两端高效插入或删除元素的连续线性存储空间 它就像是 vector 和 queue 的结合 与 vector 相比，deque 的优</description>
+        <description>empty() size() begin(), end() front(), back() push_front(), push_back() pop_front(), pop_back() clear() [] 1. 简介 deque: double-ended queue 双端队列 deque 是一个支持在两端高效插入或删除元素的连续线性存储空间 它就像是 vector 和 queue 的结合 与 vector 相比，deque 的</description>
       </item>
       
       <item>
@@ -1307,7 +1307,7 @@
         <pubDate>Wed, 06 Jan 2021 00:00:00 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/web/javascript/06-operator/</guid>
-        <description>简介 运算符 举例 算术运算符 +, -, *, /, ++, -- 字符串连接 + 赋值运算 =, +=, -=, *=, /=, %= 比较运算符 &amp;lt;, &amp;gt;, &amp;gt;=, &amp;lt;=, ==, !=, ===, !== 逻辑运算符 &amp;amp;&amp;amp;, ||, ! 位运算 ^, &amp;amp;, |, ~ 三元运算符 ? : 举</description>
+        <description>简介 运算符 举例 算术运算符 +, -, *, /, ++, -- 字符串连接 + 赋值运算 =, +=, -=, *=, /=, %= 比较运算符 &amp;lt;, &amp;gt;, &amp;gt;=, &amp;lt;=, ==, !=, ===, !== 逻辑运算符 &amp;amp;&amp;amp;, ` 位运算 ^, &amp;amp;, ` 三元运算符 ? : 举例 例</description>
       </item>
       
       <item>
@@ -1343,7 +1343,7 @@
         <pubDate>Tue, 17 Nov 2020 00:00:00 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/cpp/stl/06-set/</guid>
-        <description>empty() size() begin(), end() insert() find() lower_bound(), upper_bound() erase() count() clear() 1. 简介 &amp;lt;set&amp;gt; 主要包括 set 和 multiset 两个容器，分别是“有序集合”和“有序多重集合” set 的元素不能重复，multiset 可以 set 和 multiset 的内部</description>
+        <description>empty() size() clear() begin(), end() ++, &amp;ndash; insert() find() lower_bound(), upper_bound() erase() count() 1. 简介 &amp;lt;set&amp;gt; 主要包括 set 和 multiset 两个容器，分别是“有序集合”和“有序多重集合” set 的元素不能重复，multiset 可以，它们支</description>
       </item>
       
       <item>
@@ -1523,7 +1523,7 @@
         <pubDate>Tue, 17 Nov 2020 00:00:00 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/cpp/stl/07-map/</guid>
-        <description>empty() size() begin(), end() insert() find() erase() count() clear() 1. 简介 map 容器是一个键值对 key-value 的映射，其内部实现是一棵以 key 为关键码的红黑树 Map 的 key 和 value 可以是任意类型，其中 key 必须重载 &amp;lt; 2. 定义 1 2</description>
+        <description>empty() size() clear() begin(), end() ++, &amp;ndash; insert() find() erase() count() [] 时间复杂度 O(logn), multimap 不支持此操作 lower_bound(), upper_bound() 1. 简介 map 容器是一个键值对 key-value 的映射，其内部实现是一棵以 key 为关键码的红黑树 Map 的 key 和 value 可以是</description>
       </item>
       
       <item>
@@ -1712,7 +1712,7 @@
         <pubDate>Tue, 17 Nov 2020 00:00:00 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/cpp/08-pair/</guid>
-        <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 #include &amp;lt;iostream&amp;gt; using namespace std; int main() { pair&amp;lt;char, int&amp;gt; p1{&amp;#39;a&amp;#39;, 97}; cout &amp;lt;&amp;lt; p1.first &amp;lt;&amp;lt; &amp;#39; &amp;#39; &amp;lt;&amp;lt; p1.second &amp;lt;&amp;lt; endl; pair&amp;lt;char, int&amp;gt; p2; p2 = make_pair(&amp;#39;b&amp;#39;, 98); // c++98 需要借助函数定义 cout &amp;lt;&amp;lt; p2.first &amp;lt;&amp;lt; &amp;#39; &amp;#39; &amp;lt;&amp;lt; p2.second &amp;lt;&amp;lt; endl; // pair 六种</description>
+        <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 #include &amp;lt;iostream&amp;gt; #define x first #define y second using namespace std; int main() { pair&amp;lt;char, int&amp;gt; p1{&amp;#39;a&amp;#39;, 97}; cout &amp;lt;&amp;lt; p1.first &amp;lt;&amp;lt; &amp;#39; &amp;#39; &amp;lt;&amp;lt; p1.second &amp;lt;&amp;lt; endl; pair&amp;lt;char, int&amp;gt; p2; p2 = make_pair(&amp;#39;b&amp;#39;, 98); // c++98 需要借助函数定义 cout &amp;lt;&amp;lt; p2.x &amp;lt;&amp;lt; &amp;#39;</description>
       </item>
       
       <item>
@@ -1721,7 +1721,7 @@
         <pubDate>Tue, 17 Nov 2020 00:00:00 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/cpp/stl/08-unordered-set/</guid>
-        <description>empty() size() begin(), end() insert() find() erase() count() 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 #include &amp;lt;iostream&amp;gt;#include &amp;lt;unordered_set&amp;gt; using namespace std; int main() { unordered_set&amp;lt;int&amp;gt; a; // 哈系表，与 set 相比，没有 lower_bound(), upper_bound() unordered_multiset&amp;lt;int&amp;gt; b; // 哈系表，可以存储重复元素 cout</description>
+        <description>empty() size() begin(), end() ++, &amp;ndash; insert() find() erase() count() ps 一些哈希表，如 unordered_set, unordered_map, unordered_multiset, unordered_multimap 和 set/multiset, map/multimap 类似，增删改查的时间复杂度是 O(1) 不支持 lower_bound()/upper_bound()</description>
       </item>
       
       <item>
@@ -1910,7 +1910,7 @@
         <pubDate>Tue, 17 Nov 2020 00:00:00 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/cpp/stl/09-unordered-map/</guid>
-        <description>empty() size() begin(), end() insert() find() erase() count() 1. 定义 1 2 3 4 5 6 7 8 9 10 11 12 #include &amp;lt;iostream&amp;gt;#include &amp;lt;unordered_map&amp;gt; using namespace std; int main() { unordered_map&amp;lt;int, int&amp;gt; a; // C++11 开始支持 unordered_multimap&amp;lt;int, int&amp;gt; b; // 不常用 return 0; } 2. 使用 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16</description>
+        <description>empty() size() begin(), end() ++, &amp;ndash; insert() find() erase() count() 1. 定义 1 2 3 4 5 6 7 8 9 10 11 12 #include &amp;lt;iostream&amp;gt;#include &amp;lt;unordered_map&amp;gt; using namespace std; int main() { unordered_map&amp;lt;int, int&amp;gt; a; // C++11 开始支持 unordered_multimap&amp;lt;int, int&amp;gt; b; // 不常用 return 0; } 2. 使用 1 2 3 4 5 6 7 8 9 10 11 12 13 14</description>
       </item>
       
       <item>
@@ -2072,7 +2072,7 @@
         <pubDate>Tue, 24 Nov 2020 00:00:00 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/cpp/stl/10-list/</guid>
-        <description>empty() size() begin(), end() push_front(), push_back() pop_front(), pop_back() emplace_front(), emplace_back() insert() 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 #include &amp;lt;iostream&amp;gt;#include &amp;lt;list&amp;gt; using namespace std; int main() { list&amp;lt;int&amp;gt; li; li.push_back(2); li.push_front(1); li.emplace_front(0); // 主要用于插入自定义的 struct li.emplace_back(3); li.insert(++ li.begin(), 6); // 增删 O(1)，查询 O(n)</description>
+        <description>empty() size() begin(), end() push_front(), push_back() pop_front(), pop_back() emplace_front(), emplace_back() insert() sort() merge() remove() unique() 1. 简介 在任意位置插入与删除一个元素时间是固定的 优点：元素可快速插入与删除 缺点：不能随机访问 插入或删除元素之后，</description>
       </item>
       
       <item>
@@ -2190,6 +2190,15 @@
         
         <guid>https://yorkfish.github.io/review/c/struct-union-enum/10-enum/</guid>
         <description>1. 使用场景 如果一个变量只有几种可能的值，则可以定义为枚举类型 变量的值只限于列举出来的值的范围 2. 一般定义形式 enum weekday {sun, mon, tue, wed, thu, fri, sat}; 3. 用法 例一 C 编译</description>
+      </item>
+      
+      <item>
+        <title>11. bitset</title>
+        <link>https://yorkfish.github.io/review/cpp/stl/11-bitset/</link>
+        <pubDate>Tue, 09 Mar 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/cpp/stl/11-bitset/</guid>
+        <description>~, &amp;amp;, |, ^ &amp;laquo;, &amp;raquo; ==, != [] size() count() test() any() none() all() set() set(k, v) set(k) reset() flip() flip(k) to_string() to_ulong() to_ullong() 定义 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 #include &amp;lt;iostream&amp;gt;#include &amp;lt;bitset&amp;gt; using namespace std; int main() { bitset&amp;lt;8&amp;gt; s1; // 无参构造，长度为 8，默</description>
       </item>
       
       <item>
@@ -2333,7 +2342,7 @@
         <pubDate>Tue, 17 Nov 2020 00:00:00 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/cpp/12-bit-operation/</guid>
-        <description>1. 名称 符号 英文 中文 &amp;amp; and 与 | or 或 ~ not 取反 ^ xor 异或 2. 常用操作 -a 与 (~a + 1) 的二进制是一样的 求 x 的第 k 位数字：x &amp;gt;&amp;gt; k &amp;amp; 1 返回 x 的最后一位 1 x &amp;amp; -x lowbit(x) 3. 举</description>
+        <description>1. 名称 符号 英文 中文 &amp;amp; and 与 ` ` or ~ not 取反 ^ xor 异或 2. 常用操作 -a 与 (~a + 1) 的二进制是一样的 求 x 的第 k 位数字：x &amp;gt;&amp;gt; k &amp;amp; 1 返回 x 的最后一位 1 x &amp;amp; -x lowbit(x) 3. 举</description>
       </item>
       
       <item>

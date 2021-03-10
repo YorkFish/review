@@ -38,7 +38,7 @@
         <pubDate>Tue, 20 Oct 2020 00:00:00 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/regex/03-metacharacter/</guid>
-        <description>元字符：修饰原子的符号 1. 常用 符号 匹配对象 [] 原子列表，自定义原子范围 [^] 排除列表，自定义排除范围 ^ 匹配开头 $ 匹配结尾 | 逻辑运算（万能钥匙） \b 词边</description>
+        <description>元字符：修饰原子的符号 1. 常用 符号 匹配对象 [] 原子列表，自定义原子范围 [^] 排除列表，自定义排除范围 ^ 匹配开头 $ 匹配结尾 ` ` \b 词边界（对中文无效） \B</description>
       </item>
       
       <item>

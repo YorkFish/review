@@ -17,9 +17,9 @@
 
 <script defer src="/review/js/lazysizes.min.5e11d056075a05065b9c0bfec44084a113fc2976c2952ec804dedb61c7662db9.js"></script>
 
-<script defer src="/review/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/review/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
 
-<script defer src="/review/js/helper/fadeinout.min.93a331f96194789a542f33690bbe4f0c102c7e78ffc018217f5a1c33010bad91.js"></script>
+<script defer src="/review/js/helper/fadeinout.min.9fb19682560d5fa5596fffec85da605067c4acc86aad05add4d8fff9d362a446.js"></script>
 
 <script>
   "use strict";
@@ -1083,7 +1083,7 @@
 <meta property="og:url" content="https://yorkfish.github.io/review/cpp/stl/04-stack/">
 <meta property="og:type" content="article">
 
-<meta name="generator" content="Hugo 0.74.3" />
+<meta name="generator" content="Hugo 0.81.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="https://yorkfish.github.io/review/cpp/stl/04-stack/">
@@ -1559,6 +1559,14 @@
         
         <li>
           <a href="https://yorkfish.github.io/review/cpp/stl/10-list/" class="menu__title " data-depth="0">10. list</a>
+        </li>
+      
+    
+      
+        
+        
+        <li>
+          <a href="https://yorkfish.github.io/review/cpp/stl/11-bitset/" class="menu__title " data-depth="0">11. bitset</a>
         </li>
       
     
@@ -2458,6 +2466,14 @@
         </li>
       
     
+      
+        
+        
+        <li>
+          <a href="https://yorkfish.github.io/review/cpp/stl/11-bitset/" class="menu__title " data-depth="0">11. bitset</a>
+        </li>
+      
+    
   </ul>
   
 
@@ -2485,6 +2501,14 @@
 
 </div>
 <h2 id="1-简介">1. 简介</h2>
+<ul>
+<li>适配器</li>
+<li>可以将任意类型的序列容器转换为一个堆栈，一般使用 deque 作为支持的序列容器</li>
+<li>元素只能先进后出 (FILO)</li>
+<li>不能遍历整个 stack</li>
+<li>给 vector 提供了栈接口</li>
+<li>与 queue 类似，如果要使用栈中元素，先用 top 检索，再用 pop 弹栈</li>
+</ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1

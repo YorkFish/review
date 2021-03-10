@@ -65,7 +65,7 @@
         <pubDate>Wed, 06 Jan 2021 00:00:00 +0800</pubDate>
         
         <guid>https://yorkfish.github.io/review/web/javascript/06-operator/</guid>
-        <description>简介 运算符 举例 算术运算符 +, -, *, /, ++, -- 字符串连接 + 赋值运算 =, +=, -=, *=, /=, %= 比较运算符 &amp;lt;, &amp;gt;, &amp;gt;=, &amp;lt;=, ==, !=, ===, !== 逻辑运算符 &amp;amp;&amp;amp;, ||, ! 位运算 ^, &amp;amp;, |, ~ 三元运算符 ? : 举</description>
+        <description>简介 运算符 举例 算术运算符 +, -, *, /, ++, -- 字符串连接 + 赋值运算 =, +=, -=, *=, /=, %= 比较运算符 &amp;lt;, &amp;gt;, &amp;gt;=, &amp;lt;=, ==, !=, ===, !== 逻辑运算符 &amp;amp;&amp;amp;, ` 位运算 ^, &amp;amp;, ` 三元运算符 ? : 举例 例</description>
       </item>
       
       <item>
