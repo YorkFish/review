@@ -143,17 +143,7 @@
   </url>
   
   <url>
-    <loc>https://yorkfish.github.io/review/hugo/</loc>
-    <lastmod>2020-08-23T00:30:00+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yorkfish.github.io/review/latex/</loc>
-    <lastmod>2020-08-23T00:30:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/hugo/hugo-01/</loc>
     <lastmod>2020-08-23T00:30:00+08:00</lastmod>
   </url>
   
@@ -329,11 +319,6 @@
   </url>
   
   <url>
-    <loc>https://yorkfish.github.io/review/hugo/hugo-02/</loc>
-    <lastmod>2020-08-23T00:30:00+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yorkfish.github.io/review/web/css/02-7-common-selectors/</loc>
   </url>
   
@@ -502,11 +487,6 @@
   </url>
   
   <url>
-    <loc>https://yorkfish.github.io/review/hugo/hugo-03/</loc>
-    <lastmod>2020-08-23T00:30:00+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yorkfish.github.io/review/python/operation/03-virtual-env/</loc>
   </url>
   
@@ -656,11 +636,6 @@
   </url>
   
   <url>
-    <loc>https://yorkfish.github.io/review/hugo/hugo-04/</loc>
-    <lastmod>2020-08-23T00:30:00+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yorkfish.github.io/review/web/bootstrap/04-others/</loc>
   </url>
   
@@ -786,11 +761,6 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/c/struct-union-enum/05-struct-array/</loc>
-    <lastmod>2020-09-10T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/hugo/shortcodes/</loc>
     <lastmod>2020-09-10T00:00:00+08:00</lastmod>
   </url>
   
@@ -1643,277 +1613,7 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/blog/</loc>
-    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/huffman%E6%A0%91/</loc>
-    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E5%8C%BA%E9%97%B4dp/</loc>
-    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/28-exercise-02-21/</loc>
-    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/</loc>
-    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/bfs/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/dfs/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E6%9E%9A%E4%B8%BE/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/27-exercise-02-20/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E6%A0%91%E5%BD%A2dp/</loc>
-    <lastmod>2021-02-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E6%A0%91%E7%9A%84%E7%9B%B4%E5%BE%84/</loc>
-    <lastmod>2021-02-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/26-exercise-02-19/</loc>
-    <lastmod>2021-02-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E5%A4%9A%E6%BA%90bfs/</loc>
-    <lastmod>2021-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/25-exercise-02-17/</loc>
-    <lastmod>2021-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/24-exercise-02-16/</loc>
-    <lastmod>2021-02-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E7%BB%84%E5%90%88%E8%AE%A1%E6%95%B0/</loc>
-    <lastmod>2021-02-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E4%BA%8C%E5%88%86/</loc>
-    <lastmod>2021-02-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/23-exercise-02-15/</loc>
-    <lastmod>2021-02-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E9%80%92%E6%8E%A8/</loc>
-    <lastmod>2021-02-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E5%B7%AE%E5%88%86/</loc>
-    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/22-exercise-02-14/</loc>
-    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E8%B4%AA%E5%BF%83/</loc>
-    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/</loc>
-    <lastmod>2021-02-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/21-exercise-02-13/</loc>
-    <lastmod>2021-02-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/20-exercise-02-12/</loc>
-    <lastmod>2021-02-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E6%A8%A1%E6%8B%9F/</loc>
-    <lastmod>2021-02-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E9%98%9F%E5%88%97/</loc>
-    <lastmod>2021-02-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E6%95%B0%E5%AD%A6/</loc>
-    <lastmod>2021-02-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/19-exercise-02-11/</loc>
-    <lastmod>2021-02-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/18-exercise-02-09/</loc>
-    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/</loc>
-    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E7%BA%BF%E6%80%A7dp/</loc>
-    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E5%A0%86/</loc>
-    <lastmod>2021-02-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E5%A4%9A%E8%B7%AF%E5%BD%92%E5%B9%B6/</loc>
-    <lastmod>2021-02-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/17-exercise-02-08/</loc>
-    <lastmod>2021-02-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/16-exercise-02-07/</loc>
-    <lastmod>2021-02-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/</loc>
-    <lastmod>2021-02-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E6%9F%93%E8%89%B2%E6%B3%95%E5%88%A4%E5%AE%9A%E4%BA%8C%E5%88%86%E5%9B%BE/</loc>
-    <lastmod>2021-02-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/15-exercise-02-06/</loc>
-    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E6%95%B0%E5%89%8D%E7%BC%80%E5%92%8C/</loc>
-    <lastmod>2021-02-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/14-exercise-02-05/</loc>
-    <lastmod>2021-02-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/13-exercise-02-04/</loc>
-    <lastmod>2021-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E4%B8%AD%E4%BD%8D%E6%95%B0/</loc>
-    <lastmod>2021-02-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E6%8E%A8%E5%85%AC%E5%BC%8F/</loc>
-    <lastmod>2021-02-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/12-exercise-02-03/</loc>
-    <lastmod>2021-02-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E6%95%B0%E7%8B%AC/</loc>
-    <lastmod>2021-02-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/11-exercise-02-02/</loc>
-    <lastmod>2021-02-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/10-exercise-02-01/</loc>
-    <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E5%89%8D%E7%BC%80%E5%92%8C/</loc>
-    <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/trie/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/09-exercise-01-30/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/08-exercise-01-29/</loc>
-    <lastmod>2021-01-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/flood-fill/</loc>
-    <lastmod>2021-01-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/tags/%E5%93%88%E5%B8%8C/</loc>
-    <lastmod>2021-01-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yorkfish.github.io/review/blog/07-exercise-01-28/</loc>
-    <lastmod>2021-01-29T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1983,11 +1683,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://yorkfish.github.io/review/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://yorkfish.github.io/review/ko/"
                 />
     <xhtml:link
                 rel="alternate"
