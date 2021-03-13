@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy;2020 - 2021, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 10 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Jan 2021 00:00:00 +0800</lastBuildDate>
     
         <atom:link href="https://yorkfish.github.io/review/blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -16,37 +16,85 @@
       
       <item>
         <title>一些 LaTeX 的符号</title>
-        <link>https://yorkfish.github.io/review/blog/06-latex/</link>
-        <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+        <link>https://yorkfish.github.io/review/blog/08-latex/</link>
+        <pubDate>Sun, 10 Jan 2021 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/blog/06-latex/</guid>
+        <guid>https://yorkfish.github.io/review/blog/08-latex/</guid>
         <description>绝对值：\left| \right| 向下取整：\lfloor x \rfloor 向上取整：\lceil x \rceil 小于等于：\leq 大于等于：\gep 下标：v_i 分数：\frac</description>
       </item>
       
       <item>
-        <title>Linux command - time</title>
-        <link>https://yorkfish.github.io/review/blog/05-linux-command-time/</link>
-        <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+        <title>小狼毫的安装与使用</title>
+        <link>https://yorkfish.github.io/review/blog/07-rime-for-win10/</link>
+        <pubDate>Wed, 14 Oct 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/blog/05-linux-command-time/</guid>
+        <guid>https://yorkfish.github.io/review/blog/07-rime-for-win10/</guid>
+        <description>&lt;h2 id=&#34;说明&#34;&gt;说明&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;官网地址：&lt;a href=&#34;https://rime.im/&#34; target=&#34;_blank&#34;&gt;&amp;gt;&amp;gt;&amp;gt; 传送门&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;RIME 在不同操作系统下有不同的名字&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
+      
+      <item>
+        <title>cmder</title>
+        <link>https://yorkfish.github.io/review/blog/06-cmder/</link>
+        <pubDate>Tue, 13 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/06-cmder/</guid>
+        <description>&lt;h2 id=&#34;说明&#34;&gt;说明&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;官网地址：&lt;a href=&#34;https://cmder.net/&#34; target=&#34;_blank&#34;&gt;&amp;gt;&amp;gt;&amp;gt; 传送门&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;无需安装，解压即用&lt;/li&gt;
+&lt;li&gt;官网有两个版本
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;cmder-mini&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cmder-full&lt;/code&gt; 含有 &lt;code&gt;git for windows&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
+      
+      <item>
+        <title>Powershell 安装 oh-my-posh</title>
+        <link>https://yorkfish.github.io/review/blog/05-powershell-oh-my-posh/</link>
+        <pubDate>Mon, 12 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/05-powershell-oh-my-posh/</guid>
+        <description>&lt;h2 id=&#34;powershell&#34;&gt;Powershell&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;以管理员权限打开打开 Powershell&lt;/li&gt;
+&lt;/ol&gt;</description>
+      </item>
+      
+      <item>
+        <title>Windows Terminal</title>
+        <link>https://yorkfish.github.io/review/blog/04-windows-terminal/</link>
+        <pubDate>Sun, 11 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/04-windows-terminal/</guid>
+        <description>&lt;h2 id=&#34;说明&#34;&gt;说明&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 应用商店搜索安装&lt;/li&gt;
+&lt;li&gt;收集了一些快捷键&lt;/li&gt;
+&lt;/ul&gt;</description>
+      </item>
+      
+      <item>
+        <title>Linux 命令 time</title>
+        <link>https://yorkfish.github.io/review/blog/03-linux-command-time/</link>
+        <pubDate>Sat, 10 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/03-linux-command-time/</guid>
         <description>以 C 为例 格式：time + 可执行文件名 结果：除了可执行文件的运行结果，还有 real, user, sys 三个时间可供查看</description>
       </item>
       
       <item>
-        <title>Hugo-zdoc 添加图片</title>
-        <link>https://yorkfish.github.io/review/blog/04-zdoc-add-image/</link>
-        <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
+        <title>dos 命令</title>
+        <link>https://yorkfish.github.io/review/blog/02-dos-command/</link>
+        <pubDate>Sun, 20 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/blog/04-zdoc-add-image/</guid>
-        <description>&lt;p&gt;有两种方式&lt;/p&gt;</description>
-      </item>
-      
-      <item>
-        <title>doc command</title>
-        <link>https://yorkfish.github.io/review/blog/03-dos-command/</link>
-        <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://yorkfish.github.io/review/blog/03-dos-command/</guid>
+        <guid>https://yorkfish.github.io/review/blog/02-dos-command/</guid>
         <description>&lt;h2 id=&#34;摘要&#34;&gt;摘要&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;记事本&lt;/li&gt;
@@ -57,29 +105,16 @@
       
       <item>
         <title>进制转换</title>
-        <link>https://yorkfish.github.io/review/blog/02-binary-decimal-conversion/</link>
-        <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+        <link>https://yorkfish.github.io/review/blog/01-binary-decimal-conversion/</link>
+        <pubDate>Tue, 15 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/blog/02-binary-decimal-conversion/</guid>
+        <guid>https://yorkfish.github.io/review/blog/01-binary-decimal-conversion/</guid>
         <description>&lt;h2 id=&#34;1-二进制转十进制&#34;&gt;1. 二进制转十进制&lt;/h2&gt;
 &lt;h3 id=&#34;例一-0b10111&#34;&gt;例一 0b101.11&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;整数部分：1 * 2&lt;sup&gt;2&lt;/sup&gt; + 0 * 2&lt;sup&gt;1&lt;/sup&gt; + 1 * 2&lt;sup&gt;0&lt;/sup&gt;&lt;/li&gt;
 &lt;li&gt;小数部分：1 * 2&lt;sup&gt;-1&lt;/sup&gt; + 1 * 2&lt;sup&gt;-2&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      </item>
-      
-      <item>
-        <title>Usage</title>
-        <link>https://yorkfish.github.io/review/blog/01-usage/</link>
-        <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://yorkfish.github.io/review/blog/01-usage/</guid>
-        <description>&lt;h2 id=&#34;1-拷贝文档&#34;&gt;1. 拷贝文档&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;在 &lt;code&gt;content&lt;/code&gt; 文件夹下新建 &lt;code&gt;blog&lt;/code&gt; 文件夹&lt;/li&gt;
-&lt;li&gt;将 &lt;code&gt;root/themes/zdoc/exampleSite/content/en/blog/_index.md&lt;/code&gt; 拷贝过来&lt;/li&gt;
-&lt;/ol&gt;</description>
       </item>
       
     

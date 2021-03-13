@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on York&#39;s blog</title>
+    <link>https://yorkfish.github.io/review/markdown/</link>
+    <description>Recent content in Markdown on York&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2020 - 2021, All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 10 Mar 2021 00:00:00 +0800</lastBuildDate>
+    
+        <atom:link href="https://yorkfish.github.io/review/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>01. 目录与标题</title>
+        <link>https://yorkfish.github.io/review/markdown/01-toc-and-title/</link>
+        <pubDate>Wed, 10 Mar 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/markdown/01-toc-and-title/</guid>
+        <description>1. 目录 用法：在首行写 [TOC] 说明：TOC 取自 Table of Content 的首字母 效果：见右侧 2. 标题 用法：一般是 n 个井号 + 1 个空格 + 标题 说明：1 &amp;lt;= n &amp;lt;= 6 示例与效果 示例 # 一</description>
+      </item>
+      
+      <item>
+        <title>02. 引用与标记</title>
+        <link>https://yorkfish.github.io/review/markdown/02-quote-and-sign/</link>
+        <pubDate>Wed, 10 Mar 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/markdown/02-quote-and-sign/</guid>
+        <description>1. 引用 用法：&amp;gt; + 1 个空格 + 引用内容 说明 引用又称“块注释” 可以嵌套 示例与效果 单行 示例 &amp;gt; markdown 效果 markdown 嵌套 示例 &amp;gt; 那个春天，你站在那株粉色桃树下，</description>
+      </item>
+      
+      <item>
+        <title>03. 代码块</title>
+        <link>https://yorkfish.github.io/review/markdown/03-code-blocks/</link>
+        <pubDate>Wed, 10 Mar 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/markdown/03-code-blocks/</guid>
+        <description>1. 用法 用法一 缩进 + 程序代码 缩进是 n 个 Tab，一般比上一层缩进多一 用法二 ``` + [语言名] + 程序代码 + ``` 用法三 借助 HTML 的标签 &amp;lt;code&amp;gt; 需要配合换行标签 &amp;lt;br&amp;gt; 2. 说</description>
+      </item>
+      
+      <item>
+        <title>04. 表格</title>
+        <link>https://yorkfish.github.io/review/markdown/04-table/</link>
+        <pubDate>Wed, 10 Mar 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/markdown/04-table/</guid>
+        <description>1. 用法 标题栏 + 停靠设置 + 具体内容 形如 | | | | —— 标题栏 | :--- | :---: | ---: | —— 停靠设置 | | | | —— 具体内容 ... 2. 说明 停靠效果有三种 :--- —— 左对齐 :---: ——</description>
+      </item>
+      
+      <item>
+        <title>05. 转义字符</title>
+        <link>https://yorkfish.github.io/review/markdown/05-escape-character/</link>
+        <pubDate>Wed, 10 Mar 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/markdown/05-escape-character/</guid>
+        <description>1. 用法 与许多语言一样，Markdown 中的转义字符也是 \ 用的时候，在需要转义的字符前加上反斜杠即可 2. 说明 下表中的符号使用时需要转义，符号均为</description>
+      </item>
+      
+      <item>
+        <title>06. 列表</title>
+        <link>https://yorkfish.github.io/review/markdown/06-lists/</link>
+        <pubDate>Wed, 10 Mar 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/markdown/06-lists/</guid>
+        <description>1. 有序列表 用法：No. + . + 1 个空格 + 内容 说明：有些地方，数字会显示为“英文字母”、“罗马数字”…… 示例与效果 示例 1. 有序列表 1 2. 有序列表 2 3.</description>
+      </item>
+      
+      <item>
+        <title>07. 分割线</title>
+        <link>https://yorkfish.github.io/review/markdown/07-split-line/</link>
+        <pubDate>Wed, 10 Mar 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/markdown/07-split-line/</guid>
+        <description>1. Markdown 方式 用法：至少三个星号 说明 独占一行 星号间可以有空格，但不推荐 * 可以用 - 或者 _ 代替 示例与效果 示例 *** 效果 2. HTML 方式 用法：借助 HTML 的标签 &amp;lt;hr&amp;gt; 说明：&amp;</description>
+      </item>
+      
+      <item>
+        <title>08. 下划线</title>
+        <link>https://yorkfish.github.io/review/markdown/08-underline/</link>
+        <pubDate>Wed, 10 Mar 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/markdown/08-underline/</guid>
+        <description>用法：借助 HTML 的标签 &amp;lt;u&amp;gt; 说明 从效果上看，&amp;lt;ins&amp;gt; 也满足“下划线”的需求，不过它更倾向于“为修改而标记” 因为是 HTML 标签，所以可以加样式</description>
+      </item>
+      
+      <item>
+        <title>09. 删除线</title>
+        <link>https://yorkfish.github.io/review/markdown/09-strikethrough/</link>
+        <pubDate>Wed, 10 Mar 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/markdown/09-strikethrough/</guid>
+        <description>1. Markdown 方式 示例 ~~删除文本~~ 效果 删除文本 2. HTML 方式 用法：借助 HTML 的标签 &amp;lt;del&amp;gt; 说明：从效果上看，&amp;lt;s&amp;gt; 也满足“删除线”的需求，不过它已经过</description>
+      </item>
+      
+      <item>
+        <title>10. “三体”</title>
+        <link>https://yorkfish.github.io/review/markdown/10-emphasis/</link>
+        <pubDate>Wed, 10 Mar 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/markdown/10-emphasis/</guid>
+        <description>这里的“三体”是指 粗体 斜体 粗斜体 1. 示例与效果 示例 **左右各两个星号是粗体效果** *左右各一个星号是斜体效果* ***左右各三个星号是粗斜体效果</description>
+      </item>
+      
+      <item>
+        <title>11. 注脚与上下标</title>
+        <link>https://yorkfish.github.io/review/markdown/11-footnotes-and-sup-sub/</link>
+        <pubDate>Wed, 10 Mar 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/markdown/11-footnotes-and-sup-sub/</guid>
+        <description>1. 注脚 示例与效果 示例 点击句末的注脚试试[^one] [^one]: 这个可以放到文中，但有些平台不支持；保险起见，放在文末吧 效果 点击句末的注脚试试1 说明 注脚</description>
+      </item>
+      
+      <item>
+        <title>12. 插入链接</title>
+        <link>https://yorkfish.github.io/review/markdown/12-links/</link>
+        <pubDate>Wed, 10 Mar 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/markdown/12-links/</guid>
+        <description>1. Markdown 方式 示例与效果 方式一 示例 [address](https://github.com/YorkFish) 效果 address 方式二 示例 [address][01] [01]: https://github.com/YorkFish 效果 address 加 &amp;ldquo;title&amp;rdquo; 示例 [address](https://github.com/YorkFish &amp;quot;GitHub&amp;quot;) 效果 address 2. HTML 方式 用法：借助 HTML 的标签 &amp;lt;a&amp;gt; 说明 地址可以是“网络地址”/“本地地</description>
+      </item>
+      
+      <item>
+        <title>13. 插入图片</title>
+        <link>https://yorkfish.github.io/review/markdown/13-images/</link>
+        <pubDate>Wed, 10 Mar 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/markdown/13-images/</guid>
+        <description>1. 示例与效果 用法一 示例 ![Totodile](/imgs/markdown/13_totodile.png) 效果 用法二 示例 ![Totodile][01] [01]: /imgs/markdown/13_totodile.png 效果 2. 说明 第一个中括号内填名称或空着 若填了，在图片没有正常显示时，会显示填写的信息 地址可以是“网</description>
+      </item>
+      
+      <item>
+        <title>14. YMAL 题头</title>
+        <link>https://yorkfish.github.io/review/markdown/14-yaml/</link>
+        <pubDate>Wed, 10 Mar 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/markdown/14-yaml/</guid>
+        <description>1. 用法 必须写在开头 用两行 --- 包起来 里面是 “属性名” + ： + 至少 1 个空格 + 解释 2. 说明 又称“YAML 标头” 是一种直观的能够被电脑识别的数据序列化格式</description>
+      </item>
+      
+      <item>
+        <title>15. 缩写</title>
+        <link>https://yorkfish.github.io/review/markdown/15-abbreviation/</link>
+        <pubDate>Wed, 10 Mar 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/markdown/15-abbreviation/</guid>
+        <description>用法：借助 HTML 的标签 &amp;lt;abbr&amp;gt; 说明 与注脚不同，缩写不需要在下文写补充语句 查看的时候，悬停鼠标即可 示例与效果 示例 &amp;lt;abbr title=&amp;quot;Hypertext Markup Language&amp;quot;&amp;gt;HTML&amp;lt;/abbr&amp;gt; 效果 HTML</description>
+      </item>
+      
+      <item>
+        <title>16. 按键与任务列表</title>
+        <link>https://yorkfish.github.io/review/markdown/16-kbd-and-task-list/</link>
+        <pubDate>Wed, 10 Mar 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/markdown/16-kbd-and-task-list/</guid>
+        <description>1. 按键 用法：借助 HTML 的标签 &amp;lt;kbd&amp;gt; 说明：有的平台不显示边框 示例与效果 示例 &amp;lt;kbd&amp;gt;Ctrl&amp;lt;/kbd&amp;gt; + &amp;lt;kbd&amp;gt;a&amp;lt;/kbd&amp;gt; 效果 Ctrl + a 2. 任务列表 示例与效果 示例 - [ ] 党参 - [x] 枸杞 效果 党参 枸杞 说明 x</description>
+      </item>
+      
+      <item>
+        <title>17. Emoji</title>
+        <link>https://yorkfish.github.io/review/markdown/17-emoji/</link>
+        <pubDate>Wed, 10 Mar 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/markdown/17-emoji/</guid>
+        <description>1. 用法 两个英文冒号中间加一个参数 2. 说明 Win10 在“微软拼音”切到中文时可以调出表情符号面板，快捷键是 Ctrl + Shift + b Win10 搜索 Charmap，点击“字符印射</description>
+      </item>
+      
+      <item>
+        <title>18. LaTeX</title>
+        <link>https://yorkfish.github.io/review/markdown/18-latex/</link>
+        <pubDate>Wed, 10 Mar 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/markdown/18-latex/</guid>
+        <description>1. 用法 $$ + 编辑的内容 + $$ 2. 说明 几个名词解释 名称 释义 TeX 学术排版 LaTe 相当于 TeX 的简化版本；对公式编辑精细至像素级别 MathJax 相当于 LaTeX 的简化版本，用于显示数学</description>
+      </item>
+      
+      <item>
+        <title>19. Flow Chart</title>
+        <link>https://yorkfish.github.io/review/markdown/19-flow/</link>
+        <pubDate>Wed, 10 Mar 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/markdown/19-flow/</guid>
+        <description>1. 用法 初始化变量 start=&amp;gt;start: 开始 end=&amp;gt;end: 结束 operation=&amp;gt;operation: 操作 condition=&amp;gt;condition: 条件 设置路径 start-&amp;gt;operation-&amp;gt;condition 添加线路上的标记 condition(yes)-&amp;gt;end condition(no)-&amp;gt;operation 2. 说明 代码语言填 flow 3. 示例与效果 示例 ```flow start=&amp;gt;start: 开始 end=&amp;gt;end: 结束 operation=&amp;gt;operation: 操作 condition=&amp;gt;condition: 条件 start-&amp;gt;operation-&amp;gt;condition condition(yes)-&amp;gt;end condition(no)-&amp;gt;operation ``` 效</description>
+      </item>
+      
+      <item>
+        <title>20. GANTT</title>
+        <link>https://yorkfish.github.io/review/markdown/20-gantt/</link>
+        <pubDate>Wed, 10 Mar 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/markdown/20-gantt/</guid>
+        <description>1. 示例与效果 示例 ```mermaid gantt dateFormat YYYY-MM-DD title Adding GANTT diagram functionality to mermaid section 现有任务 已完成 :done, des1, 2020-01-01, 2020-01-05 进行中 :active, des2, 2020-01-05, 3d 计划一 : des3, after des2, 5d 计划二 : des4, after des3, 5d ``` 效果 2. 说明 代码语言填 mermaid 此图被称</description>
+      </item>
+      
+      <item>
+        <title>21. UML</title>
+        <link>https://yorkfish.github.io/review/markdown/21-uml/</link>
+        <pubDate>Wed, 10 Mar 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/markdown/21-uml/</guid>
+        <description>1. 用法 虚线有线段感，所以比实线多一个减号 箭头 释义 -&amp;gt;&amp;gt; 实线 --&amp;gt;&amp;gt; 虚线 -x 箭头带叉实线 --x 箭头带叉虚线 箭头会按设定的轨迹走 sequenceDiagram 石破天 -&amp;gt;&amp;gt; 张三: 你这葫芦中的酒，</description>
+      </item>
+      
+    
+  </channel>
+</rss>

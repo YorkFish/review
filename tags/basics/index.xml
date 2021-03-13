@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy;2020 - 2021, All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 15 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2020 00:00:00 +0800</lastBuildDate>
     
         <atom:link href="https://yorkfish.github.io/review/tags/basics/index.xml" rel="self" type="application/rss+xml" />
     
@@ -16,10 +16,10 @@
       
       <item>
         <title>进制转换</title>
-        <link>https://yorkfish.github.io/review/blog/02-binary-decimal-conversion/</link>
-        <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+        <link>https://yorkfish.github.io/review/blog/01-binary-decimal-conversion/</link>
+        <pubDate>Tue, 15 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/blog/02-binary-decimal-conversion/</guid>
+        <guid>https://yorkfish.github.io/review/blog/01-binary-decimal-conversion/</guid>
         <description>&lt;h2 id=&#34;1-二进制转十进制&#34;&gt;1. 二进制转十进制&lt;/h2&gt;
 &lt;h3 id=&#34;例一-0b10111&#34;&gt;例一 0b101.11&lt;/h3&gt;
 &lt;ul&gt;

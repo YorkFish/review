@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy;2020 - 2021, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 10 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Jan 2021 00:00:00 +0800</lastBuildDate>
     
         <atom:link href="https://yorkfish.github.io/review/tags/latex/index.xml" rel="self" type="application/rss+xml" />
     
@@ -16,10 +16,10 @@
       
       <item>
         <title>一些 LaTeX 的符号</title>
-        <link>https://yorkfish.github.io/review/blog/06-latex/</link>
-        <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+        <link>https://yorkfish.github.io/review/blog/08-latex/</link>
+        <pubDate>Sun, 10 Jan 2021 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/blog/06-latex/</guid>
+        <guid>https://yorkfish.github.io/review/blog/08-latex/</guid>
         <description>绝对值：\left| \right| 向下取整：\lfloor x \rfloor 向上取整：\lceil x \rceil 小于等于：\leq 大于等于：\gep 下标：v_i 分数：\frac</description>
       </item>
       
