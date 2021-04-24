@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exercises on York&#39;s blog</title>
+    <link>https://yorkfish.github.io/review/mysql/exercises/</link>
+    <description>Recent content in Exercises on York&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2020 - 2021, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 24 Apr 2021 00:00:00 +0800</lastBuildDate>
+    
+        <atom:link href="https://yorkfish.github.io/review/mysql/exercises/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>01. Prepare Tables</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/01-prepare-tables/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/01-prepare-tables/</guid>
+        <description>建表 学生表 Student 学号 姓名 性别 出生年月日 所在班级 1 2 3 4 5 6 7 create table student( sno varchar(20) primary key, sname varchar(20) not null, sgender varchar(10) not null, sbirthday datetime, class varchar(20) ); 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22</description>
+      </item>
+      
+      <item>
+        <title>02. Cases</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/02-10-cases/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/02-10-cases/</guid>
+        <description>1. 查询 student 表中的所有记录 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 mysql&amp;gt; select * from student; +-----+--------+---------+---------------------+-------+ | sno | sname | sgender | sbirthday | class | +-----+--------+---------+---------------------+-------+ | 101 | 曾华 | 男 | 1977-09-01 00:00:00 | 95033 | | 102 | 匡明 | 男 | 1975-10-02 00:00:00 | 95031 |</description>
+      </item>
+      
+      <item>
+        <title>03. Average Group</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/03-average-group/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/03-average-group/</guid>
+        <description>方式一 一个一个查询 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 mysql&amp;gt; select avg(degree) from score where cno=&amp;#34;3-105&amp;#34;; +-------------+ | avg(degree) | +-------------+ | 85.3333 | +-------------+ 1 row in set (0.00 sec) mysql&amp;gt; select avg(degree) from score where cno=&amp;#34;9-888&amp;#34;; +-------------+ | avg(degree) | +-------------+ | NULL | +-------------+ 1 row in set (0.00 sec) 方式</description>
+      </item>
+      
+      <item>
+        <title>04. Having Count and Like</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/04-having-count-and-like/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/04-having-count-and-like/</guid>
+        <description>分组条件 1 2 3 4 5 6 7 8 9 mysql&amp;gt; select cno from score group by cno having count(cno) &amp;gt;= 2; +-------+ | cno | +-------+ | 3-105 | | 3-245 | | 6-166 | +-------+ 3 rows in set (0.00 sec) 模糊查询 1 2 3 4 5 6 7 8 mysql&amp;gt; select cno from score group by cno having count(cno) &amp;gt;= 2</description>
+      </item>
+      
+      <item>
+        <title>05. Between</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/05-between/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/05-between/</guid>
+        <description>方式一 1 2 3 4 5 6 7 8 9 10 11 12 13 mysql&amp;gt; select sno, degree from score where degree &amp;gt; 70 and degree &amp;lt; 90; +-----+--------+ | sno | degree | +-----+--------+ | 103 | 86 | | 103 | 85 | | 105 | 88 | | 105 | 75 | | 105 | 79 | | 109 | 76 | | 109 |</description>
+      </item>
+      
+      <item>
+        <title>06. Multi Tables</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/06-multi-tables/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/06-multi-tables/</guid>
+        <description>例一 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 mysql&amp;gt; select sno, sname from student; +-----+--------+ | sno | sname | +-----+--------+ | 101 | 曾华 | | 102 | 匡明 | | 103 | 王丽 | | 104 | 李军 |</description>
+      </item>
+      
+      <item>
+        <title>07. Group Average</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/07-group-average/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/07-group-average/</guid>
+        <description>题目 查询 &amp;ldquo;95031&amp;rdquo; 班学生每门课的平均分 操作 1. 根据班级获取学生名单 1 2 3 4 5 6 7 8 9 10 11 mysql&amp;gt; select * from student where class=&amp;#34;95031&amp;#34;; +-----+--------+---------+---------------------+-------+ | sno | sname | sgender | sbirthday | class | +-----+--------+---------+---------------------+-------+ | 102 | 匡明 | 男 | 1975-10-02 00:00:00 |</description>
+      </item>
+      
+      <item>
+        <title>08. Find people whose grade greater than someone</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/08-find-people-whose-grade-greater-than-someone/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/08-find-people-whose-grade-greater-than-someone/</guid>
+        <description>例一 查询课程 &amp;ldquo;3-105&amp;rdquo; 中所有成绩高于学号为 &amp;ldquo;109&amp;rdquo; 的同学的所有记录 1. 查看这位同学的成绩 1 2 3 4 5 6 7 mysql&amp;gt; select degree from score where sno=&amp;#34;109&amp;#34; and cno=&amp;#34;3-105&amp;#34;; +--------+ | degree | +--------+ | 76 | +--------+ 1 row in set (0.00 sec) 2. 查找</description>
+      </item>
+      
+      <item>
+        <title>09. Year and In</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/09-year-and-in/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/09-year-and-in/</guid>
+        <description>题目 查询与 108, 101 同学同年出生的所有学生的 sno, sname, birthday 操作 1. 查看两位同学的信息 1 2 3 4 5 6 7 8 mysql&amp;gt; select * from student where sno in (108, 101); +-----+--------+---------+---------------------+-------+ | sno | sname | sgender | sbirthday | class | +-----+--------+---------+---------------------+-------+ | 101 | 曾华</description>
+      </item>
+      
+      <item>
+        <title>10. Multi Nesting</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/10-multi-nesting/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/10-multi-nesting/</guid>
+        <description>题目 查询“张旭”教师的学生的成绩 操作 1. 根据教师姓名获取教师编号 1 2 3 4 5 6 7 mysql&amp;gt; select * from teacher where tname = &amp;#34;张旭&amp;#34;; +-----+-------+---------+---------------------+------+------------+ | tno | tname | tgender | tbirthday | prof</description>
+      </item>
+      
+      <item>
+        <title>11. Multi Tables</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/11-multi-tables/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/11-multi-tables/</guid>
+        <description>题目 查询人数多于 5 人的课程的老师 操作 数据不够，先插入几条数据 1 2 3 insert into score values(&amp;#39;101&amp;#39;, &amp;#39;3-105&amp;#39;, &amp;#39;90&amp;#39;); insert into score values(&amp;#39;102&amp;#39;, &amp;#39;3-105&amp;#39;, &amp;#39;91&amp;#39;); insert into score values(&amp;#39;104&amp;#39;, &amp;#39;3-105&amp;#39;, &amp;#39;89&amp;#39;); 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19</description>
+      </item>
+      
+      <item>
+        <title>12. In</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/12-in/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/12-in/</guid>
+        <description>题目 查询 95033 与 95031 这两个班级的全体学生的记录 数据不够，插入一条 1 2 mysql&amp;gt; insert into student values(&amp;#39;110&amp;#39;, &amp;#39;张飞&amp;#39;, &amp;#39;男&amp;#39;, &amp;#39;1974-06-03&amp;#39;, &amp;#39;95038&amp;#39;); Query OK, 1 row affected (0.01 sec)</description>
+      </item>
+      
+      <item>
+        <title>13. Where</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/13-where/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/13-where/</guid>
+        <description>题目 查询存在 85 分以上成绩的课程 操作 1 2 3 4 5 6 7 8 mysql&amp;gt; select cno from score where degree &amp;gt; 85 group by cno; +-------+ | cno | +-------+ | 3-105 | | 3-245 | +-------+ 2 rows in set (0.00 sec)</description>
+      </item>
+      
+      <item>
+        <title>14. Depart Courses</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/14-depart-courses/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/14-depart-courses/</guid>
+        <description>题目 查询计算机系教师所教课程的成绩表 操作 1. 先拿到计算机系的教师编号，再获取课程编号 1 2 3 4 5 6 7 8 9 mysql&amp;gt; select * from course -&amp;gt; where tno in (select tno from teacher where depart = &amp;#34</description>
+      </item>
+      
+      <item>
+        <title>15. Not in and Union</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/15-not-in-and-union/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/15-not-in-and-union/</guid>
+        <description>题目 查询计算机系与电子工程系不同职称的教师的 tname 和 prof 操作 1. 先找到电子工程系的教师职称，再查询计算机系的其余职称，然后反过来做一遍 1 2 3 4 5 6 7</description>
+      </item>
+      
+      <item>
+        <title>16. Any</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/16-any/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/16-any/</guid>
+        <description>题目 查询 3-105 的成绩至少高于 3-245 的同学的 cno, sno, degree，并按 degree 降序输出 操作 至少 -&amp;gt; 大于其中最小的一个 -&amp;gt; any 1 2 3 4 5 6 7 8 9 10 11 12 13 14 mysql&amp;gt; select * from score -&amp;gt; where</description>
+      </item>
+      
+      <item>
+        <title>17. All</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/17-all/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/17-all/</guid>
+        <description>题目 找出学了 3-105 的同学且成绩比 3-245 的所有分数都好的同学 操作 且 -&amp;gt; 大于其中最大的一个 -&amp;gt; all 查询 1 2 3 4 5 6 7 8 9 10 11 12 13 mysql&amp;gt; select * from score -&amp;gt; where cno = &amp;#34;3-105&amp;#34; -&amp;gt; and degree &amp;gt; all(select</description>
+      </item>
+      
+      <item>
+        <title>18. As and Union</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/18-as-and-union/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/18-as-and-union/</guid>
+        <description>题目一 查询所有教师和同学的 name, gender, birthday 操作 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 mysql&amp;gt; select tname, tgender, tbirthday from teacher -&amp;gt; union -&amp;gt; select sname, sgender, sbirthday from student; +--------+---------+---------------------+ | tname | tgender | tbirthday | +--------+---------+---------------------+ | 李诚 | 男</description>
+      </item>
+      
+      <item>
+        <title>19. Copy</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/19-copy/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/19-copy/</guid>
+        <description>题目 查询成绩低于该课程平均分的同学的成绩表 操作 1. 查看一下平均分 1 2 3 4 5 6 7 8 9 mysql&amp;gt; select cno, avg(degree) from score group by cno; +-------+-------------+ | cno | avg(degree) | +-------+-------------+ | 3-105 | 87.6667 | | 3-245 | 76.3333 | | 6-166 | 81.6667</description>
+      </item>
+      
+      <item>
+        <title>20. In</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/20-in/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/20-in/</guid>
+        <description>题目 查询所有任课教师的 tno, depart 操作 1. 从课表中查看开了哪些课 1 2 3 4 5 6 7 8 9 10 mysql&amp;gt; select * from course; +-------+------------+-----+ | cno | cname | tno | +-------+------------+-----+ | 3-105 | 计算机导论 | 825 | | 3-245 | 操作系统 |</description>
+      </item>
+      
+      <item>
+        <title>21. Conditon Group</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/21-condition-group/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/21-condition-group/</guid>
+        <description>题目 查询至少有 2 名男生的班号 操作 1 2 3 4 5 6 7 8 9 mysql&amp;gt; select class from student -&amp;gt; where sgender = &amp;#34;男&amp;#34; group by class having count(*) &amp;gt; 1; +-------+ | class | +-------+ | 95033 | | 95031 | +-------+ 2 rows in set (0.00 sec)</description>
+      </item>
+      
+      <item>
+        <title>22 Not Like</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/22-not-like/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/22-not-like/</guid>
+        <description>题目 查询 student 表中不姓“王”的同学记录 操作 1 2 3 4 5 6 7 8 9 10 11 12 13 mysql&amp;gt; select * from student where sname not like &amp;#34;王%&amp;#34;; +-----+--------+---------+---------------------+-------+ | sno | sname | sgender | sbirthday | class | +-----+--------+---------+---------------------+-------+ | 101 |</description>
+      </item>
+      
+      <item>
+        <title>23. Year and Now</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/23-year-and-now/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/23-year-and-now/</guid>
+        <description>题目 查询 student 表中每个学生的姓名和年龄 操作 1. year() 与 now() 1 2 3 4 5 6 7 mysql&amp;gt; select year(now()); +-------------+ | year(now()) | +-------------+ | 2021 | +-------------+ 1 row in set (0.00 sec) 2. 年龄 = 当前年份 - 出生年份 1 2 3 4 5 6 7 8 9</description>
+      </item>
+      
+      <item>
+        <title>24. Max and Min</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/24-max-and-min/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/24-max-and-min/</guid>
+        <description>题目 查询 student 表中最大和最小的 sbirthday 日期值 操作 1 2 3 4 5 6 7 mysql&amp;gt; select max(sbirthday) as &amp;#34;最大&amp;#34;, min(sbirthday) as &amp;#34;最小&amp;#34; from student; +---------------------+---------------------+ | 最大 | 最小 | +---------------------+---------------------+ | 1977-09-01</description>
+      </item>
+      
+      <item>
+        <title>25. Multi Field</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/25-multi-field/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/25-multi-field/</guid>
+        <description>题目 以班号和年龄，从大到小的顺序查询 student 表中的全部记录 操作 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 mysql&amp;gt; select * from student order by class desc, sbirthday; +-----+--------+---------+---------------------+-------+ | sno | sname | sgender | sbirthday | class | +-----+--------+---------+---------------------+-------+ | 110 |</description>
+      </item>
+      
+      <item>
+        <title>27. Highest Score</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/27-highest-score/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/27-highest-score/</guid>
+        <description>题目 查询最高分同学的 sno, cno, degree 操作 1 2 3 4 5 6 7 8 mysql&amp;gt; select * from score -&amp;gt; where degree = (select max(degree) from score); +-----+-------+--------+ | sno | cno | degree | +-----+-------+--------+ | 103 | 3-105 | 92 | +-----+-------+--------+ 1 row in set (0.01 sec)</description>
+      </item>
+      
+      <item>
+        <title>28. Find Same Gender Records</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/28-find-same-gender-records/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/28-find-same-gender-records/</guid>
+        <description>题目一 查询和“李军”同一性别的所有同学的 sname 操作 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 mysql&amp;gt; select sname from student -&amp;gt; where sgender = (select sgender from student where sname = &amp;#34;李军&amp;#34;); +--------+ |</description>
+      </item>
+      
+      <item>
+        <title>29. Find with Level</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/29-find-with-level/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/29-find-with-level/</guid>
+        <description>建表 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 mysql&amp;gt; create table grade( -&amp;gt; low int(3), -&amp;gt; upp int(3), -&amp;gt; grade char(1) -&amp;gt; ); Query OK, 0 rows affected, 2 warnings (0.11 sec) mysql&amp;gt; insert into grade values(90, 100, &amp;#39;A&amp;#39;); Query OK, 1 row affected (0.01 sec) mysql&amp;gt; insert into grade values(80, 89, &amp;#39;B&amp;#39;); Query OK,</description>
+      </item>
+      
+    
+  </channel>
+</rss>

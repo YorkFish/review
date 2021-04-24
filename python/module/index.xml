@@ -51,11 +51,20 @@
       </item>
       
       <item>
-        <title>05. others</title>
-        <link>https://yorkfish.github.io/review/python/module/05-others/</link>
+        <title>05. sortedcontainers</title>
+        <link>https://yorkfish.github.io/review/python/module/05-sortedcontainers/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/module/05-sortedcontainers/</guid>
+        <description>简介 1 2 3 4 5 6 7 8 from sortedcontainers import SortedList S = SortedList([0]) S.add(3) S.add(2) S.add(4) S.add(1) lb = S.bisect_left(3) # 类似 CPP 的 &amp;lt;set&amp;gt; 的 lower_bound() 相关题目 LeetCode 363</description>
+      </item>
+      
+      <item>
+        <title>06. others</title>
+        <link>https://yorkfish.github.io/review/python/module/06-others/</link>
         <pubDate>Fri, 18 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>https://yorkfish.github.io/review/python/module/05-others/</guid>
+        <guid>https://yorkfish.github.io/review/python/module/06-others/</guid>
         <description>1. 说明 之前做 Python Challenge，对用到的“库”做过总结 另一个博客：&amp;gt;&amp;gt;&amp;gt;传送门 2. 预览 base64 binascii bz2 collections datetime diffflib email gzip hashlib os pickle Pillow re requests struct this urlib wave</description>
       </item>
       

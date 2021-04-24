@@ -7,12 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy;2020 - 2021, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 10 Jan 2021 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 24 Apr 2021 00:00:00 +0800</lastBuildDate>
     
         <atom:link href="https://yorkfish.github.io/review/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+      
+      <item>
+        <title>灰屏与取消灰屏</title>
+        <link>https://yorkfish.github.io/review/blog/09-gray-screen/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/blog/09-gray-screen/</guid>
+        <description>误触 一般，编辑器都支持 Ctrl End，相当于 Vim 的 G。 之前就是按这个快捷键导致误触了别的键导致电脑灰屏。 上网搜索，有的说 Win Ctrl c，有的要打开设置界面调</description>
+      </item>
       
       <item>
         <title>一些 LaTeX 的符号</title>

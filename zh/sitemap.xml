@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yorkfish.github.io/review/mysql/basics/01-basic-command/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/advance/01-join-and-query/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/01-prepare-tables/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/basics/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/markdown/01-toc-and-title/</loc>
     <lastmod>2021-03-10T00:00:00+08:00</lastmod>
   </url>
@@ -166,6 +186,26 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/web/css/01-3-page-introduction-methods/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/02-10-cases/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/basics/02-create/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/advance/02-transaction/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -334,6 +374,26 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/c/struct-union-enum/02-define/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/basics/03-add-record/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/03-average-group/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/advance/03-commit-and-rollback/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/advance/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -506,6 +566,21 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/mysql/advance/04-begin-start-transaction/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/basics/04-data-type/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/04-having-count-and-like/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/markdown/04-table/</loc>
     <lastmod>2021-03-10T00:00:00+08:00</lastmod>
   </url>
@@ -660,6 +735,31 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/mysql/advance/05-acid/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/05-between/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/basics/05-insert-delete-update-select/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/module/05-sortedcontainers/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/markdown/05-escape-character/</loc>
     <lastmod>2021-03-10T00:00:00+08:00</lastmod>
   </url>
@@ -750,11 +850,6 @@
   </url>
   
   <url>
-    <loc>https://yorkfish.github.io/review/python/module/05-others/</loc>
-    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yorkfish.github.io/review/python/class/05-class-var/</loc>
     <lastmod>2020-09-18T00:00:00+08:00</lastmod>
   </url>
@@ -796,6 +891,21 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/regex/05-group/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/advance/06-dirty-read/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/06-multi-tables/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/basics/06-primary-key/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -879,6 +989,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/module/06-others/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/python/operation/06-repl/</loc>
     <lastmod>2020-09-18T00:00:00+08:00</lastmod>
   </url>
@@ -919,6 +1034,21 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/python/numpy/06-ndarray-slice/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/07-group-average/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/basics/07-primary-key-union/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/advance/07-read-committed/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -1057,6 +1187,21 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/mysql/basics/08-auto-increment/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/08-find-people-whose-grade-greater-than-someone/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/advance/08-repeatable-read/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/markdown/08-underline/</loc>
     <lastmod>2021-03-10T00:00:00+08:00</lastmod>
   </url>
@@ -1177,6 +1322,21 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/mysql/basics/09-add-and-remove-after-created/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/advance/09-serializable/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/09-year-and-in/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/markdown/09-strikethrough/</loc>
     <lastmod>2021-03-10T00:00:00+08:00</lastmod>
   </url>
@@ -1287,6 +1447,16 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/10-multi-nesting/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/basics/10-unique/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/markdown/10-emphasis/</loc>
     <lastmod>2021-03-10T00:00:00+08:00</lastmod>
   </url>
@@ -1387,6 +1557,16 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/11-multi-tables/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/basics/11-not-null/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/markdown/11-footnotes-and-sup-sub/</loc>
     <lastmod>2021-03-10T00:00:00+08:00</lastmod>
   </url>
@@ -1452,6 +1632,16 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/mysql/basics/12-default/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/12-in/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/markdown/12-links/</loc>
     <lastmod>2021-03-10T00:00:00+08:00</lastmod>
   </url>
@@ -1507,6 +1697,16 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/mysql/basics/13-foreign-key/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/13-where/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/markdown/13-images/</loc>
     <lastmod>2021-03-10T00:00:00+08:00</lastmod>
   </url>
@@ -1557,6 +1757,16 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/mysql/basics/14-1nf/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/14-depart-courses/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/markdown/14-yaml/</loc>
     <lastmod>2021-03-10T00:00:00+08:00</lastmod>
   </url>
@@ -1597,6 +1807,16 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/mysql/basics/15-2nf/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/15-not-in-and-union/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/markdown/15-abbreviation/</loc>
     <lastmod>2021-03-10T00:00:00+08:00</lastmod>
   </url>
@@ -1627,6 +1847,16 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/mysql/basics/16-3nf/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/16-any/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/markdown/16-kbd-and-task-list/</loc>
     <lastmod>2021-03-10T00:00:00+08:00</lastmod>
   </url>
@@ -1644,6 +1874,11 @@
   <url>
     <loc>https://yorkfish.github.io/review/c/basics/16-strlen/</loc>
     <lastmod>2020-09-10T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/17-all/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -1667,6 +1902,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/18-as-and-union/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/markdown/18-latex/</loc>
     <lastmod>2021-03-10T00:00:00+08:00</lastmod>
   </url>
@@ -1679,6 +1919,11 @@
   <url>
     <loc>https://yorkfish.github.io/review/python/basics/18-underscroe/</loc>
     <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/19-copy/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -1697,6 +1942,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/20-in/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/markdown/20-gantt/</loc>
     <lastmod>2021-03-10T00:00:00+08:00</lastmod>
   </url>
@@ -1712,6 +1962,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/21-condition-group/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/markdown/21-uml/</loc>
     <lastmod>2021-03-10T00:00:00+08:00</lastmod>
   </url>
@@ -1722,8 +1977,53 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/22-not-like/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/23-year-and-now/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/24-max-and-min/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/25-multi-field/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/27-highest-score/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/28-find-same-gender-records/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/29-find-with-level/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/blog/</loc>
-    <lastmod>2021-01-10T00:00:00+08:00</lastmod>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/tags/windows/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/blog/09-gray-screen/</loc>
+    <lastmod>2021-04-24T00:00:00+08:00</lastmod>
   </url>
   
   <url>
