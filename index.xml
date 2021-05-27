@@ -15,6 +15,15 @@
     
       
       <item>
+        <title>01. queue</title>
+        <link>https://yorkfish.github.io/review/python/data-structure/01_queue/</link>
+        <pubDate>Thu, 27 May 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/data-structure/01_queue/</guid>
+        <description>Queue qsize() empty() full() put(item, block=True, timeout=None) put_nowait(item) get(block=True, timeout=None) get_nowait() task_done() join() 1. qsize(), empty() 1 2 3 4 5 6 7 8 &amp;gt;&amp;gt;&amp;gt; from queue import Queue &amp;gt;&amp;gt;&amp;gt; &amp;gt;&amp;gt;&amp;gt; q = Queue() &amp;gt;&amp;gt;&amp;gt; q.qsize() 0 &amp;gt;&amp;gt;&amp;gt; q.empty() True &amp;gt;&amp;gt;&amp;gt; 2. full(), put(item, block=True, timeout=None) put 的参数 如果 block 是 true 并且 timeout 是 None，则在必要时阻</description>
+      </item>
+      
+      <item>
         <title>01. Basic Command</title>
         <link>https://yorkfish.github.io/review/mysql/basics/01-basic-command/</link>
         <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
@@ -309,6 +318,15 @@
         
         <guid>https://yorkfish.github.io/review/web/css/01-3-page-introduction-methods/</guid>
         <description>外链式 在 HTML 文档的 head 头部分添加如下语句 1 &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;./xxx.css&amp;#34;&amp;gt; 在当前目录下新建一个 xxx.css 在 xxx.css 中写相应的程序代码 嵌入式 在 HTML 文档的 head 头部分使用 &amp;lt;style&amp;gt; 标签 1 2 3 4 5 6 7 &amp;lt;style&amp;gt; div{</description>
+      </item>
+      
+      <item>
+        <title>02. deque</title>
+        <link>https://yorkfish.github.io/review/python/data-structure/02_deque/</link>
+        <pubDate>Thu, 27 May 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/data-structure/02_deque/</guid>
+        <description>append(x) appendleft(x) clear() copy() count(x) extend(iterable) extendleft(iterable) index(x[, start[, stop]]) insert(i, x) pop() popleft() romove(value) reverse() rotate(n=1) maxlen Note 官方文档：https://docs.python.org/3/library/collections.</description>
       </item>
       
       <item>
@@ -609,6 +627,15 @@
       </item>
       
       <item>
+        <title>03. heapq</title>
+        <link>https://yorkfish.github.io/review/python/data-structure/03_heapq/</link>
+        <pubDate>Thu, 27 May 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/data-structure/03_heapq/</guid>
+        <description>heappush(heap, item) heappop(heap) heappushpop(heap, item) heapify(x) heapeplace(heap, item) merge(*iterables, key=None, reverse=False) nlargest(n, iterable, key=None) nsmallest(n, iterable, key=None) Note 官方文档：https://docs.python.org/3/library/heapq.html 官方中</description>
+      </item>
+      
+      <item>
         <title>03. Add Record</title>
         <link>https://yorkfish.github.io/review/mysql/basics/03-add-record/</link>
         <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
@@ -906,6 +933,15 @@
       </item>
       
       <item>
+        <title>04. set</title>
+        <link>https://yorkfish.github.io/review/python/data-structure/04_set/</link>
+        <pubDate>Thu, 27 May 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/data-structure/04_set/</guid>
+        <description>add() clear() copy() difference() difference_update() discard() intersection() intersection_update() isdisjoint() issubset() issuperset() pop() remove() symmetric_difference() symmetric_difference_update() union() update() 1. add() 1 2 3 4 5 &amp;gt;&amp;gt;&amp;gt; s = {1} &amp;gt;&amp;gt;&amp;gt; s.add(2) &amp;gt;&amp;gt;&amp;gt; s {1, 2} &amp;gt;&amp;gt;&amp;gt; 增强版见末尾的 update() 2. clear() 1 2 3 4 5 &amp;gt;&amp;gt;&amp;gt; s = {1, 2, 3} &amp;gt;&amp;gt;&amp;gt; s.clear() &amp;gt;&amp;gt;&amp;gt; s set() &amp;gt;&amp;gt;&amp;gt; 3. copy() 返回集合的浅</description>
+      </item>
+      
+      <item>
         <title>04. Begin Start Transaction</title>
         <link>https://yorkfish.github.io/review/mysql/advance/04-begin-start-transaction/</link>
         <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
@@ -1176,6 +1212,15 @@
       </item>
       
       <item>
+        <title>05. frozenset</title>
+        <link>https://yorkfish.github.io/review/python/data-structure/05_frozenset/</link>
+        <pubDate>Thu, 27 May 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/data-structure/05_frozenset/</guid>
+        <description>说实话，很少用 copy() difference() intersection() isdisjoint() issubset() issuperset() symmettic_difference() union() 1. copy() 返回一个浅拷贝 1 2 3 4 5 6 7 &amp;gt;&amp;gt;&amp;gt; f1 = frozenset({1, 2, 3}) &amp;gt;&amp;gt;&amp;gt; f2 = f1.copy() &amp;gt;&amp;gt;&amp;gt; id(f1) 2816389645696 &amp;gt;&amp;gt;&amp;gt; id(f2) 2816389645696 &amp;gt;&amp;gt;&amp;gt; 对比一下 set 1 2 3 4 5 6 7 &amp;gt;&amp;gt;&amp;gt; s1 = {1, 2, 3} &amp;gt;&amp;gt;&amp;gt; s2 = s1.copy()</description>
+      </item>
+      
+      <item>
         <title>05. ACID</title>
         <link>https://yorkfish.github.io/review/mysql/advance/05-acid/</link>
         <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
@@ -1419,6 +1464,15 @@
       </item>
       
       <item>
+        <title>06. dict</title>
+        <link>https://yorkfish.github.io/review/python/data-structure/06_dict/</link>
+        <pubDate>Thu, 27 May 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/data-structure/06_dict/</guid>
+        <description>del fromkeys(iterable, value=None) clear() copy() pop() popitem() setdefault(key, default=None) update() 1. 定义 1 2 3 4 5 d1 = {&amp;#34;one&amp;#34;: 1, &amp;#34;two&amp;#34;: 2, &amp;#34;three&amp;#34;: 3} d2 = dict({&amp;#34;one&amp;#34;: 1, &amp;#34;two&amp;#34;: 2, &amp;#34;three&amp;#34;: 3}) d3 = dict(one=1, two=2, three=3) d4 = dict([(&amp;#34;one&amp;#34;, 1), (&amp;#34;two&amp;#34;, 2), (&amp;#34;three&amp;#34;, 3)]) d5 = dict(zip((&amp;#34;one&amp;#34;, &amp;#34;two&amp;#34;, &amp;#34;three&amp;#34;), (1, 2, 3))) 2. del 1 2 3 4 5 &amp;gt;&amp;gt;&amp;gt; d = {&amp;#34;one&amp;#34;: 1, &amp;#34;two&amp;#34;: 2, &amp;#34;three&amp;#34;:</description>
+      </item>
+      
+      <item>
         <title>06. Dirty Read</title>
         <link>https://yorkfish.github.io/review/mysql/advance/06-dirty-read/</link>
         <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
@@ -1650,6 +1704,15 @@
         
         <guid>https://yorkfish.github.io/review/python/numpy/06-ndarray-slice/</guid>
         <description>1. 导入 1 import numpy as np 2. 操作 切片 一维 1 2 3 4 5 6 7 8 9 10 11 12 &amp;gt;&amp;gt;&amp;gt; a = np.arange(12) &amp;gt;&amp;gt;&amp;gt; print(a) [ 0 1 2 3 4 5 6 7 8 9 10 11] &amp;gt;&amp;gt;&amp;gt; print(a[1]) 1 &amp;gt;&amp;gt;&amp;gt; print(a[2:8]) [2 3 4 5 6 7] &amp;gt;&amp;gt;&amp;gt; print(a[2:8:2]) [2 4 6] &amp;gt;&amp;gt;&amp;gt; print(a[::-1]) [11 10 9 8 7 6</description>
+      </item>
+      
+      <item>
+        <title>07. defaultdict</title>
+        <link>https://yorkfish.github.io/review/python/data-structure/07_defaultdict/</link>
+        <pubDate>Thu, 27 May 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/data-structure/07_defaultdict/</guid>
+        <description>重写了方法 __missing__(key)，增加了一个可写的实例变量 default_factory Note 官方文档：https://docs.python.org/3/lib</description>
       </item>
       
       <item>
@@ -3288,6 +3351,15 @@
         
         <guid>https://yorkfish.github.io/review/mysql/exercises/25-multi-field/</guid>
         <description>题目 以班号和年龄，从大到小的顺序查询 student 表中的全部记录 操作 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 mysql&amp;gt; select * from student order by class desc, sbirthday; +-----+--------+---------+---------------------+-------+ | sno | sname | sgender | sbirthday | class | +-----+--------+---------+---------------------+-------+ | 110 |</description>
+      </item>
+      
+      <item>
+        <title>26. Male Teachers&#39; course</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/26-male-teachers-course/</link>
+        <pubDate>Mon, 26 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/26-male-teachers-course/</guid>
+        <description>题目 查询男教师及其所上课程 操作 1 2 3 4 5 6 7 8 9 mysql&amp;gt; select * from course -&amp;gt; where tno in (select tno from teacher where tgender = &amp;#34;男&amp;#34;); +-------+----------+-----+ | cno | cname | tno | +-------+----------+-----+ | 3-245 | 操作系统 |</description>
       </item>
       
       <item>

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/data-structure/01_queue/</loc>
+    <lastmod>2021-05-27T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/mysql/basics/01-basic-command/</loc>
     <lastmod>2021-04-24T00:00:00+08:00</lastmod>
   </url>
@@ -186,6 +191,11 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/web/css/01-3-page-introduction-methods/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/data-structure/02_deque/</loc>
+    <lastmod>2021-05-27T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -374,6 +384,11 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/c/struct-union-enum/02-define/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/data-structure/03_heapq/</loc>
+    <lastmod>2021-05-27T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -566,6 +581,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/data-structure/04_set/</loc>
+    <lastmod>2021-05-27T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/mysql/advance/04-begin-start-transaction/</loc>
     <lastmod>2021-04-24T00:00:00+08:00</lastmod>
   </url>
@@ -735,6 +755,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/data-structure/05_frozenset/</loc>
+    <lastmod>2021-05-27T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/mysql/advance/05-acid/</loc>
     <lastmod>2021-04-24T00:00:00+08:00</lastmod>
   </url>
@@ -894,6 +919,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/data-structure/06_dict/</loc>
+    <lastmod>2021-05-27T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/mysql/advance/06-dirty-read/</loc>
     <lastmod>2021-04-24T00:00:00+08:00</lastmod>
   </url>
@@ -1034,6 +1064,11 @@
   
   <url>
     <loc>https://yorkfish.github.io/review/python/numpy/06-ndarray-slice/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/python/data-structure/07_defaultdict/</loc>
+    <lastmod>2021-05-27T00:00:00+08:00</lastmod>
   </url>
   
   <url>
@@ -1557,6 +1592,11 @@
   </url>
   
   <url>
+    <loc>https://yorkfish.github.io/review/python/data-structure/</loc>
+    <lastmod>2021-05-27T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yorkfish.github.io/review/mysql/exercises/11-multi-tables/</loc>
     <lastmod>2021-04-24T00:00:00+08:00</lastmod>
   </url>
@@ -1994,6 +2034,11 @@
   <url>
     <loc>https://yorkfish.github.io/review/mysql/exercises/25-multi-field/</loc>
     <lastmod>2021-04-24T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yorkfish.github.io/review/mysql/exercises/26-male-teachers-course/</loc>
+    <lastmod>2021-04-26T00:00:00+08:00</lastmod>
   </url>
   
   <url>

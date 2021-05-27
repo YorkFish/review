@@ -104,6 +104,15 @@
         <description></description>
       </item>
       
+      <item>
+        <title>11. Data Structure</title>
+        <link>https://yorkfish.github.io/review/python/data-structure/</link>
+        <pubDate>Thu, 27 May 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/data-structure/</guid>
+        <description>Cpp 只学了些皮毛，我还是对 Py 熟一点 题目做得不多，需要用数据结构时，能想到 STL，却跳不出 Py 的用法 这回也像 STL 那样总结一下（先总结一部分，之后遇到</description>
+      </item>
+      
     
   </channel>
 </rss>

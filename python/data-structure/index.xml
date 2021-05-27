@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>11. Data Structure on York&#39;s blog</title>
+    <link>https://yorkfish.github.io/review/python/data-structure/</link>
+    <description>Recent content in 11. Data Structure on York&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy;2020 - 2021, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 27 May 2021 00:00:00 +0800</lastBuildDate>
+    
+        <atom:link href="https://yorkfish.github.io/review/python/data-structure/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>01. queue</title>
+        <link>https://yorkfish.github.io/review/python/data-structure/01_queue/</link>
+        <pubDate>Thu, 27 May 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/data-structure/01_queue/</guid>
+        <description>Queue qsize() empty() full() put(item, block=True, timeout=None) put_nowait(item) get(block=True, timeout=None) get_nowait() task_done() join() 1. qsize(), empty() 1 2 3 4 5 6 7 8 &amp;gt;&amp;gt;&amp;gt; from queue import Queue &amp;gt;&amp;gt;&amp;gt; &amp;gt;&amp;gt;&amp;gt; q = Queue() &amp;gt;&amp;gt;&amp;gt; q.qsize() 0 &amp;gt;&amp;gt;&amp;gt; q.empty() True &amp;gt;&amp;gt;&amp;gt; 2. full(), put(item, block=True, timeout=None) put 的参数 如果 block 是 true 并且 timeout 是 None，则在必要时阻</description>
+      </item>
+      
+      <item>
+        <title>02. deque</title>
+        <link>https://yorkfish.github.io/review/python/data-structure/02_deque/</link>
+        <pubDate>Thu, 27 May 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/data-structure/02_deque/</guid>
+        <description>append(x) appendleft(x) clear() copy() count(x) extend(iterable) extendleft(iterable) index(x[, start[, stop]]) insert(i, x) pop() popleft() romove(value) reverse() rotate(n=1) maxlen Note 官方文档：https://docs.python.org/3/library/collections.</description>
+      </item>
+      
+      <item>
+        <title>03. heapq</title>
+        <link>https://yorkfish.github.io/review/python/data-structure/03_heapq/</link>
+        <pubDate>Thu, 27 May 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/data-structure/03_heapq/</guid>
+        <description>heappush(heap, item) heappop(heap) heappushpop(heap, item) heapify(x) heapeplace(heap, item) merge(*iterables, key=None, reverse=False) nlargest(n, iterable, key=None) nsmallest(n, iterable, key=None) Note 官方文档：https://docs.python.org/3/library/heapq.html 官方中</description>
+      </item>
+      
+      <item>
+        <title>04. set</title>
+        <link>https://yorkfish.github.io/review/python/data-structure/04_set/</link>
+        <pubDate>Thu, 27 May 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/data-structure/04_set/</guid>
+        <description>add() clear() copy() difference() difference_update() discard() intersection() intersection_update() isdisjoint() issubset() issuperset() pop() remove() symmetric_difference() symmetric_difference_update() union() update() 1. add() 1 2 3 4 5 &amp;gt;&amp;gt;&amp;gt; s = {1} &amp;gt;&amp;gt;&amp;gt; s.add(2) &amp;gt;&amp;gt;&amp;gt; s {1, 2} &amp;gt;&amp;gt;&amp;gt; 增强版见末尾的 update() 2. clear() 1 2 3 4 5 &amp;gt;&amp;gt;&amp;gt; s = {1, 2, 3} &amp;gt;&amp;gt;&amp;gt; s.clear() &amp;gt;&amp;gt;&amp;gt; s set() &amp;gt;&amp;gt;&amp;gt; 3. copy() 返回集合的浅</description>
+      </item>
+      
+      <item>
+        <title>05. frozenset</title>
+        <link>https://yorkfish.github.io/review/python/data-structure/05_frozenset/</link>
+        <pubDate>Thu, 27 May 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/data-structure/05_frozenset/</guid>
+        <description>说实话，很少用 copy() difference() intersection() isdisjoint() issubset() issuperset() symmettic_difference() union() 1. copy() 返回一个浅拷贝 1 2 3 4 5 6 7 &amp;gt;&amp;gt;&amp;gt; f1 = frozenset({1, 2, 3}) &amp;gt;&amp;gt;&amp;gt; f2 = f1.copy() &amp;gt;&amp;gt;&amp;gt; id(f1) 2816389645696 &amp;gt;&amp;gt;&amp;gt; id(f2) 2816389645696 &amp;gt;&amp;gt;&amp;gt; 对比一下 set 1 2 3 4 5 6 7 &amp;gt;&amp;gt;&amp;gt; s1 = {1, 2, 3} &amp;gt;&amp;gt;&amp;gt; s2 = s1.copy()</description>
+      </item>
+      
+      <item>
+        <title>06. dict</title>
+        <link>https://yorkfish.github.io/review/python/data-structure/06_dict/</link>
+        <pubDate>Thu, 27 May 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/data-structure/06_dict/</guid>
+        <description>del fromkeys(iterable, value=None) clear() copy() pop() popitem() setdefault(key, default=None) update() 1. 定义 1 2 3 4 5 d1 = {&amp;#34;one&amp;#34;: 1, &amp;#34;two&amp;#34;: 2, &amp;#34;three&amp;#34;: 3} d2 = dict({&amp;#34;one&amp;#34;: 1, &amp;#34;two&amp;#34;: 2, &amp;#34;three&amp;#34;: 3}) d3 = dict(one=1, two=2, three=3) d4 = dict([(&amp;#34;one&amp;#34;, 1), (&amp;#34;two&amp;#34;, 2), (&amp;#34;three&amp;#34;, 3)]) d5 = dict(zip((&amp;#34;one&amp;#34;, &amp;#34;two&amp;#34;, &amp;#34;three&amp;#34;), (1, 2, 3))) 2. del 1 2 3 4 5 &amp;gt;&amp;gt;&amp;gt; d = {&amp;#34;one&amp;#34;: 1, &amp;#34;two&amp;#34;: 2, &amp;#34;three&amp;#34;:</description>
+      </item>
+      
+      <item>
+        <title>07. defaultdict</title>
+        <link>https://yorkfish.github.io/review/python/data-structure/07_defaultdict/</link>
+        <pubDate>Thu, 27 May 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/python/data-structure/07_defaultdict/</guid>
+        <description>重写了方法 __missing__(key)，增加了一个可写的实例变量 default_factory Note 官方文档：https://docs.python.org/3/lib</description>
+      </item>
+      
+    
+  </channel>
+</rss>

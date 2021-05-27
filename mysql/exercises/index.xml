@@ -240,6 +240,15 @@
       </item>
       
       <item>
+        <title>26. Male Teachers&#39; course</title>
+        <link>https://yorkfish.github.io/review/mysql/exercises/26-male-teachers-course/</link>
+        <pubDate>Mon, 26 Apr 2021 00:00:00 +0800</pubDate>
+        
+        <guid>https://yorkfish.github.io/review/mysql/exercises/26-male-teachers-course/</guid>
+        <description>题目 查询男教师及其所上课程 操作 1 2 3 4 5 6 7 8 9 mysql&amp;gt; select * from course -&amp;gt; where tno in (select tno from teacher where tgender = &amp;#34;男&amp;#34;); +-------+----------+-----+ | cno | cname | tno | +-------+----------+-----+ | 3-245 | 操作系统 |</description>
+      </item>
+      
+      <item>
         <title>27. Highest Score</title>
         <link>https://yorkfish.github.io/review/mysql/exercises/27-highest-score/</link>
         <pubDate>Sat, 24 Apr 2021 00:00:00 +0800</pubDate>
